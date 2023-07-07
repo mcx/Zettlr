@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zettlr 2.3.0\n"
 "Report-Msgid-Bugs-To: https://github.com/Zettlr/Zettlr/issues\n"
-"POT-Creation-Date: 2023-06-30 03:01+0000\n"
+"POT-Creation-Date: 2023-07-07 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: source/common/util/localise-number.ts:28
-msgid ","
-msgstr "."
+#: source/common/modules/markdown-editor/renderers/render-images.ts:92
+#, javascript-format
+msgid "Image not found: %s"
+msgstr ""
 
-#: source/common/util/localise-number.ts:29
-msgid "."
-msgstr ","
+#: source/common/modules/markdown-editor/autocomplete/code-blocks.ts:42
+msgid "No highlighting"
+msgstr ""
 
-#: source/common/util/format-date.ts:33
-msgid "just now"
-msgstr "ara mateix"
+#: source/common/modules/markdown-editor/linters/spellcheck.ts:148
+msgid "Spelling mistake"
+msgstr ""
+
+#: source/common/modules/markdown-editor/tooltips/footnotes.ts:100
+msgid "No footnote text found."
+msgstr ""
+
+#: source/common/modules/markdown-editor/tooltips/footnotes.ts:111
+#: source/app/service-providers/menu/menu.win32.ts:316
+#: source/app/service-providers/menu/menu.darwin.ts:315
+msgid "Edit"
+msgstr "Edita"
 
 #: source/common/modules/markdown-editor/tooltips/file-preview.ts:58
 #, javascript-format
@@ -39,7 +50,7 @@ msgid "Word count"
 msgstr "Recompte de paraules"
 
 #: source/common/modules/markdown-editor/tooltips/file-preview.ts:90
-#: source/tmp/PopoverFileProps.vue.ts:68 source/tmp/PopoverDirProps.vue.ts:150
+#: source/tmp/PopoverDirProps.vue.ts:150 source/tmp/PopoverFileProps.vue.ts:68
 msgid "Modified"
 msgstr "Modificat"
 
@@ -84,32 +95,34 @@ msgstr "Comentari"
 msgid "Code"
 msgstr "Codi"
 
-#: source/common/modules/markdown-editor/tooltips/footnotes.ts:100
-msgid "No footnote text found."
-msgstr ""
-
-#: source/common/modules/markdown-editor/tooltips/footnotes.ts:111
-#: source/app/service-providers/menu/menu.win32.ts:316
-#: source/app/service-providers/menu/menu.darwin.ts:315
-msgid "Edit"
-msgstr "Edita"
-
-#: source/common/modules/markdown-editor/renderers/render-images.ts:92
-#, javascript-format
-msgid "Image not found: %s"
-msgstr ""
-
-#: source/common/modules/markdown-editor/linters/spellcheck.ts:148
-msgid "Spelling mistake"
-msgstr ""
-
-#: source/common/modules/markdown-editor/autocomplete/code-blocks.ts:42
-msgid "No highlighting"
-msgstr ""
-
 #: source/common/modules/markdown-editor/context-menu/equation-menu.ts:33
 msgid "Copy equation code"
 msgstr "Copia el codi de l'ecuació"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:72
+msgid "Open Link"
+msgstr "Obre l'enllaç"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:81
+msgid "Copy Mail Address"
+msgstr "Copia l'adreça electrònica"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:81
+msgid "Copy Link"
+msgstr "Copia l'enllaç"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:90
+msgid "Copy image to clipboard"
+msgstr "Copia la imatge al porta-retalls"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:96
+msgid "Open in browser"
+msgstr "Obre amb el navegador"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:102
+#: source/win-main/file-manager/util/file-item-context.ts:79
+msgid "Show file"
+msgstr "Mostra el fitxer"
 
 #: source/common/modules/markdown-editor/context-menu/default-menu.ts:133
 msgid "No suggestions"
@@ -183,133 +196,17 @@ msgstr "Enganxa sense estil"
 msgid "Select all"
 msgstr "Selecciona-ho tot"
 
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:72
-msgid "Open Link"
-msgstr "Obre l'enllaç"
+#: source/common/util/format-date.ts:33
+msgid "just now"
+msgstr "ara mateix"
 
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:81
-msgid "Copy Mail Address"
-msgstr "Copia l'adreça electrònica"
+#: source/common/util/localise-number.ts:28
+msgid ","
+msgstr "."
 
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:81
-msgid "Copy Link"
-msgstr "Copia l'enllaç"
-
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:90
-msgid "Copy image to clipboard"
-msgstr "Copia la imatge al porta-retalls"
-
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:96
-msgid "Open in browser"
-msgstr "Obre amb el navegador"
-
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:102
-#: source/win-main/file-manager/util/file-item-context.ts:79
-msgid "Show file"
-msgstr "Mostra el fitxer"
-
-#: source/win-main/file-manager/util/dir-item-context.ts:25
-#: source/win-main/file-manager/util/file-item-context.ts:32
-msgid "Properties"
-msgstr "Propietats"
-
-#: source/win-main/file-manager/util/dir-item-context.ts:31
-msgid "Rename directory"
-msgstr "Reanomena la carpeta"
-
-#: source/win-main/file-manager/util/dir-item-context.ts:37
-#: source/app/service-providers/menu/menu.win32.ts:297
-#: source/app/service-providers/menu/menu.darwin.ts:304
-msgid "Delete directory"
-msgstr "Esborra la carpeta"
-
-#: source/win-main/file-manager/util/dir-item-context.ts:43
-#: source/tmp/OtherFilesTab.vue.ts:16
-msgid "Open directory"
-msgstr "Obre la carpeta"
-
-#: source/win-main/file-manager/util/dir-item-context.ts:52
-#: source/app/service-providers/menu/menu.win32.ts:88
-#: source/app/service-providers/menu/menu.darwin.ts:114
-msgid "New File…"
-msgstr "Nou fitxer..."
-
-#: source/win-main/file-manager/util/dir-item-context.ts:58
-#: source/app/service-providers/menu/menu.win32.ts:127
-#: source/app/service-providers/menu/menu.darwin.ts:153
-msgid "New directory…"
-msgstr "Nova carpeta..."
-
-#: source/win-main/file-manager/util/dir-item-context.ts:69
-msgid "Check for directory …"
-msgstr "Revisa la carpeta..."
-
-#: source/win-main/file-manager/util/dir-item-context.ts:86
-msgid "Export Project"
-msgstr "Exporta el projecte"
-
-#: source/win-main/file-manager/util/dir-item-context.ts:98
-msgid "Close Workspace"
-msgstr "Tanca l'espai de treball"
-
-#: source/win-main/file-manager/util/file-item-context.ts:41
-#: source/app/service-providers/menu/menu.win32.ts:279
-#: source/app/service-providers/menu/menu.darwin.ts:285
-#: source/tmp/Defaults.vue.ts:76
-msgid "Rename file"
-msgstr "Reanomena el fitxer"
-
-#: source/win-main/file-manager/util/file-item-context.ts:48
-#: source/app/service-providers/menu/menu.win32.ts:290
-#: source/app/service-providers/menu/menu.darwin.ts:296
-msgid "Delete file"
-msgstr "Elimina el fitxer"
-
-#: source/win-main/file-manager/util/file-item-context.ts:55
-msgid "Duplicate file"
-msgstr "Duplica el fitxer"
-
-#: source/win-main/file-manager/util/file-item-context.ts:64
-#: source/win-main/tabs-context.ts:68
-msgid "Copy filename"
-msgstr "Copia el nom del fitxer"
-
-#: source/win-main/file-manager/util/file-item-context.ts:70
-#: source/win-main/tabs-context.ts:80
-#: source/app/service-providers/menu/menu.win32.ts:413
-#: source/app/service-providers/menu/menu.darwin.ts:412
-msgid "Copy ID"
-msgstr "Copia la ID"
-
-#: source/win-main/file-manager/util/file-item-context.ts:92
-msgid "Close file"
-msgstr "Tanca el fitxer"
-
-#: source/win-main/tabs-context.ts:38
-#: source/app/service-providers/menu/menu.win32.ts:572
-#: source/app/service-providers/menu/menu.darwin.ts:599
-msgid "Close Tab"
-msgstr "Tanca la pestanya"
-
-#: source/win-main/tabs-context.ts:44
-msgid "Close other tabs"
-msgstr "Tanca les altres pestanyes"
-
-#: source/win-main/tabs-context.ts:50
-msgid "Close all tabs"
-msgstr "Tanca totes les pestanyes"
-
-#: source/win-main/tabs-context.ts:59
-msgid "Unpin tab"
-msgstr "No fixis la pestanya"
-
-#: source/win-main/tabs-context.ts:59
-msgid "Pin tab"
-msgstr "Fixa la pestanya"
-
-#: source/win-main/tabs-context.ts:74
-msgid "Copy full path"
-msgstr "Copia tot el camí"
+#: source/common/util/localise-number.ts:29
+msgid "."
+msgstr ","
 
 #. TODO: Create this type
 #: source/win-preferences/schema/display.ts:24
@@ -379,6 +276,228 @@ msgstr "Màxima amplada de les imatges (%)"
 #: source/win-preferences/schema/display.ts:141
 msgid "Maximum height of images (percent)"
 msgstr "Màxima alçada de les imatges (en %)"
+
+#: source/win-preferences/schema/advanced.ts:23
+msgid "Pattern for new filenames"
+msgstr "Patró pels noms dels nous fitxers"
+
+#: source/win-preferences/schema/advanced.ts:29
+msgid "Do not prompt for filename when creating new files"
+msgstr "No preguntis pel nom del fitxer al crear nous arxius"
+
+#: source/win-preferences/schema/advanced.ts:36
+msgid "Enable debug mode"
+msgstr "Habilita el mode de depuració"
+
+#: source/win-preferences/schema/advanced.ts:41
+msgid "Notify me about beta releases"
+msgstr "Notifica els llançaments beta"
+
+#: source/win-preferences/schema/advanced.ts:46
+msgid "Use native window appearance"
+msgstr "Utilitza l'aspecte de la finestra del sistema operatiu"
+
+#: source/win-preferences/schema/advanced.ts:52
+msgid "Delete items irreversibly, if moving them to trash fails"
+msgstr ""
+"Elimina els elements de manera irreversible si el trasllat a la paperera "
+"provoca errors"
+
+#: source/win-preferences/schema/advanced.ts:58
+msgid "Show app in the notification area"
+msgstr "Mostra l'aplicació a l'àrea de notificació"
+
+#: source/win-preferences/schema/advanced.ts:59
+msgid "Leave app running in the notification area"
+msgstr "Deixa l'aplicació funcionant a l'àrea de notificació"
+
+#: source/win-preferences/schema/advanced.ts:66
+msgid "Automatically check for updates"
+msgstr "Cerca actualitzacions automàticament"
+
+#: source/win-preferences/schema/advanced.ts:73
+msgid ""
+"Enter all file extensions that you want to see in your attachment sidebar. "
+"Separate them with a comma. Changes are recognised after a restart."
+msgstr ""
+"Introduïu totes les extensions de fitxer que vulgueu veure a la barra "
+"lateral d'adjunts. Separeu-los amb una coma. Els canvis es reconeixen "
+"després de reiniciar-se."
+
+#: source/win-preferences/schema/advanced.ts:81
+msgid "Zoom behavior"
+msgstr "Comportament del zoom"
+
+#: source/win-preferences/schema/advanced.ts:83
+msgid "Zoom resizes the whole GUI"
+msgstr "El zoom canvia tota la GUI"
+
+#: source/win-preferences/schema/advanced.ts:84
+msgid "Zoom changes the editor font size"
+msgstr "El zoom canvia la mida de la lletra de l'editor"
+
+#: source/win-preferences/schema/advanced.ts:91
+msgid "iFrame rendering whitelist"
+msgstr "Llista blanca de renderitzacions iFrame"
+
+#: source/win-preferences/schema/advanced.ts:94
+msgid "Hostname"
+msgstr "Nom de la màquina"
+
+#: source/win-preferences/schema/advanced.ts:96
+#: source/win-preferences/schema/spellchecking.ts:37
+msgid "Search for entries …"
+msgstr "Cerca les entrades..."
+
+#: source/win-preferences/schema/advanced.ts:102
+msgid "Activate Watchdog polling"
+msgstr "Activeu la connexió Watchdog"
+
+#: source/win-preferences/schema/advanced.ts:107
+msgid "Time to wait before writing a file is considered done (in ms)"
+msgstr ""
+"Temps que cal esperar per considerar que un fitxer escrit està acabat (en ms)"
+
+#: source/win-preferences/schema/autocorrect.ts:23
+msgid "Turn on AutoCorrect"
+msgstr "Encén l'Autocorrector"
+
+#: source/win-preferences/schema/autocorrect.ts:32
+msgid "Primary Magic Quotes"
+msgstr "Cometes màgiques primàries"
+
+#: source/win-preferences/schema/autocorrect.ts:35
+#: source/win-preferences/schema/autocorrect.ts:56
+msgid "Disable Magic Quotes"
+msgstr "Cap"
+
+#: source/win-preferences/schema/autocorrect.ts:53
+msgid "Secondary Magic Quotes"
+msgstr "Cometes màgiques secundàries"
+
+#: source/win-preferences/schema/autocorrect.ts:79
+msgid ""
+"Here you can define certain strings that will be replaced when AutoCorrect "
+"is on. The characters on the left side will be replaced with whatever comes "
+"on the right."
+msgstr ""
+"Aquí podeu definir certes cadenes de caràcters que se substituiran quan la "
+"correcció automàtica estigui activada. Els caràcters de l'esquerra seran "
+"reemplaçats pels de la dreta."
+
+#: source/win-preferences/schema/export.ts:23
+msgid "Use the internal Pandoc for exports"
+msgstr "Utilitza el Pandoc intern per exportar"
+
+#: source/win-preferences/schema/export.ts:30
+msgid "Remove tags from files"
+msgstr "Elimina les etiquetes dels fitxers"
+
+#: source/win-preferences/schema/export.ts:40
+msgid "Remove internal links completely"
+msgstr "Elimina els enllaços interns completament"
+
+#: source/win-preferences/schema/export.ts:41
+msgid "Unlink internal links"
+msgstr "Desenllaça els enllaços interns"
+
+#: source/win-preferences/schema/export.ts:42
+msgid "Don't touch internal links"
+msgstr "No toquis els enllaços interns"
+
+#: source/win-preferences/schema/export.ts:49
+msgid ""
+"Target directory for exported files. <em>Attention:</em> Selecting the "
+"current working directory will overwrite files without warning!"
+msgstr ""
+"Directori de destí pels fitxers exportats. <em>Atenció:</em> Si seleccioneu "
+"el directori on esteu treballant ara mateix els fitxers es sobreescriuran "
+"sense cap avís!"
+
+#: source/win-preferences/schema/export.ts:52
+msgid "Temporary directory: is regularly expunged"
+msgstr "Carpeta temporal: es buida regularment"
+
+#: source/win-preferences/schema/export.ts:53
+msgid ""
+"Current working directory: exported files will be saved into the currently "
+"selected directory."
+msgstr ""
+"Carpeta actual de treball: els fitxers exportats es desaran en aquesta "
+"carpeta"
+
+#: source/win-preferences/schema/export.ts:54
+msgid "Ask for directory"
+msgstr "Pregunta per la carpeta"
+
+#: source/win-preferences/schema/toolbar.ts:23
+msgid "Display \"Open Preferences\" button"
+msgstr "Mostra el botó de les opcions del temporitzador"
+
+#: source/win-preferences/schema/toolbar.ts:28
+msgid "Display \"New File\" button"
+msgstr "Mostra el botó de Nou Fitxer"
+
+#: source/win-preferences/schema/toolbar.ts:33
+msgid "Display \"Previous File\" button"
+msgstr "Mostra el botó Fitxer Anterior"
+
+#: source/win-preferences/schema/toolbar.ts:38
+msgid "Display \"Next File\" button"
+msgstr "Mostra el botó Proper Fitxer"
+
+#: source/win-preferences/schema/toolbar.ts:45
+msgid "Display readability button"
+msgstr "Mostra el botó de llegibilitat"
+
+#: source/win-preferences/schema/toolbar.ts:50
+msgid "Display \"Insert Comment\" button"
+msgstr "Mostra el botó de comentaris"
+
+#: source/win-preferences/schema/toolbar.ts:55
+msgid "Display link button"
+msgstr "Mostra el botó d'enllaços"
+
+#: source/win-preferences/schema/toolbar.ts:60
+msgid "Display image button"
+msgstr "Mostra el botó d'inserir imatges"
+
+#: source/win-preferences/schema/toolbar.ts:65
+msgid "Display task list button"
+msgstr "Mostra el botó de llista de tasques"
+
+#: source/win-preferences/schema/toolbar.ts:70
+msgid "Display \"Insert Table\" button"
+msgstr "Mostra el botó de taules"
+
+#: source/win-preferences/schema/toolbar.ts:75
+msgid "Display \"Insert Footnote\" button"
+msgstr "Mostra el botó d'inserir notes al peu"
+
+#: source/win-preferences/schema/toolbar.ts:82
+msgid "Display document info"
+msgstr "Mostra la informació del document"
+
+#: source/win-preferences/schema/toolbar.ts:87
+msgid "Display Pomodoro-timer"
+msgstr "Mostra el temporitzador"
+
+#: source/win-preferences/schema/spellchecking.ts:23
+msgid ""
+"Select the languages for which you want to enable automatic spell checking."
+msgstr "Seleccioneu les llengües de la verificació ortogràfica automàtica"
+
+#: source/win-preferences/schema/spellchecking.ts:28
+msgid "Search for dictionaries &hellip;"
+msgstr "Busca diccionaris &hellip;"
+
+#: source/win-preferences/schema/spellchecking.ts:32
+msgid "User dictionary. Remove words by clicking them."
+msgstr "Diccionari de la usuària. Elimina les paraules clicant-les"
+
+#: source/win-preferences/schema/spellchecking.ts:34
+msgid "Dictionary entry"
+msgstr "Entrada de diccionari"
 
 #: source/win-preferences/schema/general.ts:23
 msgid "Application language (<strong>Restart required!</strong>)"
@@ -503,102 +622,17 @@ msgstr "Hora de creació del fitxer"
 msgid "In the file metadata display"
 msgstr "A les metadades del fitxer, mostra"
 
-#: source/win-preferences/schema/toolbar.ts:23
-msgid "Display \"Open Preferences\" button"
-msgstr "Mostra el botó de les opcions del temporitzador"
+#: source/win-preferences/schema/citations.ts:23
+msgid "How would you like autocomplete to insert your citations?"
+msgstr "Com vols que s'autocompletin les teves cites?"
 
-#: source/win-preferences/schema/toolbar.ts:28
-msgid "Display \"New File\" button"
-msgstr "Mostra el botó de Nou Fitxer"
+#: source/win-preferences/schema/citations.ts:35
+msgid "Citation Database (CSL JSON or BibTex)"
+msgstr "Base de dades de les referències (CSL, JSON o BibTex)"
 
-#: source/win-preferences/schema/toolbar.ts:33
-msgid "Display \"Previous File\" button"
-msgstr "Mostra el botó Fitxer Anterior"
-
-#: source/win-preferences/schema/toolbar.ts:38
-msgid "Display \"Next File\" button"
-msgstr "Mostra el botó Proper Fitxer"
-
-#: source/win-preferences/schema/toolbar.ts:45
-msgid "Display readability button"
-msgstr "Mostra el botó de llegibilitat"
-
-#: source/win-preferences/schema/toolbar.ts:50
-msgid "Display \"Insert Comment\" button"
-msgstr "Mostra el botó de comentaris"
-
-#: source/win-preferences/schema/toolbar.ts:55
-msgid "Display link button"
-msgstr "Mostra el botó d'enllaços"
-
-#: source/win-preferences/schema/toolbar.ts:60
-msgid "Display image button"
-msgstr "Mostra el botó d'inserir imatges"
-
-#: source/win-preferences/schema/toolbar.ts:65
-msgid "Display task list button"
-msgstr "Mostra el botó de llista de tasques"
-
-#: source/win-preferences/schema/toolbar.ts:70
-msgid "Display \"Insert Table\" button"
-msgstr "Mostra el botó de taules"
-
-#: source/win-preferences/schema/toolbar.ts:75
-msgid "Display \"Insert Footnote\" button"
-msgstr "Mostra el botó d'inserir notes al peu"
-
-#: source/win-preferences/schema/toolbar.ts:82
-msgid "Display document info"
-msgstr "Mostra la informació del document"
-
-#: source/win-preferences/schema/toolbar.ts:87
-msgid "Display Pomodoro-timer"
-msgstr "Mostra el temporitzador"
-
-#: source/win-preferences/schema/export.ts:23
-msgid "Use the internal Pandoc for exports"
-msgstr "Utilitza el Pandoc intern per exportar"
-
-#: source/win-preferences/schema/export.ts:30
-msgid "Remove tags from files"
-msgstr "Elimina les etiquetes dels fitxers"
-
-#: source/win-preferences/schema/export.ts:40
-msgid "Remove internal links completely"
-msgstr "Elimina els enllaços interns completament"
-
-#: source/win-preferences/schema/export.ts:41
-msgid "Unlink internal links"
-msgstr "Desenllaça els enllaços interns"
-
-#: source/win-preferences/schema/export.ts:42
-msgid "Don't touch internal links"
-msgstr "No toquis els enllaços interns"
-
-#: source/win-preferences/schema/export.ts:49
-msgid ""
-"Target directory for exported files. <em>Attention:</em> Selecting the "
-"current working directory will overwrite files without warning!"
-msgstr ""
-"Directori de destí pels fitxers exportats. <em>Atenció:</em> Si seleccioneu "
-"el directori on esteu treballant ara mateix els fitxers es sobreescriuran "
-"sense cap avís!"
-
-#: source/win-preferences/schema/export.ts:52
-msgid "Temporary directory: is regularly expunged"
-msgstr "Carpeta temporal: es buida regularment"
-
-#: source/win-preferences/schema/export.ts:53
-msgid ""
-"Current working directory: exported files will be saved into the currently "
-"selected directory."
-msgstr ""
-"Carpeta actual de treball: els fitxers exportats es desaran en aquesta "
-"carpeta"
-
-#: source/win-preferences/schema/export.ts:54
-msgid "Ask for directory"
-msgstr "Pregunta per la carpeta"
+#: source/win-preferences/schema/citations.ts:46
+msgid "CSL-Style (optional)"
+msgstr "Estil CSL (opcional)"
 
 #: source/win-preferences/schema/zettelkasten.ts:23
 msgid "ID regular expression"
@@ -647,45 +681,6 @@ msgid "Put auto-created files into this directory (must be loaded in Zettlr)"
 msgstr ""
 "Posar els fitxers creats automàticament en aquesta carpeta (han d'estar "
 "carregats a Zettlr)"
-
-#: source/win-preferences/schema/autocorrect.ts:23
-msgid "Turn on AutoCorrect"
-msgstr "Encén l'Autocorrector"
-
-#: source/win-preferences/schema/autocorrect.ts:32
-msgid "Primary Magic Quotes"
-msgstr "Cometes màgiques primàries"
-
-#: source/win-preferences/schema/autocorrect.ts:35
-#: source/win-preferences/schema/autocorrect.ts:56
-msgid "Disable Magic Quotes"
-msgstr "Cap"
-
-#: source/win-preferences/schema/autocorrect.ts:53
-msgid "Secondary Magic Quotes"
-msgstr "Cometes màgiques secundàries"
-
-#: source/win-preferences/schema/autocorrect.ts:79
-msgid ""
-"Here you can define certain strings that will be replaced when AutoCorrect "
-"is on. The characters on the left side will be replaced with whatever comes "
-"on the right."
-msgstr ""
-"Aquí podeu definir certes cadenes de caràcters que se substituiran quan la "
-"correcció automàtica estigui activada. Els caràcters de l'esquerra seran "
-"reemplaçats pels de la dreta."
-
-#: source/win-preferences/schema/citations.ts:23
-msgid "How would you like autocomplete to insert your citations?"
-msgstr "Com vols que s'autocompletin les teves cites?"
-
-#: source/win-preferences/schema/citations.ts:35
-msgid "Citation Database (CSL JSON or BibTex)"
-msgstr "Base de dades de les referències (CSL, JSON o BibTex)"
-
-#: source/win-preferences/schema/citations.ts:46
-msgid "CSL-Style (optional)"
-msgstr "Estil CSL (opcional)"
 
 #: source/win-preferences/schema/editor.ts:23
 msgid ""
@@ -754,313 +749,206 @@ msgstr "Activa l'editor de taules"
 msgid "Count characters instead of words (e.g., for Chinese)"
 msgstr "Compta caràcters en lloc de paraules (per exemple, per al xinès)"
 
-#: source/win-preferences/schema/spellchecking.ts:23
-msgid ""
-"Select the languages for which you want to enable automatic spell checking."
-msgstr "Seleccioneu les llengües de la verificació ortogràfica automàtica"
+#: source/win-main/tabs-context.ts:38
+#: source/app/service-providers/menu/menu.win32.ts:572
+#: source/app/service-providers/menu/menu.darwin.ts:599
+msgid "Close Tab"
+msgstr "Tanca la pestanya"
 
-#: source/win-preferences/schema/spellchecking.ts:28
-msgid "Search for dictionaries &hellip;"
-msgstr "Busca diccionaris &hellip;"
+#: source/win-main/tabs-context.ts:44
+msgid "Close other tabs"
+msgstr "Tanca les altres pestanyes"
 
-#: source/win-preferences/schema/spellchecking.ts:32
-msgid "User dictionary. Remove words by clicking them."
-msgstr "Diccionari de la usuària. Elimina les paraules clicant-les"
+#: source/win-main/tabs-context.ts:50
+msgid "Close all tabs"
+msgstr "Tanca totes les pestanyes"
 
-#: source/win-preferences/schema/spellchecking.ts:34
-msgid "Dictionary entry"
-msgstr "Entrada de diccionari"
+#: source/win-main/tabs-context.ts:59
+msgid "Unpin tab"
+msgstr "No fixis la pestanya"
 
-#: source/win-preferences/schema/spellchecking.ts:37
-#: source/win-preferences/schema/advanced.ts:96
-msgid "Search for entries …"
-msgstr "Cerca les entrades..."
+#: source/win-main/tabs-context.ts:59
+msgid "Pin tab"
+msgstr "Fixa la pestanya"
 
-#: source/win-preferences/schema/advanced.ts:23
-msgid "Pattern for new filenames"
-msgstr "Patró pels noms dels nous fitxers"
+#: source/win-main/tabs-context.ts:68
+#: source/win-main/file-manager/util/file-item-context.ts:64
+msgid "Copy filename"
+msgstr "Copia el nom del fitxer"
 
-#: source/win-preferences/schema/advanced.ts:29
-msgid "Do not prompt for filename when creating new files"
-msgstr "No preguntis pel nom del fitxer al crear nous arxius"
+#: source/win-main/tabs-context.ts:74
+msgid "Copy full path"
+msgstr "Copia tot el camí"
 
-#: source/win-preferences/schema/advanced.ts:36
-msgid "Enable debug mode"
-msgstr "Habilita el mode de depuració"
+#: source/win-main/tabs-context.ts:80
+#: source/win-main/file-manager/util/file-item-context.ts:70
+#: source/app/service-providers/menu/menu.win32.ts:413
+#: source/app/service-providers/menu/menu.darwin.ts:412
+msgid "Copy ID"
+msgstr "Copia la ID"
 
-#: source/win-preferences/schema/advanced.ts:41
-msgid "Notify me about beta releases"
-msgstr "Notifica els llançaments beta"
+#: source/win-main/file-manager/util/dir-item-context.ts:25
+#: source/win-main/file-manager/util/file-item-context.ts:32
+msgid "Properties"
+msgstr "Propietats"
 
-#: source/win-preferences/schema/advanced.ts:46
-msgid "Use native window appearance"
-msgstr "Utilitza l'aspecte de la finestra del sistema operatiu"
+#: source/win-main/file-manager/util/dir-item-context.ts:31
+msgid "Rename directory"
+msgstr "Reanomena la carpeta"
 
-#: source/win-preferences/schema/advanced.ts:52
-msgid "Delete items irreversibly, if moving them to trash fails"
-msgstr ""
-"Elimina els elements de manera irreversible si el trasllat a la paperera "
-"provoca errors"
+#: source/win-main/file-manager/util/dir-item-context.ts:37
+#: source/app/service-providers/menu/menu.win32.ts:297
+#: source/app/service-providers/menu/menu.darwin.ts:304
+msgid "Delete directory"
+msgstr "Esborra la carpeta"
 
-#: source/win-preferences/schema/advanced.ts:58
-msgid "Show app in the notification area"
-msgstr "Mostra l'aplicació a l'àrea de notificació"
+#: source/win-main/file-manager/util/dir-item-context.ts:43
+#: source/tmp/OtherFilesTab.vue.ts:16
+msgid "Open directory"
+msgstr "Obre la carpeta"
 
-#: source/win-preferences/schema/advanced.ts:59
-msgid "Leave app running in the notification area"
-msgstr "Deixa l'aplicació funcionant a l'àrea de notificació"
+#: source/win-main/file-manager/util/dir-item-context.ts:52
+#: source/app/service-providers/menu/menu.win32.ts:88
+#: source/app/service-providers/menu/menu.darwin.ts:114
+msgid "New File…"
+msgstr "Nou fitxer..."
 
-#: source/win-preferences/schema/advanced.ts:66
-msgid "Automatically check for updates"
-msgstr "Cerca actualitzacions automàticament"
+#: source/win-main/file-manager/util/dir-item-context.ts:58
+#: source/app/service-providers/menu/menu.win32.ts:127
+#: source/app/service-providers/menu/menu.darwin.ts:153
+msgid "New directory…"
+msgstr "Nova carpeta..."
 
-#: source/win-preferences/schema/advanced.ts:73
-msgid ""
-"Enter all file extensions that you want to see in your attachment sidebar. "
-"Separate them with a comma. Changes are recognised after a restart."
-msgstr ""
-"Introduïu totes les extensions de fitxer que vulgueu veure a la barra "
-"lateral d'adjunts. Separeu-los amb una coma. Els canvis es reconeixen "
-"després de reiniciar-se."
+#: source/win-main/file-manager/util/dir-item-context.ts:69
+msgid "Check for directory …"
+msgstr "Revisa la carpeta..."
 
-#: source/win-preferences/schema/advanced.ts:81
-msgid "Zoom behavior"
-msgstr "Comportament del zoom"
+#: source/win-main/file-manager/util/dir-item-context.ts:86
+msgid "Export Project"
+msgstr "Exporta el projecte"
 
-#: source/win-preferences/schema/advanced.ts:83
-msgid "Zoom resizes the whole GUI"
-msgstr "El zoom canvia tota la GUI"
+#: source/win-main/file-manager/util/dir-item-context.ts:98
+msgid "Close Workspace"
+msgstr "Tanca l'espai de treball"
 
-#: source/win-preferences/schema/advanced.ts:84
-msgid "Zoom changes the editor font size"
-msgstr "El zoom canvia la mida de la lletra de l'editor"
+#: source/win-main/file-manager/util/file-item-context.ts:41
+#: source/app/service-providers/menu/menu.win32.ts:279
+#: source/app/service-providers/menu/menu.darwin.ts:285
+#: source/tmp/Defaults.vue.ts:76
+msgid "Rename file"
+msgstr "Reanomena el fitxer"
 
-#: source/win-preferences/schema/advanced.ts:91
-msgid "iFrame rendering whitelist"
-msgstr "Llista blanca de renderitzacions iFrame"
+#: source/win-main/file-manager/util/file-item-context.ts:48
+#: source/app/service-providers/menu/menu.win32.ts:290
+#: source/app/service-providers/menu/menu.darwin.ts:296
+msgid "Delete file"
+msgstr "Elimina el fitxer"
 
-#: source/win-preferences/schema/advanced.ts:94
-msgid "Hostname"
-msgstr "Nom de la màquina"
+#: source/win-main/file-manager/util/file-item-context.ts:55
+msgid "Duplicate file"
+msgstr "Duplica el fitxer"
 
-#: source/win-preferences/schema/advanced.ts:102
-msgid "Activate Watchdog polling"
-msgstr "Activeu la connexió Watchdog"
-
-#: source/win-preferences/schema/advanced.ts:107
-msgid "Time to wait before writing a file is considered done (in ms)"
-msgstr ""
-"Temps que cal esperar per considerar que un fitxer escrit està acabat (en ms)"
-
-#: source/app/service-providers/commands/set-open-directory.ts:40
-msgid "Directory not found"
-msgstr "No s'ha trobat la carpeta"
-
-#: source/app/service-providers/commands/set-open-directory.ts:41
-#: source/app/service-providers/commands/save-image-from-clipboard.ts:75
-msgid "The requested directory was not found."
-msgstr "No s'ha trobat la carpeta sol·licitada"
-
-#: source/app/service-providers/commands/dir-project-export.ts:121
-msgid "Project successfully exported. Click to show."
-msgstr ""
-
-#: source/app/service-providers/commands/dir-project-export.ts:121
-#, fuzzy
-msgid "Export"
-msgstr "Exporta..."
-
-#: source/app/service-providers/commands/file-new.ts:161
-#: source/app/service-providers/commands/file-duplicate.ts:43
-#: source/app/service-providers/commands/file-duplicate.ts:59
-msgid "Could not create file"
-msgstr "No s'ha pogut crear el fitxer"
-
-#. We need to generate our own filename. First, attempt to just use 'copy of'
-#: source/app/service-providers/commands/file-duplicate.ts:71
-#, javascript-format
-msgid "Copy of %s"
-msgstr ""
-
-#: source/app/service-providers/commands/request-move.ts:62
-msgid "Cannot move directory"
-msgstr "No es pot moure la carpeta"
-
-#: source/app/service-providers/commands/request-move.ts:63
-msgid "You cannot move a directory into one of its subdirectories."
-msgstr "No podeu moure una carpeta a una subcarpeta"
-
-#: source/app/service-providers/commands/request-move.ts:72
-msgid "Cannot move directory or file"
-msgstr "No s'ha pogut moure la carpeta o el fitxer"
-
-#: source/app/service-providers/commands/request-move.ts:73
-#, javascript-format
-msgid "The file/directory %s already exists in target."
-msgstr "El fitxer o la carpeta %s ja existeix com a objectiu"
-
-#: source/app/service-providers/commands/root-open.ts:60
-#: source/tmp/file-tree.vue.ts:26 source/tmp/PopoverDirProps.vue.ts:156
-#: source/tmp/file-item.vue.ts:119
-msgid "Files"
-msgstr "Fitxers"
+#: source/win-main/file-manager/util/file-item-context.ts:92
+msgid "Close file"
+msgstr "Tanca el fitxer"
 
 #. TODO: Move this to a command
 #. The user wants to open another file or directory.
-#: source/app/service-providers/commands/root-open.ts:73
 #: source/app/service-providers/windows/index.ts:213
+#: source/app/service-providers/commands/root-open.ts:73
 msgid "Open project folder"
 msgstr "Obre la carpeta del projecte"
 
-#: source/app/service-providers/commands/root-open.ts:83
-msgid "Cannot open directory"
-msgstr "No s'ha pogut obrir la carpeta"
-
-#: source/app/service-providers/commands/root-open.ts:84
-#, javascript-format
-msgid "Directory &quot;%s&quot; cannot be opened by Zettlr."
-msgstr "Zettlr no pot obrir la carpeta &quot;%s&quot;"
-
-#: source/app/service-providers/commands/root-open.ts:136
-#, javascript-format
-msgid "Opening new root %s …"
-msgstr "Obre una nova arrel %s ..."
-
-#: source/app/service-providers/commands/root-open.ts:147
-#, javascript-format
-msgid "%s has been loaded."
-msgstr "S'ha carregat %s"
-
-#: source/app/service-providers/commands/root-open.ts:159
-#, javascript-format
-msgid "Could not open workspace %s."
-msgstr ""
-
-#: source/app/service-providers/commands/export.ts:79
-msgid "Choose export destination"
-msgstr "Exporta a"
-
-#: source/app/service-providers/commands/export.ts:79
-#: source/app/service-providers/menu/menu.win32.ts:160
-#: source/app/service-providers/menu/menu.darwin.ts:195
-#: source/tmp/CustomCSS.vue.ts:42 source/tmp/CustomCSS.vue.ts:56
-#: source/tmp/Defaults.vue.ts:112 source/tmp/SnippetsTab.vue.ts:47
-msgid "Save"
-msgstr "Desa"
-
-#: source/app/service-providers/commands/export.ts:110
-#, javascript-format
-msgid "Exporting to %s"
-msgstr "Exporta a %s"
-
-#: source/app/service-providers/commands/export.ts:122
-msgid "Export failed"
-msgstr "L'exportació ha fallat"
-
-#: source/app/service-providers/commands/export.ts:123
-#, javascript-format
-msgid "An error occurred on export: %s"
-msgstr "Hi ha hagut un problema a l'exportar: %s"
-
-#: source/app/service-providers/commands/rename-tag.ts:44
-#: source/app/service-providers/commands/file-rename.ts:93
-msgid "Confirm"
-msgstr ""
-
-#: source/app/service-providers/commands/rename-tag.ts:45
-#, javascript-format
-msgid "Replace tag \"%s\" with \"%s\" across %s files?"
-msgstr ""
-
-#: source/app/service-providers/commands/rename-tag.ts:47
-#: source/app/service-providers/commands/file-rename.ts:96
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:32
-msgid "Yes"
-msgstr ""
+#: source/app/service-providers/windows/dialog/confirm-remove.ts:30
+#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:33
+#: source/app/service-providers/windows/dialog/prompt.ts:32
+#: source/app/service-providers/windows/dialog/should-replace-file.ts:37
+msgid "Ok"
+msgstr "D'acord"
 
 #. 1: Omit all changes
-#: source/app/service-providers/commands/rename-tag.ts:48
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:34
-#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:32
-#: source/app/service-providers/windows/dialog/should-replace-file.ts:36
 #: source/app/service-providers/windows/dialog/confirm-remove.ts:30
+#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:32
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:34
+#: source/app/service-providers/windows/dialog/should-replace-file.ts:36
+#: source/app/service-providers/commands/rename-tag.ts:48
 #: source/tmp/CustomCSS.vue.ts:49
 msgid "Cancel"
 msgstr "Cancel·lar"
 
-#: source/app/service-providers/commands/dir-new.ts:36
-#: source/app/service-providers/commands/dir-new.ts:37
-#: source/app/service-providers/commands/dir-new.ts:48
-#: source/app/service-providers/commands/dir-new.ts:49
-#: source/app/service-providers/commands/dir-new.ts:59
-msgid "Could not create directory"
-msgstr "No s'ha pogut crear la carpeta"
+#: source/app/service-providers/windows/dialog/confirm-remove.ts:33
+msgid "Really delete?"
+msgstr "Realment esborrar?"
 
-#. Else standard val for new dirs.
-#: source/app/service-providers/commands/dir-new.ts:42
-#: source/tmp/tree-item.vue.ts:259
-msgid "Untitled"
-msgstr "Sense títol"
-
-#. Better error message
-#: source/app/service-providers/commands/open-attachment.ts:92
+#: source/app/service-providers/windows/dialog/confirm-remove.ts:34
 #, javascript-format
-msgid "The reference with key %s does not appear to have attachments."
-msgstr "La referència amb la clau %s no sembla tenir adjunts"
+msgid "Do you really want to remove %s?"
+msgstr "Realment voleu esborrar %s?"
 
-#: source/app/service-providers/commands/open-attachment.ts:97
-msgid "Could not open attachment. Is Zotero running?"
-msgstr "No s'ha pogut obrir l'adjunt. El Zotero està funcionant?"
+#: source/app/service-providers/windows/dialog/save-dialog.ts:52
+msgid "Save file"
+msgstr "Desa el fitxer"
 
-#: source/app/service-providers/commands/import-lang-file.ts:59
+#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:29
+msgid "Overwrite existing file"
+msgstr "Sobreescriu el fitxer existent"
+
+#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:30
 #, javascript-format
-msgid "Language file imported: %s"
-msgstr "Fitxer d'idioma importat: %s"
+msgid "The file %s already exists in this directory. Overwrite?"
+msgstr "El fitxer %s ja existeix en aquesta carpeta. Sobreescriure'l?"
 
-#: source/app/service-providers/commands/import-lang-file.ts:61
-#: source/app/service-providers/commands/import-lang-file.ts:64
-#, javascript-format
-msgid "Could not import language file %s!"
-msgstr "No s'ha pogut importar el fitxer d'idioma %s!"
-
-#: source/app/service-providers/commands/save-image-from-clipboard.ts:37
-msgid "The requested file was not found."
-msgstr "No s'ha trobat el fitxer sol·licitat"
-
-#: source/app/service-providers/commands/save-image-from-clipboard.ts:54
-msgid "The provided name did not contain any allowed letters."
-msgstr "El nom que heu donat conté algun caràcter invàlid"
-
-#: source/app/service-providers/commands/save-image-from-clipboard.ts:86
-msgid "Could not save image"
-msgstr "No s'ha pogut desar la imatge"
-
-#: source/app/service-providers/commands/importer/index.ts:46
-#: source/app/service-providers/commands/exporter/default-exporter.ts:32
-#: source/app/service-providers/commands/exporter/pdf-exporter.ts:37
-msgid ""
-"Pandoc has not been found on this system. Please install Pandoc prior to "
-"exporting or importing files."
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:32
+#: source/app/service-providers/commands/rename-tag.ts:47
+#: source/app/service-providers/commands/file-rename.ts:96
+msgid "Yes"
 msgstr ""
-"No s'ha trobat el Pandoc en aquest ordinador. Si us plau, instal·leu el "
-"Pandoc abans d'importar o exportar fitxers"
 
-#: source/app/service-providers/commands/importer/import-textbundle.ts:63
-#: source/app/service-providers/commands/importer/import-textbundle.ts:69
+#. 0: Save all changes
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:33
+#: source/app/service-providers/commands/file-rename.ts:97
+msgid "No"
+msgstr ""
+
+#. If the user cancels, do not omit (the default) but actually cancel
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:38
+#: source/tmp/Defaults.vue.ts:130 source/tmp/CustomCSS.vue.ts:65
+#: source/tmp/SnippetsTab.vue.ts:65
+msgid "Unsaved changes"
+msgstr "Canvis no desats"
+
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:39
+#, fuzzy
+msgid "There are unsaved changes. Do you want to save them first?"
+msgstr "Hi ha canvis no desats al fitxer actual. Voleu desar-los o ometre'ls?"
+
+#: source/app/service-providers/windows/dialog/should-replace-file.ts:31
+msgid "Replace file"
+msgstr "Reemplaça el fitxer"
+
+#: source/app/service-providers/windows/dialog/should-replace-file.ts:32
 #, javascript-format
-msgid "Malformed Textbundle: %s"
-msgstr "Paquet de text amb malformacions: %s"
+msgid ""
+"File %s has been modified remotely. Replace the loaded version with the "
+"newer one from disk?"
+msgstr ""
+"El fitxer %s ha estat modificat remotament. Voleu reemplaçar la versió "
+"carregada amb la nova del disc dur?"
+
+#. Prepare the list of file filters
+#. The "All Files" filter should be at the top
+#: source/app/service-providers/windows/dialog/ask-file.ts:40
+#: source/app/service-providers/commands/import.ts:41
+msgid "All Files"
+msgstr "Tots els fitxers"
+
+#: source/app/service-providers/windows/dialog/ask-file.ts:47
+msgid "Open file"
+msgstr "Obre el fitxer"
 
 #: source/app/service-providers/commands/import.ts:35
 msgid "You have to select a directory to import to."
 msgstr "Heu de seleccionar una carpeta per importar"
-
-#. Prepare the list of file filters
-#. The "All Files" filter should be at the top
-#: source/app/service-providers/commands/import.ts:41
-#: source/app/service-providers/windows/dialog/ask-file.ts:40
-msgid "All Files"
-msgstr "Tots els fitxers"
 
 #. Now import.
 #: source/app/service-providers/commands/import.ts:58
@@ -1090,16 +978,195 @@ msgstr ""
 "No s'ha pogut importar %s fitxers, perquè el tipus de fitxer és desconegut: "
 "%s"
 
+#: source/app/service-providers/commands/rename-tag.ts:44
+#: source/app/service-providers/commands/file-rename.ts:93
+msgid "Confirm"
+msgstr ""
+
+#: source/app/service-providers/commands/rename-tag.ts:45
+#, javascript-format
+msgid "Replace tag \"%s\" with \"%s\" across %s files?"
+msgstr ""
+
+#: source/app/service-providers/commands/export.ts:79
+msgid "Choose export destination"
+msgstr "Exporta a"
+
+#: source/app/service-providers/commands/export.ts:79
+#: source/app/service-providers/menu/menu.win32.ts:160
+#: source/app/service-providers/menu/menu.darwin.ts:195
+#: source/tmp/Defaults.vue.ts:112 source/tmp/CustomCSS.vue.ts:42
+#: source/tmp/CustomCSS.vue.ts:56 source/tmp/SnippetsTab.vue.ts:47
+msgid "Save"
+msgstr "Desa"
+
+#: source/app/service-providers/commands/export.ts:110
+#, javascript-format
+msgid "Exporting to %s"
+msgstr "Exporta a %s"
+
+#: source/app/service-providers/commands/export.ts:122
+msgid "Export failed"
+msgstr "L'exportació ha fallat"
+
+#: source/app/service-providers/commands/export.ts:123
+#, javascript-format
+msgid "An error occurred on export: %s"
+msgstr "Hi ha hagut un problema a l'exportar: %s"
+
+#: source/app/service-providers/commands/root-open.ts:60
+#: source/tmp/PopoverDirProps.vue.ts:156 source/tmp/file-item.vue.ts:119
+#: source/tmp/file-tree.vue.ts:26
+msgid "Files"
+msgstr "Fitxers"
+
+#: source/app/service-providers/commands/root-open.ts:83
+msgid "Cannot open directory"
+msgstr "No s'ha pogut obrir la carpeta"
+
+#: source/app/service-providers/commands/root-open.ts:84
+#, javascript-format
+msgid "Directory &quot;%s&quot; cannot be opened by Zettlr."
+msgstr "Zettlr no pot obrir la carpeta &quot;%s&quot;"
+
+#: source/app/service-providers/commands/root-open.ts:136
+#, javascript-format
+msgid "Opening new root %s …"
+msgstr "Obre una nova arrel %s ..."
+
+#: source/app/service-providers/commands/root-open.ts:147
+#, javascript-format
+msgid "%s has been loaded."
+msgstr "S'ha carregat %s"
+
+#: source/app/service-providers/commands/root-open.ts:159
+#, javascript-format
+msgid "Could not open workspace %s."
+msgstr ""
+
+#. Better error message
+#: source/app/service-providers/commands/open-attachment.ts:92
+#, javascript-format
+msgid "The reference with key %s does not appear to have attachments."
+msgstr "La referència amb la clau %s no sembla tenir adjunts"
+
+#: source/app/service-providers/commands/open-attachment.ts:97
+msgid "Could not open attachment. Is Zotero running?"
+msgstr "No s'ha pogut obrir l'adjunt. El Zotero està funcionant?"
+
+#: source/app/service-providers/commands/dir-new.ts:36
+#: source/app/service-providers/commands/dir-new.ts:37
+#: source/app/service-providers/commands/dir-new.ts:48
+#: source/app/service-providers/commands/dir-new.ts:49
+#: source/app/service-providers/commands/dir-new.ts:59
+msgid "Could not create directory"
+msgstr "No s'ha pogut crear la carpeta"
+
+#. Else standard val for new dirs.
+#: source/app/service-providers/commands/dir-new.ts:42
+#: source/tmp/tree-item.vue.ts:259
+msgid "Untitled"
+msgstr "Sense títol"
+
+#: source/app/service-providers/commands/save-image-from-clipboard.ts:37
+msgid "The requested file was not found."
+msgstr "No s'ha trobat el fitxer sol·licitat"
+
+#: source/app/service-providers/commands/save-image-from-clipboard.ts:54
+msgid "The provided name did not contain any allowed letters."
+msgstr "El nom que heu donat conté algun caràcter invàlid"
+
+#: source/app/service-providers/commands/save-image-from-clipboard.ts:75
+#: source/app/service-providers/commands/set-open-directory.ts:41
+msgid "The requested directory was not found."
+msgstr "No s'ha trobat la carpeta sol·licitada"
+
+#: source/app/service-providers/commands/save-image-from-clipboard.ts:86
+msgid "Could not save image"
+msgstr "No s'ha pogut desar la imatge"
+
+#: source/app/service-providers/commands/request-move.ts:62
+msgid "Cannot move directory"
+msgstr "No es pot moure la carpeta"
+
+#: source/app/service-providers/commands/request-move.ts:63
+msgid "You cannot move a directory into one of its subdirectories."
+msgstr "No podeu moure una carpeta a una subcarpeta"
+
+#: source/app/service-providers/commands/request-move.ts:72
+msgid "Cannot move directory or file"
+msgstr "No s'ha pogut moure la carpeta o el fitxer"
+
+#: source/app/service-providers/commands/request-move.ts:73
+#, javascript-format
+msgid "The file/directory %s already exists in target."
+msgstr "El fitxer o la carpeta %s ja existeix com a objectiu"
+
+#: source/app/service-providers/commands/file-duplicate.ts:43
+#: source/app/service-providers/commands/file-duplicate.ts:59
+#: source/app/service-providers/commands/file-new.ts:161
+msgid "Could not create file"
+msgstr "No s'ha pogut crear el fitxer"
+
+#. We need to generate our own filename. First, attempt to just use 'copy of'
+#: source/app/service-providers/commands/file-duplicate.ts:71
+#, javascript-format
+msgid "Copy of %s"
+msgstr ""
+
+#: source/app/service-providers/commands/exporter/pdf-exporter.ts:37
+#: source/app/service-providers/commands/exporter/default-exporter.ts:32
+#: source/app/service-providers/commands/importer/index.ts:46
+msgid ""
+"Pandoc has not been found on this system. Please install Pandoc prior to "
+"exporting or importing files."
+msgstr ""
+"No s'ha trobat el Pandoc en aquest ordinador. Si us plau, instal·leu el "
+"Pandoc abans d'importar o exportar fitxers"
+
+#: source/app/service-providers/commands/importer/import-textbundle.ts:63
+#: source/app/service-providers/commands/importer/import-textbundle.ts:69
+#, javascript-format
+msgid "Malformed Textbundle: %s"
+msgstr "Paquet de text amb malformacions: %s"
+
+#: source/app/service-providers/commands/import-lang-file.ts:59
+#, javascript-format
+msgid "Language file imported: %s"
+msgstr "Fitxer d'idioma importat: %s"
+
+#: source/app/service-providers/commands/import-lang-file.ts:61
+#: source/app/service-providers/commands/import-lang-file.ts:64
+#, javascript-format
+msgid "Could not import language file %s!"
+msgstr "No s'ha pogut importar el fitxer d'idioma %s!"
+
+#: source/app/service-providers/commands/dir-project-export.ts:121
+msgid "Project successfully exported. Click to show."
+msgstr ""
+
+#: source/app/service-providers/commands/dir-project-export.ts:121
+#, fuzzy
+msgid "Export"
+msgstr "Exporta..."
+
 #: source/app/service-providers/commands/file-rename.ts:94
 #, javascript-format
 msgid "Update %s internal links to file %s?"
 msgstr ""
 
-#. 0: Save all changes
-#: source/app/service-providers/commands/file-rename.ts:97
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:33
-msgid "No"
-msgstr ""
+#: source/app/service-providers/commands/set-open-directory.ts:40
+msgid "Directory not found"
+msgstr "No s'ha trobat la carpeta"
+
+#: source/app/service-providers/citeproc/index.ts:231
+#: source/app/service-providers/citeproc/index.ts:427
+msgid "The citation database could not be loaded"
+msgstr "No s'ha pogut carregar la base de dades de referències"
+
+#: source/app/service-providers/citeproc/index.ts:415
+msgid "Changes to the library file detected. Reloading …"
+msgstr "S'han detectat canvis a la biblioteca. Recarregant..."
 
 #: source/app/service-providers/updates/index.ts:176
 #, javascript-format
@@ -1178,64 +1245,6 @@ msgstr "L'opció %s ha de tenir com a mínim %s caràcters de llargària"
 #, javascript-format
 msgid "Option %s is required."
 msgstr "L'opció %s és obligatòria"
-
-#: source/app/service-providers/windows/dialog/prompt.ts:32
-#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:33
-#: source/app/service-providers/windows/dialog/should-replace-file.ts:37
-#: source/app/service-providers/windows/dialog/confirm-remove.ts:30
-msgid "Ok"
-msgstr "D'acord"
-
-#. If the user cancels, do not omit (the default) but actually cancel
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:38
-#: source/tmp/CustomCSS.vue.ts:65 source/tmp/Defaults.vue.ts:130
-#: source/tmp/SnippetsTab.vue.ts:65
-msgid "Unsaved changes"
-msgstr "Canvis no desats"
-
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:39
-#, fuzzy
-msgid "There are unsaved changes. Do you want to save them first?"
-msgstr "Hi ha canvis no desats al fitxer actual. Voleu desar-los o ometre'ls?"
-
-#: source/app/service-providers/windows/dialog/save-dialog.ts:52
-msgid "Save file"
-msgstr "Desa el fitxer"
-
-#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:29
-msgid "Overwrite existing file"
-msgstr "Sobreescriu el fitxer existent"
-
-#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:30
-#, javascript-format
-msgid "The file %s already exists in this directory. Overwrite?"
-msgstr "El fitxer %s ja existeix en aquesta carpeta. Sobreescriure'l?"
-
-#: source/app/service-providers/windows/dialog/should-replace-file.ts:31
-msgid "Replace file"
-msgstr "Reemplaça el fitxer"
-
-#: source/app/service-providers/windows/dialog/should-replace-file.ts:32
-#, javascript-format
-msgid ""
-"File %s has been modified remotely. Replace the loaded version with the "
-"newer one from disk?"
-msgstr ""
-"El fitxer %s ha estat modificat remotament. Voleu reemplaçar la versió "
-"carregada amb la nova del disc dur?"
-
-#: source/app/service-providers/windows/dialog/confirm-remove.ts:33
-msgid "Really delete?"
-msgstr "Realment esborrar?"
-
-#: source/app/service-providers/windows/dialog/confirm-remove.ts:34
-#, javascript-format
-msgid "Do you really want to remove %s?"
-msgstr "Realment voleu esborrar %s?"
-
-#: source/app/service-providers/windows/dialog/ask-file.ts:47
-msgid "Open file"
-msgstr "Obre el fitxer"
 
 #: source/app/service-providers/menu/menu.win32.ts:42
 #: source/app/service-providers/menu/menu.win32.ts:54
@@ -1515,15 +1524,6 @@ msgstr "Deixa de parlar"
 msgid "Bring All to Front"
 msgstr "Portar tot al capdavant"
 
-#: source/app/service-providers/citeproc/index.ts:231
-#: source/app/service-providers/citeproc/index.ts:427
-msgid "The citation database could not be loaded"
-msgstr "No s'ha pogut carregar la base de dades de referències"
-
-#: source/app/service-providers/citeproc/index.ts:415
-msgid "Changes to the library file detected. Reloading …"
-msgstr "S'han detectat canvis a la biblioteca. Recarregant..."
-
 #: source/app/service-providers/tray/index.ts:159
 msgid "Show Zettlr"
 msgstr "Mostra el Zettlr"
@@ -1532,129 +1532,42 @@ msgstr "Mostra el Zettlr"
 msgid "Zettlr"
 msgstr "Zettlr"
 
-#: source/tmp/File.vue.ts:59 source/tmp/PopoverFileProps.vue.ts:71
-#: source/tmp/Color.vue.ts:50 source/tmp/ShortcutChooser.vue.ts:61
-#: source/tmp/Number.vue.ts:59
-msgid "Reset"
-msgstr "Reinicia"
+#: source/tmp/Projects-Tab.vue.ts:24
+msgid "Zettlr also makes use of these projects:"
+msgstr "Zettlr també fa ús d'aquests projectes:"
 
-#: source/tmp/PopoverDocInfo.vue.ts:35
-msgid "No open document"
-msgstr "Cap document obert"
-
-#: source/tmp/PopoverDocInfo.vue.ts:38
-msgid "words"
-msgstr "paraules"
-
-#: source/tmp/PopoverDocInfo.vue.ts:41
-msgid "characters"
-msgstr "caràcters"
-
-#: source/tmp/PopoverDocInfo.vue.ts:44
-msgid "characters (w/o spaces)"
-msgstr "caràcters (sense espais)"
-
-#: source/tmp/PopoverDocInfo.vue.ts:71 source/tmp/file-item.vue.ts:132
-#: source/tmp/file-item.vue.ts:205
-#, javascript-format
-msgid "%s characters"
-msgstr "%s caràcters"
-
-#: source/tmp/PopoverDocInfo.vue.ts:73 source/tmp/PopoverFileProps.vue.ts:89
 #: source/tmp/PopoverDirProps.vue.ts:144 source/tmp/file-item.vue.ts:134
-#: source/tmp/file-item.vue.ts:207
+#: source/tmp/file-item.vue.ts:207 source/tmp/PopoverFileProps.vue.ts:89
+#: source/tmp/PopoverDocInfo.vue.ts:73
 #, javascript-format
 msgid "%s words"
 msgstr "%s Paraules"
 
-#: source/tmp/file-tree.vue.ts:29
-msgid "Workspaces"
-msgstr "Espais de treball"
+#: source/tmp/PopoverDirProps.vue.ts:147 source/tmp/file-item.vue.ts:113
+msgid "Directories"
+msgstr "Carpetes"
 
-#: source/tmp/file-tree.vue.ts:32
-msgid "No open files or folders"
-msgstr "No hi ha ni fitxers ni carpetes oberts"
-
-#: source/tmp/file-tree.vue.ts:35 source/tmp/file-list.vue.ts:66
-msgid "No results"
-msgstr "Sense resultats"
-
-#: source/tmp/OtherFilesTab.vue.ts:13 source/tmp/MainSidebar.vue.ts:74
-msgid "Other files"
-msgstr "Altres fitxers"
-
-#: source/tmp/OtherFilesTab.vue.ts:19
-msgid "No other files"
-msgstr "Cap altre fitxer"
-
-#: source/tmp/General-Tab.vue.ts:23
-msgid ""
-"Zettlr is a project by Hendrik Erz, licensed under the GNU GPL v3 license. "
-"It is Open Source, free of charge and based upon the Electron framework. "
-"Zettlr would like to thank the developers of Electron, the Node.js framework "
-"and the CodeMirror editor for their work. Without them, Zettlr would not be "
-"possible. Below you can find all projects that Zettlr uses."
-msgstr ""
-"Zettlr és un projecte d'Hendrik Erz, sota la llicència GNU GPL v3. És de "
-"Codi Obert, gratuït i basat en l'estructura Electron. Zettlr voldria agrair "
-"als desenvolupadors d'Electron, de l'estructura Node.js, i l'editor de "
-"CodeMirror per la seva feina. Sense ells, Zettlr no seria possible. Sota "
-"pots trobar tots els projectes que utilitza Zettlr."
-
-#: source/tmp/General-Tab.vue.ts:24
-msgid ""
-"Zettlr makes use of citeproc to display citations directly in the editor. To "
-"this end, Zettlr uses the CitationStyleLanguage (CSL) language and style "
-"files. The files have been shipped unaltered with author metadata. More "
-"information:"
-msgstr ""
-"Zettlr fa ús de citeproc per a mostrar cites directament en l'editor. Per a "
-"aquest fi, Zettlr utilitza el llenguatge CitationStyleLanguage (CSL) i "
-"arxius d'estil. Els arxius han estat enviats sense alteracions, amb metadata "
-"d'autor. Més informació:"
-
-#: source/tmp/General-Tab.vue.ts:25
-msgid ""
-"All logos and brand names are subject to their rightful owners. Besides "
-"using their code, Zettlr is in no way affiliated with any of these projects. "
-"Node.js is a trademark of Joyent, Inc."
-msgstr ""
-"Tots els logotips i noms de marca estan subjectes als seus propietaris "
-"legítims. Més enllà d'utilitzar el seu codi, Zettlr no està en cap cas "
-"afiliat amb cap d'aquests projectes. Node.js és una marca comercial de "
-"Joyent, Inc."
-
-#: source/tmp/MainSidebar.vue.ts:77 source/tmp/ReferencesTab.vue.ts:20
-msgid "References"
-msgstr "Referències"
-
-#: source/tmp/MainSidebar.vue.ts:80 source/tmp/ToCTab.vue.ts:55
-msgid "Table of Contents"
-msgstr "Taula de continguts"
-
-#: source/tmp/MainSidebar.vue.ts:83 source/tmp/RelatedFilesTab.vue.ts:23
-msgid "Related files"
-msgstr "Fitxers relacionats"
-
-#: source/tmp/ChartView.vue.ts:60
-msgid "Charts"
-msgstr "Gràfics"
-
-#: source/tmp/PopoverFileProps.vue.ts:62 source/tmp/file-item.vue.ts:195
-msgid "Words"
-msgstr "Paraules"
-
-#: source/tmp/PopoverFileProps.vue.ts:65 source/tmp/PopoverDirProps.vue.ts:153
+#: source/tmp/PopoverDirProps.vue.ts:153 source/tmp/PopoverFileProps.vue.ts:65
 msgid "Created"
 msgstr "Creat"
 
-#: source/tmp/PopoverFileProps.vue.ts:74
-msgid "Set writing target…"
-msgstr "Estableix un objectiu d'escriptura"
+#: source/tmp/PopoverDirProps.vue.ts:162
+msgid "Project Settings…"
+msgstr "Configuració del projecte..."
 
-#: source/tmp/PopoverFileProps.vue.ts:77 source/tmp/file-item.vue.ts:193
+#: source/tmp/file-item.vue.ts:132 source/tmp/file-item.vue.ts:205
+#: source/tmp/PopoverDocInfo.vue.ts:71
+#, javascript-format
+msgid "%s characters"
+msgstr "%s caràcters"
+
+#: source/tmp/file-item.vue.ts:193 source/tmp/PopoverFileProps.vue.ts:77
 msgid "Characters"
 msgstr "Caràcters"
+
+#: source/tmp/file-item.vue.ts:195 source/tmp/PopoverFileProps.vue.ts:62
+msgid "Words"
+msgstr "Paraules"
 
 #: source/tmp/App.vue.ts:34
 msgid "Updater"
@@ -1693,26 +1606,118 @@ msgstr "No hi ha actualitzacions disponibles. Ja tens la versió més recent."
 msgid "Starting update …"
 msgstr "Començant l'actualització..."
 
-#: source/tmp/RelatedFilesTab.vue.ts:26
-msgid "No related files"
-msgstr "No hi ha fitxers relacionats"
-
-#: source/tmp/RelatedFilesTab.vue.ts:29
-msgid "This relation is based on a bidirectional link."
+#: source/tmp/Defaults.vue.ts:70
+msgid ""
+"This profile is protected. This means that it will be restored when you "
+"remove or rename it."
 msgstr ""
+"Aquest perfil està protegit: es restaurarà si l'esborreu o li canvieu el nom"
 
-#: source/tmp/RelatedFilesTab.vue.ts:32
-msgid "This relation is based on an outbound link."
+#: source/tmp/Defaults.vue.ts:73
+msgid ""
+"This profile appears to be either missing the writer or reader property. "
+"Make sure to set both so that Zettlr can use this profile."
 msgstr ""
+"Sembla que aquest perfil no té permisos d'escriptura o de lectura. Assegureu-"
+"vos que els té perquè Zettlr pugui fer-lo servir."
 
-#: source/tmp/RelatedFilesTab.vue.ts:35
-msgid "This relation is based on a backlink."
-msgstr ""
+#: source/tmp/Defaults.vue.ts:109
+msgid "Edit the default settings for imports or exports here."
+msgstr "Edita els paràmetres per importar i exportar aquí"
 
-#: source/tmp/RelatedFilesTab.vue.ts:113
-#, javascript-format
-msgid "This relation is based on %s shared tags: %s"
+#: source/tmp/Defaults.vue.ts:192 source/tmp/CustomCSS.vue.ts:88
+#: source/tmp/SnippetsTab.vue.ts:124
+msgid "Saving …"
+msgstr "Desant..."
+
+#: source/tmp/Defaults.vue.ts:201 source/tmp/SnippetsTab.vue.ts:134
+msgid "Saved!"
+msgstr "Desat!"
+
+#: source/tmp/PopoverFileProps.vue.ts:71 source/tmp/Color.vue.ts:50
+#: source/tmp/Number.vue.ts:59 source/tmp/ShortcutChooser.vue.ts:61
+#: source/tmp/File.vue.ts:59
+msgid "Reset"
+msgstr "Reinicia"
+
+#: source/tmp/PopoverFileProps.vue.ts:74
+msgid "Set writing target…"
+msgstr "Estableix un objectiu d'escriptura"
+
+#: source/tmp/List.vue.ts:141
+msgid "Add"
+msgstr "Afegeix"
+
+#: source/tmp/List.vue.ts:144
+msgid "Actions"
+msgstr "Accions"
+
+#: source/tmp/List.vue.ts:147
+#, fuzzy
+msgid "Delete"
+msgstr "Elimina el fitxer"
+
+#. Apparently we have a simple array, so exactly one column
+#: source/tmp/List.vue.ts:169
+msgid "Item"
+msgstr "Ítem"
+
+#: source/tmp/General-Tab.vue.ts:23
+msgid ""
+"Zettlr is a project by Hendrik Erz, licensed under the GNU GPL v3 license. "
+"It is Open Source, free of charge and based upon the Electron framework. "
+"Zettlr would like to thank the developers of Electron, the Node.js framework "
+"and the CodeMirror editor for their work. Without them, Zettlr would not be "
+"possible. Below you can find all projects that Zettlr uses."
 msgstr ""
+"Zettlr és un projecte d'Hendrik Erz, sota la llicència GNU GPL v3. És de "
+"Codi Obert, gratuït i basat en l'estructura Electron. Zettlr voldria agrair "
+"als desenvolupadors d'Electron, de l'estructura Node.js, i l'editor de "
+"CodeMirror per la seva feina. Sense ells, Zettlr no seria possible. Sota "
+"pots trobar tots els projectes que utilitza Zettlr."
+
+#: source/tmp/General-Tab.vue.ts:24
+msgid ""
+"Zettlr makes use of citeproc to display citations directly in the editor. To "
+"this end, Zettlr uses the CitationStyleLanguage (CSL) language and style "
+"files. The files have been shipped unaltered with author metadata. More "
+"information:"
+msgstr ""
+"Zettlr fa ús de citeproc per a mostrar cites directament en l'editor. Per a "
+"aquest fi, Zettlr utilitza el llenguatge CitationStyleLanguage (CSL) i "
+"arxius d'estil. Els arxius han estat enviats sense alteracions, amb metadata "
+"d'autor. Més informació:"
+
+#: source/tmp/General-Tab.vue.ts:25
+msgid ""
+"All logos and brand names are subject to their rightful owners. Besides "
+"using their code, Zettlr is in no way affiliated with any of these projects. "
+"Node.js is a trademark of Joyent, Inc."
+msgstr ""
+"Tots els logotips i noms de marca estan subjectes als seus propietaris "
+"legítims. Més enllà d'utilitzar el seu codi, Zettlr no està en cap cas "
+"afiliat amb cap d'aquests projectes. Node.js és una marca comercial de "
+"Joyent, Inc."
+
+#: source/tmp/OtherFilesTab.vue.ts:13 source/tmp/MainSidebar.vue.ts:74
+msgid "Other files"
+msgstr "Altres fitxers"
+
+#: source/tmp/OtherFilesTab.vue.ts:19
+msgid "No other files"
+msgstr "Cap altre fitxer"
+
+#: source/tmp/ChartView.vue.ts:60
+msgid "Charts"
+msgstr "Gràfics"
+
+#: source/tmp/Theme.vue.ts:37
+msgid "selected"
+msgstr "Seleccionat"
+
+#: source/tmp/Theme.vue.ts:40
+msgid "click to select"
+msgstr "Clica per a seleccionar"
 
 #: source/tmp/PopoverTags.vue.ts:77
 msgid "Name"
@@ -1738,14 +1743,6 @@ msgstr "Etiquetes suggerides per al fitxer actual"
 msgid "Add to file"
 msgstr "Afegeix al fitxer"
 
-#: source/tmp/PopoverDirProps.vue.ts:147 source/tmp/file-item.vue.ts:113
-msgid "Directories"
-msgstr "Carpetes"
-
-#: source/tmp/PopoverDirProps.vue.ts:162
-msgid "Project Settings…"
-msgstr "Configuració del projecte..."
-
 #: source/tmp/CustomCSS.vue.ts:31
 msgid "Custom CSS"
 msgstr "CSS personalitzat"
@@ -1762,95 +1759,9 @@ msgstr ""
 "modifiqueu mai la geometria dels elements; en cas contrari, l'aplicació es "
 "pot exposar a un comportament no desitjat!</strong>"
 
-#: source/tmp/CustomCSS.vue.ts:88 source/tmp/Defaults.vue.ts:192
-#: source/tmp/SnippetsTab.vue.ts:124
-msgid "Saving …"
-msgstr "Desant..."
-
 #: source/tmp/CustomCSS.vue.ts:97
 msgid "Saving failed"
 msgstr "Vaja! No s'ha pogut desar"
-
-#: source/tmp/file-list.vue.ts:69
-msgid "No directory selected"
-msgstr "No s'ha seleccionat cap carpeta"
-
-#: source/tmp/file-list.vue.ts:72
-msgid "Empty directory"
-msgstr "Carpeta buida"
-
-#: source/tmp/Defaults.vue.ts:70
-msgid ""
-"This profile is protected. This means that it will be restored when you "
-"remove or rename it."
-msgstr ""
-"Aquest perfil està protegit: es restaurarà si l'esborreu o li canvieu el nom"
-
-#: source/tmp/Defaults.vue.ts:73
-msgid ""
-"This profile appears to be either missing the writer or reader property. "
-"Make sure to set both so that Zettlr can use this profile."
-msgstr ""
-"Sembla que aquest perfil no té permisos d'escriptura o de lectura. Assegureu-"
-"vos que els té perquè Zettlr pugui fer-lo servir."
-
-#: source/tmp/Defaults.vue.ts:109
-msgid "Edit the default settings for imports or exports here."
-msgstr "Edita els paràmetres per importar i exportar aquí"
-
-#: source/tmp/Defaults.vue.ts:201 source/tmp/SnippetsTab.vue.ts:134
-msgid "Saved!"
-msgstr "Desat!"
-
-#: source/tmp/ReferencesTab.vue.ts:32
-msgid "There are no citations in this document."
-msgstr "No hi ha cites en aquest document"
-
-#: source/tmp/List.vue.ts:141
-msgid "Add"
-msgstr "Afegeix"
-
-#: source/tmp/List.vue.ts:144
-msgid "Actions"
-msgstr "Accions"
-
-#: source/tmp/List.vue.ts:147
-#, fuzzy
-msgid "Delete"
-msgstr "Elimina el fitxer"
-
-#. Apparently we have a simple array, so exactly one column
-#: source/tmp/List.vue.ts:169
-msgid "Item"
-msgstr "Ítem"
-
-#: source/tmp/PopoverStats.vue.ts:111
-msgid "words last month"
-msgstr "paraules escrites l'últim mes"
-
-#: source/tmp/PopoverStats.vue.ts:114
-msgid "daily average"
-msgstr "Mitjana diària"
-
-#: source/tmp/PopoverStats.vue.ts:117
-msgid "words today"
-msgstr "Paraules escrites avui"
-
-#: source/tmp/PopoverStats.vue.ts:120
-msgid "🔥 You're on fire!"
-msgstr "🔥 Ho estàs petant!"
-
-#: source/tmp/PopoverStats.vue.ts:123
-msgid "💪 You're close to hitting your daily average!"
-msgstr "💪 Estàs a punt de superar la mitjana diària!"
-
-#: source/tmp/PopoverStats.vue.ts:126
-msgid "✍🏼 Get writing to surpass your daily average."
-msgstr "✍🏼 Segueix escrivint per a superar la mitjana diària"
-
-#: source/tmp/PopoverStats.vue.ts:129
-msgid "More statistics …"
-msgstr "Més estadístiques..."
 
 #: source/tmp/PopoverPomodoro.vue.ts:72
 msgid "Start"
@@ -1880,13 +1791,86 @@ msgstr ""
 msgid "Volume"
 msgstr ""
 
-#: source/tmp/Theme.vue.ts:37
-msgid "selected"
-msgstr "Seleccionat"
+#: source/tmp/RelatedFilesTab.vue.ts:23 source/tmp/MainSidebar.vue.ts:83
+msgid "Related files"
+msgstr "Fitxers relacionats"
 
-#: source/tmp/Theme.vue.ts:40
-msgid "click to select"
-msgstr "Clica per a seleccionar"
+#: source/tmp/RelatedFilesTab.vue.ts:26
+msgid "No related files"
+msgstr "No hi ha fitxers relacionats"
+
+#: source/tmp/RelatedFilesTab.vue.ts:29
+msgid "This relation is based on a bidirectional link."
+msgstr ""
+
+#: source/tmp/RelatedFilesTab.vue.ts:32
+msgid "This relation is based on an outbound link."
+msgstr ""
+
+#: source/tmp/RelatedFilesTab.vue.ts:35
+msgid "This relation is based on a backlink."
+msgstr ""
+
+#: source/tmp/RelatedFilesTab.vue.ts:113
+#, javascript-format
+msgid "This relation is based on %s shared tags: %s"
+msgstr ""
+
+#: source/tmp/file-list.vue.ts:66 source/tmp/file-tree.vue.ts:35
+msgid "No results"
+msgstr "Sense resultats"
+
+#: source/tmp/file-list.vue.ts:69
+msgid "No directory selected"
+msgstr "No s'ha seleccionat cap carpeta"
+
+#: source/tmp/file-list.vue.ts:72
+msgid "Empty directory"
+msgstr "Carpeta buida"
+
+#: source/tmp/EditorSearchPanel.vue.ts:13
+msgid "Find…"
+msgstr "Trobar..."
+
+#: source/tmp/EditorSearchPanel.vue.ts:14
+msgid "Replace with"
+msgstr "Substituir amb"
+
+#: source/tmp/EditorSearchPanel.vue.ts:15
+msgid "Replace next occurrence"
+msgstr "Reemplaça la pròxima coincidència"
+
+#: source/tmp/EditorSearchPanel.vue.ts:16
+msgid "Replace all occurrences"
+msgstr "Reemplaça totes les ocurrències"
+
+#: source/tmp/EditorSearchPanel.vue.ts:17
+msgid "Close search"
+msgstr "Tanca la cerca"
+
+#: source/tmp/EditorSearchPanel.vue.ts:18
+msgid "Toggle regular expression search"
+msgstr "Canvia a la cerca d'expressions regulars"
+
+#: source/tmp/SnippetsTab.vue.ts:50
+msgid "Rename snippet"
+msgstr "Reanomena el fragment"
+
+#: source/tmp/SnippetsTab.vue.ts:53
+msgid "Snippets let you define reusable pieces of text with variables."
+msgstr "Els fragments permeten treballar amb troços de text amb variables"
+
+#: source/tmp/file-tree.vue.ts:29
+msgid "Workspaces"
+msgstr "Espais de treball"
+
+#: source/tmp/file-tree.vue.ts:32
+msgid "No open files or folders"
+msgstr "No hi ha ni fitxers ni carpetes oberts"
+
+#: source/tmp/ToCTab.vue.ts:55 source/tmp/MainSidebar.vue.ts:80
+msgid "Table of Contents"
+msgstr "Taula de continguts"
 
 #: source/tmp/CalendarView.vue.ts:59
 msgid "Calendar"
@@ -1952,41 +1936,37 @@ msgstr "Per sobre de la mitjana mensual"
 msgid "More than twice the monthly average"
 msgstr "Més del doble de la mitjana mensual"
 
-#: source/tmp/SnippetsTab.vue.ts:50
-msgid "Rename snippet"
-msgstr "Reanomena el fragment"
+#: source/tmp/MainSidebar.vue.ts:77 source/tmp/ReferencesTab.vue.ts:20
+msgid "References"
+msgstr "Referències"
 
-#: source/tmp/SnippetsTab.vue.ts:53
-msgid "Snippets let you define reusable pieces of text with variables."
-msgstr "Els fragments permeten treballar amb troços de text amb variables"
+#: source/tmp/PopoverStats.vue.ts:111
+msgid "words last month"
+msgstr "paraules escrites l'últim mes"
 
-#: source/tmp/EditorSearchPanel.vue.ts:13
-msgid "Find…"
-msgstr "Trobar..."
+#: source/tmp/PopoverStats.vue.ts:114
+msgid "daily average"
+msgstr "Mitjana diària"
 
-#: source/tmp/EditorSearchPanel.vue.ts:14
-msgid "Replace with"
-msgstr "Substituir amb"
+#: source/tmp/PopoverStats.vue.ts:117
+msgid "words today"
+msgstr "Paraules escrites avui"
 
-#: source/tmp/EditorSearchPanel.vue.ts:15
-msgid "Replace next occurrence"
-msgstr "Reemplaça la pròxima coincidència"
+#: source/tmp/PopoverStats.vue.ts:120
+msgid "🔥 You're on fire!"
+msgstr "🔥 Ho estàs petant!"
 
-#: source/tmp/EditorSearchPanel.vue.ts:16
-msgid "Replace all occurrences"
-msgstr "Reemplaça totes les ocurrències"
+#: source/tmp/PopoverStats.vue.ts:123
+msgid "💪 You're close to hitting your daily average!"
+msgstr "💪 Estàs a punt de superar la mitjana diària!"
 
-#: source/tmp/EditorSearchPanel.vue.ts:17
-msgid "Close search"
-msgstr "Tanca la cerca"
+#: source/tmp/PopoverStats.vue.ts:126
+msgid "✍🏼 Get writing to surpass your daily average."
+msgstr "✍🏼 Segueix escrivint per a superar la mitjana diària"
 
-#: source/tmp/EditorSearchPanel.vue.ts:18
-msgid "Toggle regular expression search"
-msgstr "Canvia a la cerca d'expressions regulars"
-
-#: source/tmp/Projects-Tab.vue.ts:24
-msgid "Zettlr also makes use of these projects:"
-msgstr "Zettlr també fa ús d'aquests projectes:"
+#: source/tmp/PopoverStats.vue.ts:129
+msgid "More statistics …"
+msgstr "Més estadístiques..."
 
 #: source/tmp/GlobalSearch.vue.ts:116
 msgid "Full-Text Search"
@@ -2027,6 +2007,26 @@ msgstr "Neteja la cerca"
 #: source/tmp/GlobalSearch.vue.ts:143
 msgid "Toggle results"
 msgstr "Més / Menys detalls"
+
+#: source/tmp/PopoverDocInfo.vue.ts:35
+msgid "No open document"
+msgstr "Cap document obert"
+
+#: source/tmp/PopoverDocInfo.vue.ts:38
+msgid "words"
+msgstr "paraules"
+
+#: source/tmp/PopoverDocInfo.vue.ts:41
+msgid "characters"
+msgstr "caràcters"
+
+#: source/tmp/PopoverDocInfo.vue.ts:44
+msgid "characters (w/o spaces)"
+msgstr "caràcters (sense espais)"
+
+#: source/tmp/ReferencesTab.vue.ts:32
+msgid "There are no citations in this document."
+msgstr "No hi ha cites en aquest document"
 
 #~ msgid "Link start"
 #~ msgstr "L'enllaç comença"
