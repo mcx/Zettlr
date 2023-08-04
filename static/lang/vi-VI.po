@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zettlr 2.3.0\n"
 "Report-Msgid-Bugs-To: https://github.com/Zettlr/Zettlr/issues\n"
-"POT-Creation-Date: 2023-07-07 03:07+0000\n"
+"POT-Creation-Date: 2023-08-04 02:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,262 +17,236 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: source/common/modules/markdown-editor/renderers/render-images.ts:92
-#, javascript-format
-msgid "Image not found: %s"
-msgstr ""
+#: source/win-main/tabs-context.ts:38
+#: source/app/service-providers/menu/menu.darwin.ts:599
+#: source/app/service-providers/menu/menu.win32.ts:572
+msgid "Close Tab"
+msgstr "Đóng Tab"
 
-#: source/common/modules/markdown-editor/autocomplete/code-blocks.ts:42
-msgid "No highlighting"
-msgstr ""
+#: source/win-main/tabs-context.ts:44
+msgid "Close other tabs"
+msgstr "Đóng các tab khác"
 
-#: source/common/modules/markdown-editor/linters/spellcheck.ts:148
-msgid "Spelling mistake"
-msgstr ""
+#: source/win-main/tabs-context.ts:50
+msgid "Close all tabs"
+msgstr "Đóng tất cả tab"
 
-#: source/common/modules/markdown-editor/tooltips/footnotes.ts:100
-msgid "No footnote text found."
-msgstr ""
+#: source/win-main/tabs-context.ts:59
+msgid "Unpin tab"
+msgstr "Bỏ ghim tab"
 
-#: source/common/modules/markdown-editor/tooltips/footnotes.ts:111
-#: source/app/service-providers/menu/menu.win32.ts:316
-#: source/app/service-providers/menu/menu.darwin.ts:315
-msgid "Edit"
-msgstr "Sửa"
+#: source/win-main/tabs-context.ts:59
+msgid "Pin tab"
+msgstr "Ghim tab"
 
-#: source/common/modules/markdown-editor/tooltips/file-preview.ts:58
-#, javascript-format
-msgid "File %s does not exist."
-msgstr ""
+#: source/win-main/tabs-context.ts:68
+#: source/win-main/file-manager/util/file-item-context.ts:64
+msgid "Copy filename"
+msgstr "Sao chép tên tập tin"
 
-#: source/common/modules/markdown-editor/tooltips/file-preview.ts:88
-msgid "Word count"
-msgstr "Số từ"
+#: source/win-main/tabs-context.ts:74
+msgid "Copy full path"
+msgstr "Sao chép đường dẫn đầy đủ"
 
-#: source/common/modules/markdown-editor/tooltips/file-preview.ts:90
-#: source/tmp/PopoverDirProps.vue.ts:150 source/tmp/PopoverFileProps.vue.ts:68
-msgid "Modified"
-msgstr "Đã chỉnh sửa"
+#: source/win-main/tabs-context.ts:80
+#: source/win-main/file-manager/util/file-item-context.ts:70
+#: source/app/service-providers/menu/menu.darwin.ts:412
+#: source/app/service-providers/menu/menu.win32.ts:413
+msgid "Copy ID"
+msgstr "Sao chép ID"
 
-#: source/common/modules/markdown-editor/tooltips/file-preview.ts:108
-#: source/app/service-providers/menu/menu.win32.ts:138
-#: source/app/service-providers/menu/menu.darwin.ts:164
-msgid "Open…"
-msgstr "Mở..."
-
-#: source/common/modules/markdown-editor/tooltips/file-preview.ts:129
 #: source/win-main/file-manager/util/file-item-context.ts:26
 #: source/tmp/GlobalSearch.vue.ts:40
+#: source/common/modules/markdown-editor/tooltips/file-preview.ts:129
 msgid "Open in a new tab"
 msgstr "Mở trong một tab mới"
 
-#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:42
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:152
-#: source/win-preferences/schema/editor.ts:26
-#: source/win-preferences/schema/editor.ts:27
-msgid "Bold"
-msgstr "Đậm"
+#: source/win-main/file-manager/util/file-item-context.ts:32
+#: source/win-main/file-manager/util/dir-item-context.ts:25
+msgid "Properties"
+msgstr "Các thuộc tính"
 
-#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:47
-#: source/win-preferences/schema/editor.ts:34
-#: source/win-preferences/schema/editor.ts:35
-msgid "Italics"
-msgstr "In nghiêng"
+#: source/win-main/file-manager/util/file-item-context.ts:41
+#: source/tmp/Defaults.vue.ts:76
+#: source/app/service-providers/menu/menu.darwin.ts:285
+#: source/app/service-providers/menu/menu.win32.ts:279
+msgid "Rename file"
+msgstr "Đổi tên tập tin"
 
-#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:52
-msgid "Link"
-msgstr "Đường Dẫn"
+#: source/win-main/file-manager/util/file-item-context.ts:48
+#: source/app/service-providers/menu/menu.darwin.ts:296
+#: source/app/service-providers/menu/menu.win32.ts:290
+msgid "Delete file"
+msgstr "Xoá tập tin"
 
-#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:57
-msgid "Image"
-msgstr "Ảnh"
+#: source/win-main/file-manager/util/file-item-context.ts:55
+msgid "Duplicate file"
+msgstr "Tạo tập tin bản sao"
 
-#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:62
-msgid "Comment"
-msgstr "Ghi chú"
-
-#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:67
-msgid "Code"
-msgstr "Mã"
-
-#: source/common/modules/markdown-editor/context-menu/equation-menu.ts:33
-msgid "Copy equation code"
-msgstr "Sao chép mã phương trình"
-
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:72
-msgid "Open Link"
-msgstr "Mở Đường Dẫn"
-
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:81
-msgid "Copy Mail Address"
-msgstr "Sao chép địa chỉ thư"
-
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:81
-msgid "Copy Link"
-msgstr "Sao chép Đường dẫn"
-
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:90
-msgid "Copy image to clipboard"
-msgstr "Sao chép ảnh vào bảng tạm clipboard"
-
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:96
-msgid "Open in browser"
-msgstr "Mở trong trình duyệt"
-
-#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:102
 #: source/win-main/file-manager/util/file-item-context.ts:79
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:102
 msgid "Show file"
 msgstr "Hiển thị tập tin"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:133
-msgid "No suggestions"
-msgstr "Không có gợi ý"
+#: source/win-main/file-manager/util/file-item-context.ts:92
+msgid "Close file"
+msgstr "Đóng tập tin"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:142
-msgid "Add to dictionary"
-msgstr "Thêm vào từ điển"
+#: source/win-main/file-manager/util/dir-item-context.ts:31
+msgid "Rename directory"
+msgstr "Đổi tên thư mục"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:159
-msgid "Italic"
-msgstr "Nghiêng"
+#: source/win-main/file-manager/util/dir-item-context.ts:37
+#: source/app/service-providers/menu/menu.darwin.ts:304
+#: source/app/service-providers/menu/menu.win32.ts:297
+msgid "Delete directory"
+msgstr "Xoá thư mục"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:169
-msgid "Insert link"
-msgstr "Chèn đường dẫn"
+#: source/win-main/file-manager/util/dir-item-context.ts:43
+#: source/tmp/OtherFilesTab.vue.ts:16
+msgid "Open directory"
+msgstr "Mở thư mục"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:176
-msgid "Insert numbered list"
-msgstr "Chèn danh sách đánh số"
+#: source/win-main/file-manager/util/dir-item-context.ts:52
+#: source/app/service-providers/menu/menu.darwin.ts:114
+#: source/app/service-providers/menu/menu.win32.ts:88
+msgid "New File…"
+msgstr "Tập tin mới..."
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:182
-msgid "Insert unordered list"
-msgstr "Chèn danh sách không có thứ tự"
+#: source/win-main/file-manager/util/dir-item-context.ts:58
+#: source/app/service-providers/menu/menu.darwin.ts:153
+#: source/app/service-providers/menu/menu.win32.ts:127
+msgid "New directory…"
+msgstr "Thư mục mới..."
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:188
-msgid "Insert tasklist"
-msgstr "Chèn danh sách công việc"
+#: source/win-main/file-manager/util/dir-item-context.ts:69
+msgid "Check for directory …"
+msgstr "Kiểm tra thư mục ..."
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:195
-msgid "Blockquote"
-msgstr "Trích dẫn"
+#: source/win-main/file-manager/util/dir-item-context.ts:86
+msgid "Export Project"
+msgstr "Xuất Dự Án"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:201
-msgid "Insert Table"
-msgstr "Thêm bảng"
+#: source/win-main/file-manager/util/dir-item-context.ts:98
+msgid "Close Workspace"
+msgstr "Đóng Vùng Làm Việc"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:210
-#: source/app/service-providers/menu/menu.win32.ts:336
-#: source/app/service-providers/menu/menu.darwin.ts:335
-msgid "Cut"
-msgstr "Cắt"
+#: source/win-preferences/schema/export.ts:23
+msgid "Use the internal Pandoc for exports"
+msgstr "Sử dụng bản Pandoc nhúng kèm để xuất tập tin"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:217
-#: source/app/service-providers/menu/menu.win32.ts:342
-#: source/app/service-providers/menu/menu.darwin.ts:341
-msgid "Copy"
-msgstr "Sao chép"
+#: source/win-preferences/schema/export.ts:30
+msgid "Remove tags from files"
+msgstr "Xoá các thẻ khỏi tập tin"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:224
-#: source/app/service-providers/menu/menu.win32.ts:347
-#: source/app/service-providers/menu/menu.darwin.ts:346
-msgid "Copy as HTML"
-msgstr "Sao chép dưới dạng HTML"
+#: source/win-preferences/schema/export.ts:40
+msgid "Remove internal links completely"
+msgstr "Xoá hoàn toàn các đường dẫn nội bộ"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:231
-#: source/app/service-providers/menu/menu.win32.ts:356
-#: source/app/service-providers/menu/menu.darwin.ts:355
-msgid "Paste"
-msgstr "Dán"
+#: source/win-preferences/schema/export.ts:41
+msgid "Unlink internal links"
+msgstr "Gỡ liên kết các đường dẫn nội bộ"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:238
-#: source/app/service-providers/menu/menu.win32.ts:361
-#: source/app/service-providers/menu/menu.darwin.ts:360
-msgid "Paste without style"
-msgstr "Dán không có định dạng"
+#: source/win-preferences/schema/export.ts:42
+msgid "Don't touch internal links"
+msgstr "Đừng đụng vào các đường dẫn nội bộ"
 
-#: source/common/modules/markdown-editor/context-menu/default-menu.ts:248
-#: source/app/service-providers/menu/menu.win32.ts:370
-#: source/app/service-providers/menu/menu.darwin.ts:369
-msgid "Select all"
-msgstr "Chọn tất cả"
+#: source/win-preferences/schema/export.ts:49
+msgid ""
+"Target directory for exported files. <em>Attention:</em> Selecting the "
+"current working directory will overwrite files without warning!"
+msgstr ""
+"Thư mục đích để xuất tập tin. <em>Lưu ý:</em> Nếu chọn thư mục làm việc hiện "
+"tại, tập tin sẽ bị ghi đè mà không có thông báo!"
 
-#: source/common/util/format-date.ts:33
-msgid "just now"
-msgstr "Vừa nãy"
+#: source/win-preferences/schema/export.ts:52
+msgid "Temporary directory: is regularly expunged"
+msgstr "Thư mục tạm: thường xuyên bị làm sạch"
 
-#: source/common/util/localise-number.ts:28
-msgid ","
-msgstr "."
+#: source/win-preferences/schema/export.ts:53
+msgid ""
+"Current working directory: exported files will be saved into the currently "
+"selected directory."
+msgstr ""
+"Thư mục làm việc hiện tại: các tập tin đã xuất sẽ được lưu vào thư mục đang "
+"được chọn."
 
-#: source/common/util/localise-number.ts:29
-msgid "."
-msgstr ","
+#: source/win-preferences/schema/export.ts:54
+msgid "Ask for directory"
+msgstr "Hỏi thư mục xuất"
 
-#. TODO: Create this type
-#: source/win-preferences/schema/display.ts:24
-msgid "These options determine which elements are rendered in documents."
-msgstr "Các tuỳ chọn này quyết định những phần nào được thể hiện trong văn bản"
+#: source/win-preferences/schema/zettelkasten.ts:23
+msgid "ID regular expression"
+msgstr "Regular Expression của ID"
 
-#: source/win-preferences/schema/display.ts:28
-msgid "Render Citations"
-msgstr "Hiển thị các trích dẫn"
-
-#: source/win-preferences/schema/display.ts:33
-msgid "Render Iframes"
-msgstr "Hiển thị iframes"
-
-#: source/win-preferences/schema/display.ts:38
-msgid "Render Images"
-msgstr "Hiển thị Hình Ảnh"
-
-#: source/win-preferences/schema/display.ts:43
-msgid "Render Links"
-msgstr "Hiển thị Đường Link"
-
-#: source/win-preferences/schema/display.ts:48
-msgid "Render Formulae"
-msgstr "Hiển thị Công thức"
-
-#: source/win-preferences/schema/display.ts:53
-msgid "Render Tasks"
-msgstr "Hiển thị Công Việc"
-
-#: source/win-preferences/schema/display.ts:58
-msgid "Hide heading characters"
-msgstr "Ẩn các kí tự thể hiện đề mục (#)"
-
-#: source/win-preferences/schema/display.ts:63
-msgid "Render emphasis"
-msgstr "Thể hiện nhấn mạnh"
-
-#: source/win-preferences/schema/display.ts:71
-msgid "Here you can choose the theme for the app."
-msgstr "Tại đây bạn có thể chọn chủ đề cho ứng dụng"
-
-#: source/win-preferences/schema/display.ts:112
-msgid "Use the operating system's accent colour instead of the theme colour"
-msgstr "Dùng tông màu đặc trưng của hệ điều hành, thay vì màu trong chủ đề"
-
-#: source/win-preferences/schema/display.ts:116
-msgid "This setting is only available on Windows and macOS"
-msgstr "Thiết lập này chỉ khả dụng trên Windows và MacOS"
-
-#: source/win-preferences/schema/display.ts:122
-msgid "Hide toolbar in distraction free mode"
-msgstr "Ẩn thanh công cụ trong chế độ không làm phiền"
+#: source/win-preferences/schema/zettelkasten.ts:29
+msgid "Pattern used to generate new IDs"
+msgstr "Mẫu dùng để tạo các ID mới"
 
 #. TODO: Create this type
-#: source/win-preferences/schema/display.ts:129
-msgid "With these controls you can constrain the image previews."
-msgstr "Điều chỉnh việc xem trước Ảnh với các tuỳ chọn này."
+#: source/win-preferences/schema/zettelkasten.ts:38
+msgid "Options for ZKN elements"
+msgstr "Tuỳ chọn cho các phần của ZKN"
 
-#: source/win-preferences/schema/display.ts:133
-msgid "Maximum width of images (percent)"
-msgstr "Chiều ngang tối đa của ảnh (đơn vị phần trăm)"
+#: source/win-preferences/schema/zettelkasten.ts:42
+#, fuzzy
+msgid "Link with filename only"
+msgstr "Chỉ tên tập tin"
 
-#: source/win-preferences/schema/display.ts:141
-msgid "Maximum height of images (percent)"
-msgstr "Chiều cao tối đa của ảnh (đơn vị phần trăm)"
+#: source/win-preferences/schema/zettelkasten.ts:47
+msgid "When linking files, add the filename …"
+msgstr "Khi liên kết các tập tin với nhau, thêm tên tập tin ..."
+
+#: source/win-preferences/schema/zettelkasten.ts:50
+msgid "always"
+msgstr "luôn luôn"
+
+#: source/win-preferences/schema/zettelkasten.ts:51
+msgid "only when linking using the ID"
+msgstr "chỉ khi liên kết dùng ID"
+
+#: source/win-preferences/schema/zettelkasten.ts:52
+msgid "never"
+msgstr "không bao giờ"
+
+#: source/win-preferences/schema/zettelkasten.ts:60
+msgid "Start a search when following Zettelkasten-links"
+msgstr "Tự động tìm kiếm khi đi theo đường dẫn Zettelkasten"
+
+#: source/win-preferences/schema/zettelkasten.ts:65
+msgid "Automatically create non-existing files when following internal links"
+msgstr "Tự động tạo các tập tin chưa tồn tại khi đi theo các đường dẫn nội bộ."
+
+#: source/win-preferences/schema/zettelkasten.ts:70
+msgid "Put auto-created files into this directory (must be loaded in Zettlr)"
+msgstr ""
+"Đặt các tập tin tự động tạo vào thư mục này (phải được mở trong Zettlr)"
+
+#: source/win-preferences/schema/autocorrect.ts:23
+msgid "Turn on AutoCorrect"
+msgstr "Bật Tự Chỉnh Sửa"
+
+#: source/win-preferences/schema/autocorrect.ts:32
+msgid "Primary Magic Quotes"
+msgstr "Magic Quotes chính"
+
+#: source/win-preferences/schema/autocorrect.ts:35
+#: source/win-preferences/schema/autocorrect.ts:56
+msgid "Disable Magic Quotes"
+msgstr "Tắt Magic Quotes"
+
+#: source/win-preferences/schema/autocorrect.ts:53
+msgid "Secondary Magic Quotes"
+msgstr "Magic Quotes phụ"
+
+#: source/win-preferences/schema/autocorrect.ts:79
+msgid ""
+"Here you can define certain strings that will be replaced when AutoCorrect "
+"is on. The characters on the left side will be replaced with whatever comes "
+"on the right."
+msgstr ""
+"Định nghĩa các chuỗi cụ thể sẽ được thay thế khi tuỳ chọn Tự động Chỉnh Sửa "
+"được mở. Kí tự bên trái sẽ được thay thế bởi các nội dung bên phải."
 
 #: source/win-preferences/schema/advanced.ts:23
 msgid "Pattern for new filenames"
@@ -352,152 +326,79 @@ msgid "Time to wait before writing a file is considered done (in ms)"
 msgstr ""
 "Thời gian đợi trước khi cho là việc ghi tập tin đã hoàn tất (đơn vị ms)"
 
-#: source/win-preferences/schema/autocorrect.ts:23
-msgid "Turn on AutoCorrect"
-msgstr "Bật Tự Chỉnh Sửa"
+#. TODO: Create this type
+#: source/win-preferences/schema/display.ts:24
+msgid "These options determine which elements are rendered in documents."
+msgstr "Các tuỳ chọn này quyết định những phần nào được thể hiện trong văn bản"
 
-#: source/win-preferences/schema/autocorrect.ts:32
-msgid "Primary Magic Quotes"
-msgstr "Magic Quotes chính"
+#: source/win-preferences/schema/display.ts:28
+msgid "Render Citations"
+msgstr "Hiển thị các trích dẫn"
 
-#: source/win-preferences/schema/autocorrect.ts:35
-#: source/win-preferences/schema/autocorrect.ts:56
-msgid "Disable Magic Quotes"
-msgstr "Tắt Magic Quotes"
+#: source/win-preferences/schema/display.ts:33
+msgid "Render Iframes"
+msgstr "Hiển thị iframes"
 
-#: source/win-preferences/schema/autocorrect.ts:53
-msgid "Secondary Magic Quotes"
-msgstr "Magic Quotes phụ"
+#: source/win-preferences/schema/display.ts:38
+msgid "Render Images"
+msgstr "Hiển thị Hình Ảnh"
 
-#: source/win-preferences/schema/autocorrect.ts:79
-msgid ""
-"Here you can define certain strings that will be replaced when AutoCorrect "
-"is on. The characters on the left side will be replaced with whatever comes "
-"on the right."
-msgstr ""
-"Định nghĩa các chuỗi cụ thể sẽ được thay thế khi tuỳ chọn Tự động Chỉnh Sửa "
-"được mở. Kí tự bên trái sẽ được thay thế bởi các nội dung bên phải."
+#: source/win-preferences/schema/display.ts:43
+msgid "Render Links"
+msgstr "Hiển thị Đường Link"
 
-#: source/win-preferences/schema/export.ts:23
-msgid "Use the internal Pandoc for exports"
-msgstr "Sử dụng bản Pandoc nhúng kèm để xuất tập tin"
+#: source/win-preferences/schema/display.ts:48
+msgid "Render Formulae"
+msgstr "Hiển thị Công thức"
 
-#: source/win-preferences/schema/export.ts:30
-msgid "Remove tags from files"
-msgstr "Xoá các thẻ khỏi tập tin"
+#: source/win-preferences/schema/display.ts:53
+msgid "Render Tasks"
+msgstr "Hiển thị Công Việc"
 
-#: source/win-preferences/schema/export.ts:40
-msgid "Remove internal links completely"
-msgstr "Xoá hoàn toàn các đường dẫn nội bộ"
+#: source/win-preferences/schema/display.ts:58
+msgid "Hide heading characters"
+msgstr "Ẩn các kí tự thể hiện đề mục (#)"
 
-#: source/win-preferences/schema/export.ts:41
-msgid "Unlink internal links"
-msgstr "Gỡ liên kết các đường dẫn nội bộ"
+#: source/win-preferences/schema/display.ts:63
+msgid "Render emphasis"
+msgstr "Thể hiện nhấn mạnh"
 
-#: source/win-preferences/schema/export.ts:42
-msgid "Don't touch internal links"
-msgstr "Đừng đụng vào các đường dẫn nội bộ"
+#: source/win-preferences/schema/display.ts:71
+msgid "Here you can choose the theme for the app."
+msgstr "Tại đây bạn có thể chọn chủ đề cho ứng dụng"
 
-#: source/win-preferences/schema/export.ts:49
-msgid ""
-"Target directory for exported files. <em>Attention:</em> Selecting the "
-"current working directory will overwrite files without warning!"
-msgstr ""
-"Thư mục đích để xuất tập tin. <em>Lưu ý:</em> Nếu chọn thư mục làm việc hiện "
-"tại, tập tin sẽ bị ghi đè mà không có thông báo!"
+#: source/win-preferences/schema/display.ts:112
+msgid "Use the operating system's accent colour instead of the theme colour"
+msgstr "Dùng tông màu đặc trưng của hệ điều hành, thay vì màu trong chủ đề"
 
-#: source/win-preferences/schema/export.ts:52
-msgid "Temporary directory: is regularly expunged"
-msgstr "Thư mục tạm: thường xuyên bị làm sạch"
+#: source/win-preferences/schema/display.ts:116
+msgid "This setting is only available on Windows and macOS"
+msgstr "Thiết lập này chỉ khả dụng trên Windows và MacOS"
 
-#: source/win-preferences/schema/export.ts:53
-msgid ""
-"Current working directory: exported files will be saved into the currently "
-"selected directory."
-msgstr ""
-"Thư mục làm việc hiện tại: các tập tin đã xuất sẽ được lưu vào thư mục đang "
-"được chọn."
+#: source/win-preferences/schema/display.ts:122
+msgid "Hide toolbar in distraction free mode"
+msgstr "Ẩn thanh công cụ trong chế độ không làm phiền"
 
-#: source/win-preferences/schema/export.ts:54
-msgid "Ask for directory"
-msgstr "Hỏi thư mục xuất"
+#. TODO: Create this type
+#: source/win-preferences/schema/display.ts:129
+msgid "With these controls you can constrain the image previews."
+msgstr "Điều chỉnh việc xem trước Ảnh với các tuỳ chọn này."
 
-#: source/win-preferences/schema/toolbar.ts:23
-msgid "Display \"Open Preferences\" button"
-msgstr "Hiển thị nút \"Mở Tuỳ Chỉnh\""
+#: source/win-preferences/schema/display.ts:133
+msgid "Maximum width of images (percent)"
+msgstr "Chiều ngang tối đa của ảnh (đơn vị phần trăm)"
 
-#: source/win-preferences/schema/toolbar.ts:28
-msgid "Display \"New File\" button"
-msgstr "Hiển thị nút \"Tập Tin Mới\""
-
-#: source/win-preferences/schema/toolbar.ts:33
-msgid "Display \"Previous File\" button"
-msgstr "Hiển thị nút \"Tập tin trước\""
-
-#: source/win-preferences/schema/toolbar.ts:38
-msgid "Display \"Next File\" button"
-msgstr "Hiển thị nút \"Tập Tin Tiếp Theo\""
-
-#: source/win-preferences/schema/toolbar.ts:45
-msgid "Display readability button"
-msgstr "Hiển thị nút Chỉ số Dễ Đọc"
-
-#: source/win-preferences/schema/toolbar.ts:50
-msgid "Display \"Insert Comment\" button"
-msgstr "Hiển thị nút \"Chèn Ghi Chú\""
-
-#: source/win-preferences/schema/toolbar.ts:55
-msgid "Display link button"
-msgstr "Hiển thị nút Liên Kết"
-
-#: source/win-preferences/schema/toolbar.ts:60
-msgid "Display image button"
-msgstr "Hiển thị nút Hình Ảnh"
-
-#: source/win-preferences/schema/toolbar.ts:65
-msgid "Display task list button"
-msgstr "Hiển thị nút Danh Sách Công Việc"
-
-#: source/win-preferences/schema/toolbar.ts:70
-msgid "Display \"Insert Table\" button"
-msgstr "Hiển thị nút \"Chèn Bảng\""
-
-#: source/win-preferences/schema/toolbar.ts:75
-msgid "Display \"Insert Footnote\" button"
-msgstr "Hiển thị nút \"Chèn Chú Thích Cuối Trang\""
-
-#: source/win-preferences/schema/toolbar.ts:82
-msgid "Display document info"
-msgstr "Hiển thị thông tin tập tin"
-
-#: source/win-preferences/schema/toolbar.ts:87
-msgid "Display Pomodoro-timer"
-msgstr "Hiển thị đồng hồ bấm giờ Promodoro"
-
-#: source/win-preferences/schema/spellchecking.ts:23
-msgid ""
-"Select the languages for which you want to enable automatic spell checking."
-msgstr "Chọn các ngôn ngữ bạn muốn dùng cho tự động sửa lỗi chính tả"
-
-#: source/win-preferences/schema/spellchecking.ts:28
-msgid "Search for dictionaries &hellip;"
-msgstr "Tìm kiếm từ điển &hellip;"
-
-#: source/win-preferences/schema/spellchecking.ts:32
-msgid "User dictionary. Remove words by clicking them."
-msgstr "Từ điển người dùng. Xoá từ bằng cách nhấn vào chúng."
-
-#: source/win-preferences/schema/spellchecking.ts:34
-msgid "Dictionary entry"
-msgstr "Mục từ"
+#: source/win-preferences/schema/display.ts:141
+msgid "Maximum height of images (percent)"
+msgstr "Chiều cao tối đa của ảnh (đơn vị phần trăm)"
 
 #: source/win-preferences/schema/general.ts:23
 msgid "Application language (<strong>Restart required!</strong>)"
 msgstr "Ngôn ngữ của ứng dụng (<strong>Cần khởi động lại!</strong>)"
 
 #: source/win-preferences/schema/general.ts:31
-#: source/app/service-providers/menu/menu.win32.ts:428
 #: source/app/service-providers/menu/menu.darwin.ts:446
+#: source/app/service-providers/menu/menu.win32.ts:428
 msgid "Dark mode"
 msgstr "Chế độ nền tối"
 
@@ -614,69 +515,23 @@ msgstr "Thời gian tập tin được tạo"
 msgid "In the file metadata display"
 msgstr "Trong siêu dữ liệu của tập tin hiển thị"
 
-#: source/win-preferences/schema/citations.ts:23
-msgid "How would you like autocomplete to insert your citations?"
-msgstr "Tự động hoàn tất sẽ chèn các trích dẫn của bạn thế nào?"
-
-#: source/win-preferences/schema/citations.ts:35
-msgid "Citation Database (CSL JSON or BibTex)"
-msgstr "Cơ sở dữ liệu trích dẫn (CSL JSON hay BibTex)"
-
-#: source/win-preferences/schema/citations.ts:46
-msgid "CSL-Style (optional)"
-msgstr "CSL-Style (tuỳ chọn)"
-
-#: source/win-preferences/schema/zettelkasten.ts:23
-msgid "ID regular expression"
-msgstr "Regular Expression của ID"
-
-#: source/win-preferences/schema/zettelkasten.ts:29
-msgid "Pattern used to generate new IDs"
-msgstr "Mẫu dùng để tạo các ID mới"
-
-#. TODO: Create this type
-#: source/win-preferences/schema/zettelkasten.ts:38
-msgid "Options for ZKN elements"
-msgstr "Tuỳ chọn cho các phần của ZKN"
-
-#: source/win-preferences/schema/zettelkasten.ts:42
-#, fuzzy
-msgid "Link with filename only"
-msgstr "Chỉ tên tập tin"
-
-#: source/win-preferences/schema/zettelkasten.ts:47
-msgid "When linking files, add the filename …"
-msgstr "Khi liên kết các tập tin với nhau, thêm tên tập tin ..."
-
-#: source/win-preferences/schema/zettelkasten.ts:50
-msgid "always"
-msgstr "luôn luôn"
-
-#: source/win-preferences/schema/zettelkasten.ts:51
-msgid "only when linking using the ID"
-msgstr "chỉ khi liên kết dùng ID"
-
-#: source/win-preferences/schema/zettelkasten.ts:52
-msgid "never"
-msgstr "không bao giờ"
-
-#: source/win-preferences/schema/zettelkasten.ts:60
-msgid "Start a search when following Zettelkasten-links"
-msgstr "Tự động tìm kiếm khi đi theo đường dẫn Zettelkasten"
-
-#: source/win-preferences/schema/zettelkasten.ts:65
-msgid "Automatically create non-existing files when following internal links"
-msgstr "Tự động tạo các tập tin chưa tồn tại khi đi theo các đường dẫn nội bộ."
-
-#: source/win-preferences/schema/zettelkasten.ts:70
-msgid "Put auto-created files into this directory (must be loaded in Zettlr)"
-msgstr ""
-"Đặt các tập tin tự động tạo vào thư mục này (phải được mở trong Zettlr)"
-
 #: source/win-preferences/schema/editor.ts:23
 msgid ""
 "Choose the formatting characters that the bold/emphasis commands should use"
 msgstr "Chọn kí tự định dạng mà chỉ lệnh in đậm/nhấn mạnh sẽ sử dụng"
+
+#: source/win-preferences/schema/editor.ts:26
+#: source/win-preferences/schema/editor.ts:27
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:152
+#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:42
+msgid "Bold"
+msgstr "Đậm"
+
+#: source/win-preferences/schema/editor.ts:34
+#: source/win-preferences/schema/editor.ts:35
+#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:47
+msgid "Italics"
+msgstr "In nghiêng"
 
 #: source/win-preferences/schema/editor.ts:42
 msgid "Autosave"
@@ -738,802 +593,285 @@ msgstr "Thiết lập Khung Soạn Thảo Bảng"
 msgid "Count characters instead of words (e.g., for Chinese)"
 msgstr "Đếm số ký tự thay vì số chữ (Ví dụ: cho tiếng Trung)"
 
-#: source/win-main/tabs-context.ts:38
-#: source/app/service-providers/menu/menu.win32.ts:572
-#: source/app/service-providers/menu/menu.darwin.ts:599
-msgid "Close Tab"
-msgstr "Đóng Tab"
+#: source/win-preferences/schema/toolbar.ts:23
+msgid "Display \"Open Preferences\" button"
+msgstr "Hiển thị nút \"Mở Tuỳ Chỉnh\""
 
-#: source/win-main/tabs-context.ts:44
-msgid "Close other tabs"
-msgstr "Đóng các tab khác"
+#: source/win-preferences/schema/toolbar.ts:28
+msgid "Display \"New File\" button"
+msgstr "Hiển thị nút \"Tập Tin Mới\""
 
-#: source/win-main/tabs-context.ts:50
-msgid "Close all tabs"
-msgstr "Đóng tất cả tab"
+#: source/win-preferences/schema/toolbar.ts:33
+msgid "Display \"Previous File\" button"
+msgstr "Hiển thị nút \"Tập tin trước\""
 
-#: source/win-main/tabs-context.ts:59
-msgid "Unpin tab"
-msgstr "Bỏ ghim tab"
+#: source/win-preferences/schema/toolbar.ts:38
+msgid "Display \"Next File\" button"
+msgstr "Hiển thị nút \"Tập Tin Tiếp Theo\""
 
-#: source/win-main/tabs-context.ts:59
-msgid "Pin tab"
-msgstr "Ghim tab"
+#: source/win-preferences/schema/toolbar.ts:45
+msgid "Display readability button"
+msgstr "Hiển thị nút Chỉ số Dễ Đọc"
 
-#: source/win-main/tabs-context.ts:68
-#: source/win-main/file-manager/util/file-item-context.ts:64
-msgid "Copy filename"
-msgstr "Sao chép tên tập tin"
+#: source/win-preferences/schema/toolbar.ts:50
+msgid "Display \"Insert Comment\" button"
+msgstr "Hiển thị nút \"Chèn Ghi Chú\""
 
-#: source/win-main/tabs-context.ts:74
-msgid "Copy full path"
-msgstr "Sao chép đường dẫn đầy đủ"
+#: source/win-preferences/schema/toolbar.ts:55
+msgid "Display link button"
+msgstr "Hiển thị nút Liên Kết"
 
-#: source/win-main/tabs-context.ts:80
-#: source/win-main/file-manager/util/file-item-context.ts:70
-#: source/app/service-providers/menu/menu.win32.ts:413
-#: source/app/service-providers/menu/menu.darwin.ts:412
-msgid "Copy ID"
-msgstr "Sao chép ID"
+#: source/win-preferences/schema/toolbar.ts:60
+msgid "Display image button"
+msgstr "Hiển thị nút Hình Ảnh"
 
-#: source/win-main/file-manager/util/dir-item-context.ts:25
-#: source/win-main/file-manager/util/file-item-context.ts:32
-msgid "Properties"
-msgstr "Các thuộc tính"
+#: source/win-preferences/schema/toolbar.ts:65
+msgid "Display task list button"
+msgstr "Hiển thị nút Danh Sách Công Việc"
 
-#: source/win-main/file-manager/util/dir-item-context.ts:31
-msgid "Rename directory"
-msgstr "Đổi tên thư mục"
+#: source/win-preferences/schema/toolbar.ts:70
+msgid "Display \"Insert Table\" button"
+msgstr "Hiển thị nút \"Chèn Bảng\""
 
-#: source/win-main/file-manager/util/dir-item-context.ts:37
-#: source/app/service-providers/menu/menu.win32.ts:297
-#: source/app/service-providers/menu/menu.darwin.ts:304
-msgid "Delete directory"
-msgstr "Xoá thư mục"
+#: source/win-preferences/schema/toolbar.ts:75
+msgid "Display \"Insert Footnote\" button"
+msgstr "Hiển thị nút \"Chèn Chú Thích Cuối Trang\""
 
-#: source/win-main/file-manager/util/dir-item-context.ts:43
-#: source/tmp/OtherFilesTab.vue.ts:16
-msgid "Open directory"
-msgstr "Mở thư mục"
+#: source/win-preferences/schema/toolbar.ts:82
+msgid "Display document info"
+msgstr "Hiển thị thông tin tập tin"
 
-#: source/win-main/file-manager/util/dir-item-context.ts:52
-#: source/app/service-providers/menu/menu.win32.ts:88
-#: source/app/service-providers/menu/menu.darwin.ts:114
-msgid "New File…"
-msgstr "Tập tin mới..."
+#: source/win-preferences/schema/toolbar.ts:87
+msgid "Display Pomodoro-timer"
+msgstr "Hiển thị đồng hồ bấm giờ Promodoro"
 
-#: source/win-main/file-manager/util/dir-item-context.ts:58
-#: source/app/service-providers/menu/menu.win32.ts:127
-#: source/app/service-providers/menu/menu.darwin.ts:153
-msgid "New directory…"
-msgstr "Thư mục mới..."
-
-#: source/win-main/file-manager/util/dir-item-context.ts:69
-msgid "Check for directory …"
-msgstr "Kiểm tra thư mục ..."
-
-#: source/win-main/file-manager/util/dir-item-context.ts:86
-msgid "Export Project"
-msgstr "Xuất Dự Án"
-
-#: source/win-main/file-manager/util/dir-item-context.ts:98
-msgid "Close Workspace"
-msgstr "Đóng Vùng Làm Việc"
-
-#: source/win-main/file-manager/util/file-item-context.ts:41
-#: source/app/service-providers/menu/menu.win32.ts:279
-#: source/app/service-providers/menu/menu.darwin.ts:285
-#: source/tmp/Defaults.vue.ts:76
-msgid "Rename file"
-msgstr "Đổi tên tập tin"
-
-#: source/win-main/file-manager/util/file-item-context.ts:48
-#: source/app/service-providers/menu/menu.win32.ts:290
-#: source/app/service-providers/menu/menu.darwin.ts:296
-msgid "Delete file"
-msgstr "Xoá tập tin"
-
-#: source/win-main/file-manager/util/file-item-context.ts:55
-msgid "Duplicate file"
-msgstr "Tạo tập tin bản sao"
-
-#: source/win-main/file-manager/util/file-item-context.ts:92
-msgid "Close file"
-msgstr "Đóng tập tin"
-
-#. TODO: Move this to a command
-#. The user wants to open another file or directory.
-#: source/app/service-providers/windows/index.ts:213
-#: source/app/service-providers/commands/root-open.ts:73
-msgid "Open project folder"
-msgstr "Mở thư mục dự án"
-
-#: source/app/service-providers/windows/dialog/confirm-remove.ts:30
-#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:33
-#: source/app/service-providers/windows/dialog/prompt.ts:32
-#: source/app/service-providers/windows/dialog/should-replace-file.ts:37
-msgid "Ok"
-msgstr "Đồng ý"
-
-#. 1: Omit all changes
-#: source/app/service-providers/windows/dialog/confirm-remove.ts:30
-#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:32
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:34
-#: source/app/service-providers/windows/dialog/should-replace-file.ts:36
-#: source/app/service-providers/commands/rename-tag.ts:48
-#: source/tmp/CustomCSS.vue.ts:49
-msgid "Cancel"
-msgstr "Huỷ"
-
-#: source/app/service-providers/windows/dialog/confirm-remove.ts:33
-msgid "Really delete?"
-msgstr "Thực sự xoá?"
-
-#: source/app/service-providers/windows/dialog/confirm-remove.ts:34
-#, javascript-format
-msgid "Do you really want to remove %s?"
-msgstr "Bạn có thực sự muốn xoá %s?"
-
-#: source/app/service-providers/windows/dialog/save-dialog.ts:52
-msgid "Save file"
-msgstr "Lưu tập tin"
-
-#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:29
-msgid "Overwrite existing file"
-msgstr "Ghi đè lên tập tin đang có"
-
-#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:30
-#, javascript-format
-msgid "The file %s already exists in this directory. Overwrite?"
-msgstr "Tập tin %s tồn tại trong thư mục này. Ghi đè?"
-
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:32
-#: source/app/service-providers/commands/rename-tag.ts:47
-#: source/app/service-providers/commands/file-rename.ts:96
-msgid "Yes"
-msgstr ""
-
-#. 0: Save all changes
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:33
-#: source/app/service-providers/commands/file-rename.ts:97
-msgid "No"
-msgstr ""
-
-#. If the user cancels, do not omit (the default) but actually cancel
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:38
-#: source/tmp/Defaults.vue.ts:130 source/tmp/CustomCSS.vue.ts:65
-#: source/tmp/SnippetsTab.vue.ts:65
-msgid "Unsaved changes"
-msgstr "Thay đổi chưa được lưu"
-
-#: source/app/service-providers/windows/dialog/ask-save-changes.ts:39
-#, fuzzy
-msgid "There are unsaved changes. Do you want to save them first?"
-msgstr ""
-"Có những thay đổi chưa lưu lại trên tập tin. Bạn có muốn bỏ qua hay sẽ lưu"
-
-#: source/app/service-providers/windows/dialog/should-replace-file.ts:31
-msgid "Replace file"
-msgstr "Thay thể tập tin"
-
-#: source/app/service-providers/windows/dialog/should-replace-file.ts:32
-#, javascript-format
+#: source/win-preferences/schema/spellchecking.ts:23
 msgid ""
-"File %s has been modified remotely. Replace the loaded version with the "
-"newer one from disk?"
-msgstr ""
-"Tập tin %s đã được thay đổi từ bên ngoài. Thay thế phiên bản được hiển thị "
-"hiện tại với phiên bản mới hơn từ đĩa cứng?"
+"Select the languages for which you want to enable automatic spell checking."
+msgstr "Chọn các ngôn ngữ bạn muốn dùng cho tự động sửa lỗi chính tả"
 
-#. Prepare the list of file filters
-#. The "All Files" filter should be at the top
-#: source/app/service-providers/windows/dialog/ask-file.ts:40
-#: source/app/service-providers/commands/import.ts:41
-msgid "All Files"
-msgstr "Tất cả các tập tin"
+#: source/win-preferences/schema/spellchecking.ts:28
+msgid "Search for dictionaries &hellip;"
+msgstr "Tìm kiếm từ điển &hellip;"
 
-#: source/app/service-providers/windows/dialog/ask-file.ts:47
-msgid "Open file"
-msgstr "Mở tập tin"
+#: source/win-preferences/schema/spellchecking.ts:32
+msgid "User dictionary. Remove words by clicking them."
+msgstr "Từ điển người dùng. Xoá từ bằng cách nhấn vào chúng."
 
-#: source/app/service-providers/commands/import.ts:35
-msgid "You have to select a directory to import to."
-msgstr "Bạn cần chọn thư mục để bắt đầu tích hợp."
+#: source/win-preferences/schema/spellchecking.ts:34
+msgid "Dictionary entry"
+msgstr "Mục từ"
 
-#. Now import.
-#: source/app/service-providers/commands/import.ts:58
-msgid "Importing. Please wait …"
-msgstr "Đang tích hợp. Vui lòng đợi …"
+#: source/win-preferences/schema/citations.ts:23
+msgid "How would you like autocomplete to insert your citations?"
+msgstr "Tự động hoàn tất sẽ chèn các trích dẫn của bạn thế nào?"
 
-#. This callback gets called whenever there is an error while running pandoc.
-#: source/app/service-providers/commands/import.ts:63
-#, javascript-format
-msgid "Couldn't import %s."
-msgstr "Không thể tích hợp %s."
+#: source/win-preferences/schema/citations.ts:35
+msgid "Citation Database (CSL JSON or BibTex)"
+msgstr "Cơ sở dữ liệu trích dẫn (CSL JSON hay BibTex)"
 
-#. And this on each success!
-#: source/app/service-providers/commands/import.ts:66
-#, javascript-format
-msgid "%s imported successfully."
-msgstr "%s được tích hợp thành công."
+#: source/win-preferences/schema/citations.ts:46
+msgid "CSL-Style (optional)"
+msgstr "CSL-Style (tuỳ chọn)"
 
-#. Some files failed to import.
-#: source/app/service-providers/commands/import.ts:71
-#: source/app/service-providers/commands/import.ts:77
-#, javascript-format
-msgid ""
-"The following %s files could not be imported, because their filetype is "
-"unknown: %s"
-msgstr ""
-"%s tập tin không thể được tích hợp vào hệ thống, bởi kiểu tập tin là không "
-"rõ: %s"
-
-#: source/app/service-providers/commands/rename-tag.ts:44
-#: source/app/service-providers/commands/file-rename.ts:93
-msgid "Confirm"
-msgstr ""
-
-#: source/app/service-providers/commands/rename-tag.ts:45
-#, javascript-format
-msgid "Replace tag \"%s\" with \"%s\" across %s files?"
-msgstr ""
-
-#: source/app/service-providers/commands/export.ts:79
-msgid "Choose export destination"
-msgstr "Chọn điểm xuất"
-
-#: source/app/service-providers/commands/export.ts:79
-#: source/app/service-providers/menu/menu.win32.ts:160
-#: source/app/service-providers/menu/menu.darwin.ts:195
-#: source/tmp/Defaults.vue.ts:112 source/tmp/CustomCSS.vue.ts:42
-#: source/tmp/CustomCSS.vue.ts:56 source/tmp/SnippetsTab.vue.ts:47
-msgid "Save"
-msgstr "Lưu"
-
-#: source/app/service-providers/commands/export.ts:110
-#, javascript-format
-msgid "Exporting to %s"
-msgstr "Xuất ra %s"
-
-#: source/app/service-providers/commands/export.ts:122
-msgid "Export failed"
-msgstr "Xuất thất bại"
-
-#: source/app/service-providers/commands/export.ts:123
-#, javascript-format
-msgid "An error occurred on export: %s"
-msgstr "Lỗi xuất hiện khi xuất: %s"
-
+#: source/tmp/file-tree.vue.ts:26 source/tmp/file-item.vue.ts:119
+#: source/tmp/PopoverDirProps.vue.ts:156
 #: source/app/service-providers/commands/root-open.ts:60
-#: source/tmp/PopoverDirProps.vue.ts:156 source/tmp/file-item.vue.ts:119
-#: source/tmp/file-tree.vue.ts:26
 msgid "Files"
 msgstr "Các tập tin"
 
-#: source/app/service-providers/commands/root-open.ts:83
-msgid "Cannot open directory"
-msgstr "Không thể mở thực mục"
+#: source/tmp/file-tree.vue.ts:29
+msgid "Workspaces"
+msgstr "Vùng Làm Việc"
 
-#: source/app/service-providers/commands/root-open.ts:84
-#, javascript-format
-msgid "Directory &quot;%s&quot; cannot be opened by Zettlr."
-msgstr "Zettlr không thể mở thư mục &quot;%s&quot;"
+#: source/tmp/file-tree.vue.ts:32
+msgid "No open files or folders"
+msgstr "Không có tập tin hay thư mục được mở"
 
-#: source/app/service-providers/commands/root-open.ts:136
-#, javascript-format
-msgid "Opening new root %s …"
-msgstr "Đang mở thư mục gốc %s ..."
+#: source/tmp/file-tree.vue.ts:35 source/tmp/file-list.vue.ts:66
+msgid "No results"
+msgstr "Không có kết quả"
 
-#: source/app/service-providers/commands/root-open.ts:147
-#, javascript-format
-msgid "%s has been loaded."
-msgstr "%s đã được mở."
+#: source/tmp/file-list.vue.ts:69
+msgid "No directory selected"
+msgstr "Không có thư mục nào được chọn"
 
-#: source/app/service-providers/commands/root-open.ts:159
-#, javascript-format
-msgid "Could not open workspace %s."
-msgstr ""
+#: source/tmp/file-list.vue.ts:72
+msgid "Empty directory"
+msgstr "Thư mục trống"
 
-#. Better error message
-#: source/app/service-providers/commands/open-attachment.ts:92
-#, javascript-format
-msgid "The reference with key %s does not appear to have attachments."
-msgstr "Trích dẫn với khoá %s dường như không có đính kèm."
+#: source/tmp/Theme.vue.ts:37
+msgid "selected"
+msgstr "Đã chọn"
 
-#: source/app/service-providers/commands/open-attachment.ts:97
-msgid "Could not open attachment. Is Zotero running?"
-msgstr "Không thể mở tập tin đính kèm. Zotero có đang được mở?"
+#: source/tmp/Theme.vue.ts:40
+msgid "click to select"
+msgstr "Bấm để chọn"
 
-#: source/app/service-providers/commands/dir-new.ts:36
-#: source/app/service-providers/commands/dir-new.ts:37
-#: source/app/service-providers/commands/dir-new.ts:48
-#: source/app/service-providers/commands/dir-new.ts:49
-#: source/app/service-providers/commands/dir-new.ts:59
-msgid "Could not create directory"
-msgstr "Không thể tạo thư mục"
+#: source/tmp/ChartView.vue.ts:60
+msgid "Charts"
+msgstr "Các biểu đồ"
 
-#. Else standard val for new dirs.
-#: source/app/service-providers/commands/dir-new.ts:42
-#: source/tmp/tree-item.vue.ts:259
-msgid "Untitled"
-msgstr "Chưa đặt tên"
+#: source/tmp/MainSidebar.vue.ts:74 source/tmp/OtherFilesTab.vue.ts:13
+msgid "Other files"
+msgstr "Các tập tin khác"
 
-#: source/app/service-providers/commands/save-image-from-clipboard.ts:37
-msgid "The requested file was not found."
-msgstr "Không thể tìm thấy tập tin được yêu cầu."
+#: source/tmp/MainSidebar.vue.ts:77 source/tmp/ReferencesTab.vue.ts:20
+msgid "References"
+msgstr "Tài liệu tham khảo"
 
-#: source/app/service-providers/commands/save-image-from-clipboard.ts:54
-msgid "The provided name did not contain any allowed letters."
-msgstr "Tên định dùng không chứa bất kì kí tự nào được cho phép."
+#: source/tmp/MainSidebar.vue.ts:80 source/tmp/ToCTab.vue.ts:55
+msgid "Table of Contents"
+msgstr "Bảng Mục Lục"
 
-#: source/app/service-providers/commands/save-image-from-clipboard.ts:75
-#: source/app/service-providers/commands/set-open-directory.ts:41
-msgid "The requested directory was not found."
-msgstr "Không thể tìm thấy thư mục được yêu cầu"
+#: source/tmp/MainSidebar.vue.ts:83 source/tmp/RelatedFilesTab.vue.ts:23
+msgid "Related files"
+msgstr "Các tập tin liên quan"
 
-#: source/app/service-providers/commands/save-image-from-clipboard.ts:86
-msgid "Could not save image"
-msgstr "Không thể lưu hình ảnh"
-
-#: source/app/service-providers/commands/request-move.ts:62
-msgid "Cannot move directory"
-msgstr "Không thể di chuyển thư mục"
-
-#: source/app/service-providers/commands/request-move.ts:63
-msgid "You cannot move a directory into one of its subdirectories."
-msgstr "Bạn không thể di chuyển một thư mục vào trong chính nó."
-
-#: source/app/service-providers/commands/request-move.ts:72
-msgid "Cannot move directory or file"
-msgstr "Không thể di chuyển thư mục hay tập tin"
-
-#: source/app/service-providers/commands/request-move.ts:73
-#, javascript-format
-msgid "The file/directory %s already exists in target."
-msgstr "Tập tin/thư mục %s tồn tại trong thư mục đích."
-
-#: source/app/service-providers/commands/file-duplicate.ts:43
-#: source/app/service-providers/commands/file-duplicate.ts:59
-#: source/app/service-providers/commands/file-new.ts:161
-msgid "Could not create file"
-msgstr "Không thể tạo tập tin"
-
-#. We need to generate our own filename. First, attempt to just use 'copy of'
-#: source/app/service-providers/commands/file-duplicate.ts:71
-#, javascript-format
-msgid "Copy of %s"
-msgstr ""
-
-#: source/app/service-providers/commands/exporter/pdf-exporter.ts:37
-#: source/app/service-providers/commands/exporter/default-exporter.ts:32
-#: source/app/service-providers/commands/importer/index.ts:46
+#: source/tmp/Defaults.vue.ts:70
 msgid ""
-"Pandoc has not been found on this system. Please install Pandoc prior to "
-"exporting or importing files."
+"This profile is protected. This means that it will be restored when you "
+"remove or rename it."
 msgstr ""
-"Không thể tìm thấy Pandoc trên hệ thống. Vui lòng cài đặt Pandoc trước khi "
-"xuất hay nhập các tập tin"
+"Hồ sơ người dùng này (Profile) được bảo vệ. Nghĩa là nó sẽ được phục hồi khi "
+"bạn di chuyển hoặc đổi tên nó."
 
-#: source/app/service-providers/commands/importer/import-textbundle.ts:63
-#: source/app/service-providers/commands/importer/import-textbundle.ts:69
-#, javascript-format
-msgid "Malformed Textbundle: %s"
-msgstr "Textbundle sai định dạng: %s"
-
-#: source/app/service-providers/commands/import-lang-file.ts:59
-#, javascript-format
-msgid "Language file imported: %s"
-msgstr "Tập tin ngôn ngữ đã tích hợp: %s"
-
-#: source/app/service-providers/commands/import-lang-file.ts:61
-#: source/app/service-providers/commands/import-lang-file.ts:64
-#, javascript-format
-msgid "Could not import language file %s!"
-msgstr "Không thể tích hợp tập tin ngôn ngữ %s!"
-
-#: source/app/service-providers/commands/dir-project-export.ts:121
-msgid "Project successfully exported. Click to show."
-msgstr ""
-
-#: source/app/service-providers/commands/dir-project-export.ts:121
-#, fuzzy
-msgid "Export"
-msgstr "Xuất..."
-
-#: source/app/service-providers/commands/file-rename.ts:94
-#, javascript-format
-msgid "Update %s internal links to file %s?"
-msgstr ""
-
-#: source/app/service-providers/commands/set-open-directory.ts:40
-msgid "Directory not found"
-msgstr "Không tìm thấy thư mục"
-
-#: source/app/service-providers/citeproc/index.ts:231
-#: source/app/service-providers/citeproc/index.ts:427
-msgid "The citation database could not be loaded"
-msgstr "Cơ sở dữ liệu trích dẫn không thể mở được"
-
-#: source/app/service-providers/citeproc/index.ts:415
-msgid "Changes to the library file detected. Reloading …"
-msgstr "Thay đổi trong tập tin thư viện được phát hiện. Đang tải lại ..."
-
-#: source/app/service-providers/updates/index.ts:176
-#, javascript-format
-msgid "Could not check for updates: Server Error (Status code: %s)"
-msgstr "Không thể kiểm tra cập nhật: Lỗi Máy Chủ (Mã lỗi: %s)"
-
-#: source/app/service-providers/updates/index.ts:178
-#, javascript-format
-msgid "Could not check for updates: Client Error (Status code: %s)"
-msgstr "Không thể kiểm tra cập nhật: Lỗi ở máy khách (Mã lỗi: %s)"
-
-#: source/app/service-providers/updates/index.ts:180
-#, javascript-format
+#: source/tmp/Defaults.vue.ts:73
 msgid ""
-"Could not check for updates: The server tried to redirect (Status code: %s)"
-msgstr "Không thể kiểm tra cập nhật: Máy chủ cố gắng chuyển hướng (Mã lỗi: %s)"
+"This profile appears to be either missing the writer or reader property. "
+"Make sure to set both so that Zettlr can use this profile."
+msgstr ""
+"Hồ sơ người dùng (Profile) này dường như thiếu đi thuộc tính về người đọc "
+"hoặc người viết. Hãy điền các giá trị vào để Zettlr sử dụng được hồ sơ này."
 
-#. getaddrinfo has reported that the host has not been found.
-#. This normally only happens if the networking interface is
-#. offline.
-#: source/app/service-providers/updates/index.ts:185
-msgid "Could not check for updates: Could not establish connection"
-msgstr "Không thể kiểm tra cập nhật: Không thể thiết lập kết nối"
+#: source/tmp/Defaults.vue.ts:109
+msgid "Edit the default settings for imports or exports here."
+msgstr "Chỉnh sửa các tuỳ chọn mặc định cho việc xuất hay nhập tại đây"
 
-#. Something else has occurred. GotError objects have a name property.
-#: source/app/service-providers/updates/index.ts:188
+#: source/tmp/Defaults.vue.ts:112 source/tmp/SnippetsTab.vue.ts:47
+#: source/tmp/CustomCSS.vue.ts:42 source/tmp/CustomCSS.vue.ts:56
+#: source/app/service-providers/menu/menu.darwin.ts:195
+#: source/app/service-providers/menu/menu.win32.ts:160
+#: source/app/service-providers/commands/export.ts:79
+msgid "Save"
+msgstr "Lưu"
+
+#. If the user cancels, do not omit (the default) but actually cancel
+#: source/tmp/Defaults.vue.ts:130 source/tmp/SnippetsTab.vue.ts:65
+#: source/tmp/CustomCSS.vue.ts:65
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:38
+msgid "Unsaved changes"
+msgstr "Thay đổi chưa được lưu"
+
+#: source/tmp/Defaults.vue.ts:192 source/tmp/SnippetsTab.vue.ts:124
+#: source/tmp/CustomCSS.vue.ts:88
+msgid "Saving …"
+msgstr "Đang lưu ..."
+
+#: source/tmp/Defaults.vue.ts:201 source/tmp/SnippetsTab.vue.ts:134
+msgid "Saved!"
+msgstr "Đã Lưu!"
+
+#: source/tmp/RelatedFilesTab.vue.ts:26
+msgid "No related files"
+msgstr "Không có tập tin liên quan"
+
+#: source/tmp/RelatedFilesTab.vue.ts:29
+msgid "This relation is based on a bidirectional link."
+msgstr ""
+
+#: source/tmp/RelatedFilesTab.vue.ts:32
+msgid "This relation is based on an outbound link."
+msgstr ""
+
+#: source/tmp/RelatedFilesTab.vue.ts:35
+msgid "This relation is based on a backlink."
+msgstr ""
+
+#: source/tmp/RelatedFilesTab.vue.ts:113
 #, javascript-format
-msgid "Could not check for updates. %s: %s"
-msgstr "Không thể kiểm tra cập nhật: %s: %s"
-
-#: source/app/service-providers/updates/index.ts:204
-msgid "Could not check for updates: Server hasn't sent any data"
-msgstr "Không thể kiểm tra cập nhật: Máy chủ không gửi bất kì dữ liệu nào"
-
-#: source/app/service-providers/updates/index.ts:463
-#, javascript-format
-msgid "An update to version %s is available!"
-msgstr "Một cập nhật cho phiên bản %s đang khả dụng!"
-
-#: source/app/service-providers/config/config-validation.ts:280
-#, javascript-format
-msgid "Option %s has to be of type %s."
-msgstr "Tuỳ chọn %s phải là một trong các loại: %s."
-
-#: source/app/service-providers/config/config-validation.ts:283
-#, javascript-format
-msgid "Option %s must be one of: %s."
-msgstr "Tuỳ chọn %s phải nằm trong vùng giá trị: %s."
-
-#: source/app/service-providers/config/config-validation.ts:286
-#, javascript-format
-msgid "Option %s must be between %s and %s (characters long)."
-msgstr "Tuỳ chọn %s phải nằm giữa %s và %s (độ dài kí tự)."
-
-#: source/app/service-providers/config/config-validation.ts:289
-#, javascript-format
-msgid "Option %s may not exceed %s (characters)."
-msgstr "Tuỳ chọn %s không được vượt quá %s (kí tự)."
-
-#: source/app/service-providers/config/config-validation.ts:292
-#, javascript-format
-msgid "Option %s must be at least %s (characters long)."
-msgstr "Tuỳ chọn %s phải tối thiểu là %s (độ dài kí tự)."
-
-#: source/app/service-providers/config/config-validation.ts:295
-#, javascript-format
-msgid "Option %s is required."
-msgstr "Tuỳ chọn %s là bắt buộc"
-
-#: source/app/service-providers/menu/menu.win32.ts:42
-#: source/app/service-providers/menu/menu.win32.ts:54
-#: source/app/service-providers/menu/menu.darwin.ts:182
-msgid "Recent documents"
-msgstr "Các văn bản gần đây"
-
-#: source/app/service-providers/menu/menu.win32.ts:46
-#: source/app/service-providers/menu/menu.win32.ts:58
-#: source/app/service-providers/menu/menu.darwin.ts:186
-msgid "Empty"
-msgstr "Trống"
-
-#: source/app/service-providers/menu/menu.win32.ts:85
-#: source/app/service-providers/menu/menu.darwin.ts:111
-msgid "File"
-msgstr "Tập Tin"
-
-#: source/app/service-providers/menu/menu.win32.ts:147
-#: source/app/service-providers/menu/menu.darwin.ts:173
-msgid "Open Workspace …"
-msgstr "Mở Vùng Làm Việc ..."
-
-#: source/app/service-providers/menu/menu.win32.ts:171
-#: source/app/service-providers/menu/menu.darwin.ts:206
-msgid "Previous file"
-msgstr "Tập tin trước"
-
-#: source/app/service-providers/menu/menu.win32.ts:182
-#: source/app/service-providers/menu/menu.darwin.ts:217
-msgid "Next file"
-msgstr "Tập tin tiếp theo"
-
-#: source/app/service-providers/menu/menu.win32.ts:196
-#: source/app/service-providers/menu/menu.darwin.ts:231
-msgid "Import files…"
-msgstr "Nhập thêm tập tin..."
-
-#: source/app/service-providers/menu/menu.win32.ts:204
-#: source/app/service-providers/menu/menu.darwin.ts:239
-msgid "Export…"
-msgstr "Xuất..."
-
-#: source/app/service-providers/menu/menu.win32.ts:212
-#: source/app/service-providers/menu/menu.darwin.ts:247
-msgid "Print…"
-msgstr "In..."
-
-#: source/app/service-providers/menu/menu.win32.ts:220
-#: source/app/service-providers/menu/menu.win32.ts:224
-#: source/app/service-providers/menu/menu.darwin.ts:49
-msgid "Preferences…"
-msgstr "Các tuỳ chọn..."
-
-#: source/app/service-providers/menu/menu.win32.ts:232
-#: source/app/service-providers/menu/menu.darwin.ts:57
-msgid "Assets Manager"
-msgstr "Quản Lý Tuỳ Chỉnh Nâng Cao"
-
-#: source/app/service-providers/menu/menu.win32.ts:240
-#: source/app/service-providers/menu/menu.darwin.ts:65
-msgid "Manage Tags…"
-msgstr "Quản lý thẻ"
-
-#: source/app/service-providers/menu/menu.win32.ts:252
-#: source/app/service-providers/menu/menu.darwin.ts:258
-msgid "Import translation…"
-msgstr "Nhập thêm bản dịch..."
-
-#: source/app/service-providers/menu/menu.win32.ts:260
-#: source/app/service-providers/menu/menu.darwin.ts:266
-msgid "Import dictionary…"
-msgstr "Nhập thêm từ điển..."
-
-#: source/app/service-providers/menu/menu.win32.ts:306
-#: source/app/service-providers/menu/menu.darwin.ts:102
-#: source/app/service-providers/tray/index.ts:165
-msgid "Quit"
-msgstr "Thoát"
-
-#: source/app/service-providers/menu/menu.win32.ts:321
-#: source/app/service-providers/menu/menu.darwin.ts:320
-msgid "Undo"
-msgstr "Hồi lại"
-
-#: source/app/service-providers/menu/menu.win32.ts:327
-#: source/app/service-providers/menu/menu.darwin.ts:326
-msgid "Redo"
-msgstr "Hồi lại"
-
-#: source/app/service-providers/menu/menu.win32.ts:378
-#: source/app/service-providers/menu/menu.darwin.ts:377
-msgid "Find in file"
-msgstr "Tìm trong tập tin"
-
-#: source/app/service-providers/menu/menu.win32.ts:386
-#: source/app/service-providers/menu/menu.darwin.ts:385
-msgid "Find in directory"
-msgstr "Tìm trong thư mục"
-
-#: source/app/service-providers/menu/menu.win32.ts:394
-#: source/app/service-providers/menu/menu.darwin.ts:393
-msgid "Filter files"
-msgstr "Lọc tập tin"
-
-#: source/app/service-providers/menu/menu.win32.ts:405
-#: source/app/service-providers/menu/menu.darwin.ts:404
-msgid "Generate new ID"
-msgstr "Tạo ID mới"
-
-#: source/app/service-providers/menu/menu.win32.ts:424
-#: source/app/service-providers/menu/menu.darwin.ts:442
-msgid "View"
-msgstr "Cách Nhìn"
-
-#: source/app/service-providers/menu/menu.win32.ts:438
-#: source/app/service-providers/menu/menu.darwin.ts:456
-msgid "Additional Information"
-msgstr "Các Thông tin Thêm"
-
-#: source/app/service-providers/menu/menu.win32.ts:448
-#: source/app/service-providers/menu/menu.darwin.ts:466
-msgid "Distraction free mode"
-msgstr "Chế độ không bị làm phiền"
-
-#: source/app/service-providers/menu/menu.win32.ts:456
-#: source/app/service-providers/menu/menu.darwin.ts:474
-msgid "Typewriter Mode"
-msgstr "Chế độ Đánh Máy"
-
-#: source/app/service-providers/menu/menu.win32.ts:467
-#: source/app/service-providers/menu/menu.darwin.ts:485
-msgid "Toggle file manager"
-msgstr "Bật/tắt trình quản lý tập tin"
-
-#: source/app/service-providers/menu/menu.win32.ts:475
-#: source/app/service-providers/menu/menu.darwin.ts:493
-msgid "Toggle Sidebar"
-msgstr "Bật/tắt cột bên"
-
-#: source/app/service-providers/menu/menu.win32.ts:486
-#: source/app/service-providers/menu/menu.darwin.ts:507
-msgid "Reset zoom"
-msgstr "Đặt lại chế độ phóng to"
-
-#: source/app/service-providers/menu/menu.win32.ts:495
-#: source/app/service-providers/menu/menu.darwin.ts:516
-msgid "Zoom in"
-msgstr "Phóng to"
-
-#: source/app/service-providers/menu/menu.win32.ts:502
-#: source/app/service-providers/menu/menu.darwin.ts:523
-msgid "Zoom out"
-msgstr "Thu nhỏ"
-
-#: source/app/service-providers/menu/menu.win32.ts:512
-#: source/app/service-providers/menu/menu.darwin.ts:533
-msgid "Toggle fullscreen"
-msgstr "Bật/tắt toàn màn hình"
-
-#: source/app/service-providers/menu/menu.win32.ts:521
-#: source/app/service-providers/menu/menu.darwin.ts:541
-msgid "Develop"
-msgstr "Phát triển"
-
-#: source/app/service-providers/menu/menu.win32.ts:525
-#: source/app/service-providers/menu/menu.darwin.ts:545
-msgid "Reload"
-msgstr "Tải lại"
-
-#: source/app/service-providers/menu/menu.win32.ts:533
-#: source/app/service-providers/menu/menu.darwin.ts:553
-msgid "Toggle developer tools"
-msgstr "Bật/tắt các ứng dụng cho phát triển"
-
-#: source/app/service-providers/menu/menu.win32.ts:541
-#: source/app/service-providers/menu/menu.darwin.ts:561
-msgid "Open Logs"
-msgstr "Mở Logs"
-
-#: source/app/service-providers/menu/menu.win32.ts:552
-#: source/app/service-providers/menu/menu.darwin.ts:572
-msgid "Window"
-msgstr "Cửa Sổ"
-
-#: source/app/service-providers/menu/menu.win32.ts:557
-#: source/app/service-providers/menu/menu.darwin.ts:577
-msgid "Minimize"
-msgstr "Thu nhỏ"
-
-#: source/app/service-providers/menu/menu.win32.ts:563
-#: source/app/service-providers/menu/menu.darwin.ts:585
-msgid "Close"
-msgstr "Đóng"
-
-#: source/app/service-providers/menu/menu.win32.ts:580
-#: source/app/service-providers/menu/menu.darwin.ts:607
-msgid "Previous Tab"
-msgstr "Tab trước"
-
-#: source/app/service-providers/menu/menu.win32.ts:588
-#: source/app/service-providers/menu/menu.darwin.ts:615
-msgid "Next Tab"
-msgstr "Tab tiếp theo"
-
-#: source/app/service-providers/menu/menu.win32.ts:607
-#: source/app/service-providers/menu/menu.darwin.ts:634
-msgid "Help"
-msgstr "Trợ Giúp"
-
-#: source/app/service-providers/menu/menu.win32.ts:612
-#: source/app/service-providers/menu/menu.darwin.ts:44
-#: source/app/service-providers/menu/menu.darwin.ts:639
-msgid "About Zettlr"
-msgstr "Về Zettlr"
-
-#: source/app/service-providers/menu/menu.win32.ts:619
-#: source/app/service-providers/menu/menu.darwin.ts:646
-msgid "Support Zettlr"
-msgstr "Hỗ trợ Zetllr"
-
-#: source/app/service-providers/menu/menu.win32.ts:629
-#: source/app/service-providers/menu/menu.darwin.ts:656
-msgid "Go to website"
-msgstr "Đi tới trang web"
-
-#: source/app/service-providers/menu/menu.win32.ts:639
-#: source/app/service-providers/menu/menu.darwin.ts:666
-msgid "Get LaTeX"
-msgstr "Tải LaTeX"
-
-#: source/app/service-providers/menu/menu.win32.ts:649
-#: source/app/service-providers/menu/menu.darwin.ts:676
-msgid "Open user manual"
-msgstr "Mở hướng dẫn sử dụng"
-
-#: source/app/service-providers/menu/menu.win32.ts:660
-#: source/app/service-providers/menu/menu.darwin.ts:687
-msgid "Open Tutorial"
-msgstr "Mở Hướng Dẫn"
-
-#: source/app/service-providers/menu/menu.win32.ts:668
-#: source/app/service-providers/menu/menu.darwin.ts:695
-#: source/tmp/App.vue.ts:93
-msgid "Check for updates"
-msgstr "Kiểm tra cập nhật"
-
-#: source/app/service-providers/menu/menu.darwin.ts:75
-msgid "Services"
-msgstr "Các dịch vụ"
-
-#: source/app/service-providers/menu/menu.darwin.ts:84
-msgid "Hide"
-msgstr "Ẩn"
-
-#: source/app/service-providers/menu/menu.darwin.ts:89
-msgid "Hide others"
-msgstr "Ẩn các cái khác"
-
-#: source/app/service-providers/menu/menu.darwin.ts:94
-msgid "Show"
-msgstr "Hiển thị"
-
-#: source/app/service-providers/menu/menu.darwin.ts:423
-msgid "Speech"
-msgstr "Phát âm"
-
-#: source/app/service-providers/menu/menu.darwin.ts:427
-msgid "Start speaking"
-msgstr "Bắt đầu nói"
-
-#: source/app/service-providers/menu/menu.darwin.ts:432
-msgid "Stop speaking"
-msgstr "Ngừng nói"
-
-#: source/app/service-providers/menu/menu.darwin.ts:591
-msgid "Bring All to Front"
-msgstr "Đưa Tất cả lên Trước"
-
-#: source/app/service-providers/tray/index.ts:159
-msgid "Show Zettlr"
-msgstr "Hiển thị Zettlr"
-
-#: source/app/service-providers/tray/index.ts:172
-msgid "Zettlr"
-msgstr "Zettlr"
-
-#: source/tmp/Projects-Tab.vue.ts:24
-msgid "Zettlr also makes use of these projects:"
-msgstr "Zettlr cũng sử dụng các dự án sau"
-
-#: source/tmp/PopoverDirProps.vue.ts:144 source/tmp/file-item.vue.ts:134
-#: source/tmp/file-item.vue.ts:207 source/tmp/PopoverFileProps.vue.ts:89
+msgid "This relation is based on %s shared tags: %s"
+msgstr ""
+
+#: source/tmp/SnippetsTab.vue.ts:50
+msgid "Rename snippet"
+msgstr "Thay đổi snippet"
+
+#: source/tmp/SnippetsTab.vue.ts:53
+msgid "Snippets let you define reusable pieces of text with variables."
+msgstr ""
+"Snippets cho phép bạn chèn nhanh những đoạn văn bản thường dùng, đi cùng các "
+"biến giá trị (variables) có thể tuỳ chỉnh."
+
+#: source/tmp/PopoverFileProps.vue.ts:62 source/tmp/file-item.vue.ts:195
+msgid "Words"
+msgstr "Các từ"
+
+#: source/tmp/PopoverFileProps.vue.ts:65 source/tmp/PopoverDirProps.vue.ts:153
+msgid "Created"
+msgstr "Đã tạo"
+
+#: source/tmp/PopoverFileProps.vue.ts:68 source/tmp/PopoverDirProps.vue.ts:150
+#: source/common/modules/markdown-editor/tooltips/file-preview.ts:90
+msgid "Modified"
+msgstr "Đã chỉnh sửa"
+
+#: source/tmp/PopoverFileProps.vue.ts:71 source/tmp/ShortcutChooser.vue.ts:61
+#: source/tmp/Number.vue.ts:59 source/tmp/Color.vue.ts:50
+#: source/tmp/File.vue.ts:59
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: source/tmp/PopoverFileProps.vue.ts:74
+msgid "Set writing target…"
+msgstr "Đặt mục tiêu viết..."
+
+#: source/tmp/PopoverFileProps.vue.ts:77 source/tmp/file-item.vue.ts:193
+msgid "Characters"
+msgstr "Các kí tự"
+
+#: source/tmp/PopoverFileProps.vue.ts:89 source/tmp/file-item.vue.ts:134
+#: source/tmp/file-item.vue.ts:207 source/tmp/PopoverDirProps.vue.ts:144
 #: source/tmp/PopoverDocInfo.vue.ts:73
 #, javascript-format
 msgid "%s words"
 msgstr "%s từ"
 
-#: source/tmp/PopoverDirProps.vue.ts:147 source/tmp/file-item.vue.ts:113
+#: source/tmp/OtherFilesTab.vue.ts:19
+msgid "No other files"
+msgstr "Không có tập tin khác"
+
+#: source/tmp/PopoverPomodoro.vue.ts:72
+msgid "Start"
+msgstr "Bắt đầu"
+
+#: source/tmp/PopoverPomodoro.vue.ts:75
+msgid "Stop"
+msgstr "Ngừng lại"
+
+#: source/tmp/PopoverPomodoro.vue.ts:78
+msgid "Work"
+msgstr "Công việc"
+
+#: source/tmp/PopoverPomodoro.vue.ts:81
+msgid "Short break"
+msgstr "Nghỉ ngắn"
+
+#: source/tmp/PopoverPomodoro.vue.ts:84
+msgid "Break"
+msgstr "Nghỉ"
+
+#: source/tmp/PopoverPomodoro.vue.ts:87
+msgid "Sound Effect"
+msgstr ""
+
+#: source/tmp/PopoverPomodoro.vue.ts:90
+msgid "Volume"
+msgstr ""
+
+#: source/tmp/file-item.vue.ts:113 source/tmp/PopoverDirProps.vue.ts:147
 msgid "Directories"
 msgstr "Các thư mục"
-
-#: source/tmp/PopoverDirProps.vue.ts:153 source/tmp/PopoverFileProps.vue.ts:65
-msgid "Created"
-msgstr "Đã tạo"
-
-#: source/tmp/PopoverDirProps.vue.ts:162
-msgid "Project Settings…"
-msgstr "Thiết lập cho dự án..."
 
 #: source/tmp/file-item.vue.ts:132 source/tmp/file-item.vue.ts:205
 #: source/tmp/PopoverDocInfo.vue.ts:71
@@ -1541,13 +879,73 @@ msgstr "Thiết lập cho dự án..."
 msgid "%s characters"
 msgstr "%s kí tự"
 
-#: source/tmp/file-item.vue.ts:193 source/tmp/PopoverFileProps.vue.ts:77
-msgid "Characters"
-msgstr "Các kí tự"
+#: source/tmp/PopoverDirProps.vue.ts:162
+msgid "Project Settings…"
+msgstr "Thiết lập cho dự án..."
 
-#: source/tmp/file-item.vue.ts:195 source/tmp/PopoverFileProps.vue.ts:62
-msgid "Words"
-msgstr "Các từ"
+#: source/tmp/List.vue.ts:141
+msgid "Add"
+msgstr "Thêm"
+
+#: source/tmp/List.vue.ts:144
+msgid "Actions"
+msgstr "Các hành động"
+
+#: source/tmp/List.vue.ts:147
+#, fuzzy
+msgid "Delete"
+msgstr "Xoá tập tin"
+
+#. Apparently we have a simple array, so exactly one column
+#: source/tmp/List.vue.ts:169
+msgid "Item"
+msgstr "Mục"
+
+#: source/tmp/GlobalSearch.vue.ts:116
+msgid "Full-Text Search"
+msgstr "Tìm kiếm toàn văn bản"
+
+#: source/tmp/GlobalSearch.vue.ts:119
+msgid "Enter your search terms below"
+msgstr "Nhập chuỗi tìm kiếm của bạn bên dưới"
+
+#: source/tmp/GlobalSearch.vue.ts:122
+msgid "Find …"
+msgstr "Tìm ..."
+
+#: source/tmp/GlobalSearch.vue.ts:125
+msgid "Filter …"
+msgstr "Bộ lọc ..."
+
+#: source/tmp/GlobalSearch.vue.ts:128
+msgid "Filter search results"
+msgstr "Lọc kết quả tìm kiếm"
+
+#: source/tmp/GlobalSearch.vue.ts:131
+msgid "Restrict search to directory"
+msgstr "Giới hạn tìm kiếm trong thư mục"
+
+#: source/tmp/GlobalSearch.vue.ts:134
+msgid "Restrict to directory …"
+msgstr "Giới hạn trong thư mục ..."
+
+#: source/tmp/GlobalSearch.vue.ts:137
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: source/tmp/GlobalSearch.vue.ts:140
+msgid "Clear search"
+msgstr "Xoá tìm kiếm"
+
+#: source/tmp/GlobalSearch.vue.ts:143
+msgid "Toggle results"
+msgstr "Ẩn/hiện các kết quả"
+
+#. Else standard val for new dirs.
+#: source/tmp/tree-item.vue.ts:259
+#: source/app/service-providers/commands/dir-new.ts:42
+msgid "Untitled"
+msgstr "Chưa đặt tên"
 
 #: source/tmp/App.vue.ts:34
 msgid "Updater"
@@ -1582,147 +980,15 @@ msgstr "Đang tải cập nhật cho bạn"
 msgid "No update available. You have the most recent version."
 msgstr "Không có cập nhật mới. Bạn đang dùng phiên bản mới nhất"
 
+#: source/tmp/App.vue.ts:93
+#: source/app/service-providers/menu/menu.darwin.ts:695
+#: source/app/service-providers/menu/menu.win32.ts:668
+msgid "Check for updates"
+msgstr "Kiểm tra cập nhật"
+
 #: source/tmp/App.vue.ts:132
 msgid "Starting update …"
 msgstr "Bắt đầu cập nhật ..."
-
-#: source/tmp/Defaults.vue.ts:70
-msgid ""
-"This profile is protected. This means that it will be restored when you "
-"remove or rename it."
-msgstr ""
-"Hồ sơ người dùng này (Profile) được bảo vệ. Nghĩa là nó sẽ được phục hồi khi "
-"bạn di chuyển hoặc đổi tên nó."
-
-#: source/tmp/Defaults.vue.ts:73
-msgid ""
-"This profile appears to be either missing the writer or reader property. "
-"Make sure to set both so that Zettlr can use this profile."
-msgstr ""
-"Hồ sơ người dùng (Profile) này dường như thiếu đi thuộc tính về người đọc "
-"hoặc người viết. Hãy điền các giá trị vào để Zettlr sử dụng được hồ sơ này."
-
-#: source/tmp/Defaults.vue.ts:109
-msgid "Edit the default settings for imports or exports here."
-msgstr "Chỉnh sửa các tuỳ chọn mặc định cho việc xuất hay nhập tại đây"
-
-#: source/tmp/Defaults.vue.ts:192 source/tmp/CustomCSS.vue.ts:88
-#: source/tmp/SnippetsTab.vue.ts:124
-msgid "Saving …"
-msgstr "Đang lưu ..."
-
-#: source/tmp/Defaults.vue.ts:201 source/tmp/SnippetsTab.vue.ts:134
-msgid "Saved!"
-msgstr "Đã Lưu!"
-
-#: source/tmp/PopoverFileProps.vue.ts:71 source/tmp/Color.vue.ts:50
-#: source/tmp/Number.vue.ts:59 source/tmp/ShortcutChooser.vue.ts:61
-#: source/tmp/File.vue.ts:59
-msgid "Reset"
-msgstr "Đặt lại"
-
-#: source/tmp/PopoverFileProps.vue.ts:74
-msgid "Set writing target…"
-msgstr "Đặt mục tiêu viết..."
-
-#: source/tmp/List.vue.ts:141
-msgid "Add"
-msgstr "Thêm"
-
-#: source/tmp/List.vue.ts:144
-msgid "Actions"
-msgstr "Các hành động"
-
-#: source/tmp/List.vue.ts:147
-#, fuzzy
-msgid "Delete"
-msgstr "Xoá tập tin"
-
-#. Apparently we have a simple array, so exactly one column
-#: source/tmp/List.vue.ts:169
-msgid "Item"
-msgstr "Mục"
-
-#: source/tmp/General-Tab.vue.ts:23
-msgid ""
-"Zettlr is a project by Hendrik Erz, licensed under the GNU GPL v3 license. "
-"It is Open Source, free of charge and based upon the Electron framework. "
-"Zettlr would like to thank the developers of Electron, the Node.js framework "
-"and the CodeMirror editor for their work. Without them, Zettlr would not be "
-"possible. Below you can find all projects that Zettlr uses."
-msgstr ""
-"Zettlr là dự án của Hendrik Erz, đăng ký dưới giấy phép GNU GPL v3. Là ứng "
-"dụng mã nguồn mở, không tính phí và dựa trên nền tảng Electron. Zettlr dành "
-"lời cảm ơn tới các nhà phát triển của nền tảng Electron, Node.js và trình "
-"soạn thảo CodeMirror cho công việc đã được thực hiện. Không có họ, Zettlr sẽ "
-"không khả dụng. Bên dưới bạn có thể tìm thấy tất cả các dự án mà Zettlr sử "
-"dụng."
-
-#: source/tmp/General-Tab.vue.ts:24
-msgid ""
-"Zettlr makes use of citeproc to display citations directly in the editor. To "
-"this end, Zettlr uses the CitationStyleLanguage (CSL) language and style "
-"files. The files have been shipped unaltered with author metadata. More "
-"information:"
-msgstr ""
-"Zettlr dùng citeproc để hiển thị trích dẫn trực tiếp trong khung soạn thảo. "
-"Để thực hiện, Zettlr dùng ngôn ngữ CitationStyleLanguage (CSL) và các tập "
-"tin phong cách. Các tập tin được xuất với thông tin tác giả không thay đổi. "
-"Thông tin thêm:"
-
-#: source/tmp/General-Tab.vue.ts:25
-msgid ""
-"All logos and brand names are subject to their rightful owners. Besides "
-"using their code, Zettlr is in no way affiliated with any of these projects. "
-"Node.js is a trademark of Joyent, Inc."
-msgstr ""
-"Tất cả logo và tên thương hiệu đều thuộc về các chủ sở hữu hợp pháp cúa nó. "
-"Ngoài việc sử dụng mã nguồn của họ, Zettlr không có bất kì liên quan nào tới "
-"các dự án trên. Node.js là nhãn hiệu đã đăng ký của Joyent, Inc."
-
-#: source/tmp/OtherFilesTab.vue.ts:13 source/tmp/MainSidebar.vue.ts:74
-msgid "Other files"
-msgstr "Các tập tin khác"
-
-#: source/tmp/OtherFilesTab.vue.ts:19
-msgid "No other files"
-msgstr "Không có tập tin khác"
-
-#: source/tmp/ChartView.vue.ts:60
-msgid "Charts"
-msgstr "Các biểu đồ"
-
-#: source/tmp/Theme.vue.ts:37
-msgid "selected"
-msgstr "Đã chọn"
-
-#: source/tmp/Theme.vue.ts:40
-msgid "click to select"
-msgstr "Bấm để chọn"
-
-#: source/tmp/PopoverTags.vue.ts:77
-msgid "Name"
-msgstr ""
-
-#: source/tmp/PopoverTags.vue.ts:78
-msgid "Count"
-msgstr ""
-
-#: source/tmp/PopoverTags.vue.ts:103
-msgid "Filter tags…"
-msgstr "Bộ lọc thẻ..."
-
-#: source/tmp/PopoverTags.vue.ts:106
-msgid "Tag Cloud"
-msgstr "Đám mây thẻ"
-
-#: source/tmp/PopoverTags.vue.ts:109
-msgid "Suggested tags for the current file"
-msgstr "Gợi ý thẻ cho tập tin hiện tại"
-
-#: source/tmp/PopoverTags.vue.ts:112
-msgid "Add to file"
-msgstr "Chèn vào tập tin"
 
 #: source/tmp/CustomCSS.vue.ts:31
 msgid "Custom CSS"
@@ -1740,74 +1006,47 @@ msgstr ""
 "CSS! Không được thay đổi nội dung thể hiện hình dạng của các phần tử, hoặc "
 "ứng dụng sẽ xuất hiện các hành vi không theo mong đợi!</strong>"
 
+#. 1: Omit all changes
+#: source/tmp/CustomCSS.vue.ts:49
+#: source/app/service-providers/windows/dialog/should-replace-file.ts:36
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:34
+#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:32
+#: source/app/service-providers/windows/dialog/confirm-remove.ts:30
+#: source/app/service-providers/commands/rename-tag.ts:48
+msgid "Cancel"
+msgstr "Huỷ"
+
 #: source/tmp/CustomCSS.vue.ts:97
 msgid "Saving failed"
 msgstr "Lưu thất bại"
 
-#: source/tmp/PopoverPomodoro.vue.ts:72
-msgid "Start"
-msgstr "Bắt đầu"
+#: source/tmp/PopoverStats.vue.ts:111
+msgid "words last month"
+msgstr "từ tháng trước"
 
-#: source/tmp/PopoverPomodoro.vue.ts:75
-msgid "Stop"
-msgstr "Ngừng lại"
+#: source/tmp/PopoverStats.vue.ts:114
+msgid "daily average"
+msgstr "Trung bình ngày"
 
-#: source/tmp/PopoverPomodoro.vue.ts:78
-msgid "Work"
-msgstr "Công việc"
+#: source/tmp/PopoverStats.vue.ts:117
+msgid "words today"
+msgstr "từ hôm nay"
 
-#: source/tmp/PopoverPomodoro.vue.ts:81
-msgid "Short break"
-msgstr "Nghỉ ngắn"
+#: source/tmp/PopoverStats.vue.ts:120
+msgid "🔥 You're on fire!"
+msgstr "🔥 Bạn đang rực cháy!"
 
-#: source/tmp/PopoverPomodoro.vue.ts:84
-msgid "Break"
-msgstr "Nghỉ"
+#: source/tmp/PopoverStats.vue.ts:123
+msgid "💪 You're close to hitting your daily average!"
+msgstr "💪 Bạn sắp đạt mức trung bình ngày rồi!"
 
-#: source/tmp/PopoverPomodoro.vue.ts:87
-msgid "Sound Effect"
-msgstr ""
+#: source/tmp/PopoverStats.vue.ts:126
+msgid "✍🏼 Get writing to surpass your daily average."
+msgstr "✍🏼 Tiếp tục viết để vượt qua thành tích thường ngày của bạn nào."
 
-#: source/tmp/PopoverPomodoro.vue.ts:90
-msgid "Volume"
-msgstr ""
-
-#: source/tmp/RelatedFilesTab.vue.ts:23 source/tmp/MainSidebar.vue.ts:83
-msgid "Related files"
-msgstr "Các tập tin liên quan"
-
-#: source/tmp/RelatedFilesTab.vue.ts:26
-msgid "No related files"
-msgstr "Không có tập tin liên quan"
-
-#: source/tmp/RelatedFilesTab.vue.ts:29
-msgid "This relation is based on a bidirectional link."
-msgstr ""
-
-#: source/tmp/RelatedFilesTab.vue.ts:32
-msgid "This relation is based on an outbound link."
-msgstr ""
-
-#: source/tmp/RelatedFilesTab.vue.ts:35
-msgid "This relation is based on a backlink."
-msgstr ""
-
-#: source/tmp/RelatedFilesTab.vue.ts:113
-#, javascript-format
-msgid "This relation is based on %s shared tags: %s"
-msgstr ""
-
-#: source/tmp/file-list.vue.ts:66 source/tmp/file-tree.vue.ts:35
-msgid "No results"
-msgstr "Không có kết quả"
-
-#: source/tmp/file-list.vue.ts:69
-msgid "No directory selected"
-msgstr "Không có thư mục nào được chọn"
-
-#: source/tmp/file-list.vue.ts:72
-msgid "Empty directory"
-msgstr "Thư mục trống"
+#: source/tmp/PopoverStats.vue.ts:129
+msgid "More statistics …"
+msgstr "Thêm thống kê ..."
 
 #: source/tmp/EditorSearchPanel.vue.ts:13
 msgid "Find…"
@@ -1833,27 +1072,9 @@ msgstr "Tắt tìm kiếm"
 msgid "Toggle regular expression search"
 msgstr "Bật/tắt tìm kiếm bằng Regular Expression"
 
-#: source/tmp/SnippetsTab.vue.ts:50
-msgid "Rename snippet"
-msgstr "Thay đổi snippet"
-
-#: source/tmp/SnippetsTab.vue.ts:53
-msgid "Snippets let you define reusable pieces of text with variables."
-msgstr ""
-"Snippets cho phép bạn chèn nhanh những đoạn văn bản thường dùng, đi cùng các "
-"biến giá trị (variables) có thể tuỳ chỉnh."
-
-#: source/tmp/file-tree.vue.ts:29
-msgid "Workspaces"
-msgstr "Vùng Làm Việc"
-
-#: source/tmp/file-tree.vue.ts:32
-msgid "No open files or folders"
-msgstr "Không có tập tin hay thư mục được mở"
-
-#: source/tmp/ToCTab.vue.ts:55 source/tmp/MainSidebar.vue.ts:80
-msgid "Table of Contents"
-msgstr "Bảng Mục Lục"
+#: source/tmp/ReferencesTab.vue.ts:32
+msgid "There are no citations in this document."
+msgstr "Không có trích dẫn trong tài liệu này."
 
 #: source/tmp/CalendarView.vue.ts:59
 msgid "Calendar"
@@ -1919,77 +1140,42 @@ msgstr "Vượt qua trung bình tháng"
 msgid "More than twice the monthly average"
 msgstr "Hơn gấp đôi trung bình tháng"
 
-#: source/tmp/MainSidebar.vue.ts:77 source/tmp/ReferencesTab.vue.ts:20
-msgid "References"
-msgstr "Tài liệu tham khảo"
+#: source/tmp/General-Tab.vue.ts:23
+msgid ""
+"Zettlr is a project by Hendrik Erz, licensed under the GNU GPL v3 license. "
+"It is Open Source, free of charge and based upon the Electron framework. "
+"Zettlr would like to thank the developers of Electron, the Node.js framework "
+"and the CodeMirror editor for their work. Without them, Zettlr would not be "
+"possible. Below you can find all projects that Zettlr uses."
+msgstr ""
+"Zettlr là dự án của Hendrik Erz, đăng ký dưới giấy phép GNU GPL v3. Là ứng "
+"dụng mã nguồn mở, không tính phí và dựa trên nền tảng Electron. Zettlr dành "
+"lời cảm ơn tới các nhà phát triển của nền tảng Electron, Node.js và trình "
+"soạn thảo CodeMirror cho công việc đã được thực hiện. Không có họ, Zettlr sẽ "
+"không khả dụng. Bên dưới bạn có thể tìm thấy tất cả các dự án mà Zettlr sử "
+"dụng."
 
-#: source/tmp/PopoverStats.vue.ts:111
-msgid "words last month"
-msgstr "từ tháng trước"
+#: source/tmp/General-Tab.vue.ts:24
+msgid ""
+"Zettlr makes use of citeproc to display citations directly in the editor. To "
+"this end, Zettlr uses the CitationStyleLanguage (CSL) language and style "
+"files. The files have been shipped unaltered with author metadata. More "
+"information:"
+msgstr ""
+"Zettlr dùng citeproc để hiển thị trích dẫn trực tiếp trong khung soạn thảo. "
+"Để thực hiện, Zettlr dùng ngôn ngữ CitationStyleLanguage (CSL) và các tập "
+"tin phong cách. Các tập tin được xuất với thông tin tác giả không thay đổi. "
+"Thông tin thêm:"
 
-#: source/tmp/PopoverStats.vue.ts:114
-msgid "daily average"
-msgstr "Trung bình ngày"
-
-#: source/tmp/PopoverStats.vue.ts:117
-msgid "words today"
-msgstr "từ hôm nay"
-
-#: source/tmp/PopoverStats.vue.ts:120
-msgid "🔥 You're on fire!"
-msgstr "🔥 Bạn đang rực cháy!"
-
-#: source/tmp/PopoverStats.vue.ts:123
-msgid "💪 You're close to hitting your daily average!"
-msgstr "💪 Bạn sắp đạt mức trung bình ngày rồi!"
-
-#: source/tmp/PopoverStats.vue.ts:126
-msgid "✍🏼 Get writing to surpass your daily average."
-msgstr "✍🏼 Tiếp tục viết để vượt qua thành tích thường ngày của bạn nào."
-
-#: source/tmp/PopoverStats.vue.ts:129
-msgid "More statistics …"
-msgstr "Thêm thống kê ..."
-
-#: source/tmp/GlobalSearch.vue.ts:116
-msgid "Full-Text Search"
-msgstr "Tìm kiếm toàn văn bản"
-
-#: source/tmp/GlobalSearch.vue.ts:119
-msgid "Enter your search terms below"
-msgstr "Nhập chuỗi tìm kiếm của bạn bên dưới"
-
-#: source/tmp/GlobalSearch.vue.ts:122
-msgid "Find …"
-msgstr "Tìm ..."
-
-#: source/tmp/GlobalSearch.vue.ts:125
-msgid "Filter …"
-msgstr "Bộ lọc ..."
-
-#: source/tmp/GlobalSearch.vue.ts:128
-msgid "Filter search results"
-msgstr "Lọc kết quả tìm kiếm"
-
-#: source/tmp/GlobalSearch.vue.ts:131
-msgid "Restrict search to directory"
-msgstr "Giới hạn tìm kiếm trong thư mục"
-
-#: source/tmp/GlobalSearch.vue.ts:134
-msgid "Restrict to directory …"
-msgstr "Giới hạn trong thư mục ..."
-
-#: source/tmp/GlobalSearch.vue.ts:137
-msgid "Search"
-msgstr "Tìm kiếm"
-
-#: source/tmp/GlobalSearch.vue.ts:140
-msgid "Clear search"
-msgstr "Xoá tìm kiếm"
-
-#: source/tmp/GlobalSearch.vue.ts:143
-msgid "Toggle results"
-msgstr "Ẩn/hiện các kết quả"
+#: source/tmp/General-Tab.vue.ts:25
+msgid ""
+"All logos and brand names are subject to their rightful owners. Besides "
+"using their code, Zettlr is in no way affiliated with any of these projects. "
+"Node.js is a trademark of Joyent, Inc."
+msgstr ""
+"Tất cả logo và tên thương hiệu đều thuộc về các chủ sở hữu hợp pháp cúa nó. "
+"Ngoài việc sử dụng mã nguồn của họ, Zettlr không có bất kì liên quan nào tới "
+"các dự án trên. Node.js là nhãn hiệu đã đăng ký của Joyent, Inc."
 
 #: source/tmp/PopoverDocInfo.vue.ts:35
 msgid "No open document"
@@ -2007,9 +1193,823 @@ msgstr "kí tự"
 msgid "characters (w/o spaces)"
 msgstr "kí tự (không có khoảng trắng)"
 
-#: source/tmp/ReferencesTab.vue.ts:32
-msgid "There are no citations in this document."
-msgstr "Không có trích dẫn trong tài liệu này."
+#: source/tmp/PopoverTags.vue.ts:77
+msgid "Name"
+msgstr ""
+
+#: source/tmp/PopoverTags.vue.ts:78
+msgid "Count"
+msgstr ""
+
+#: source/tmp/PopoverTags.vue.ts:103
+msgid "Filter tags…"
+msgstr "Bộ lọc thẻ..."
+
+#: source/tmp/PopoverTags.vue.ts:106
+msgid "Tag Cloud"
+msgstr "Đám mây thẻ"
+
+#: source/tmp/PopoverTags.vue.ts:109
+msgid "Suggested tags for the current file"
+msgstr "Gợi ý thẻ cho tập tin hiện tại"
+
+#: source/tmp/PopoverTags.vue.ts:112
+msgid "Add to file"
+msgstr "Chèn vào tập tin"
+
+#: source/tmp/Projects-Tab.vue.ts:24
+msgid "Zettlr also makes use of these projects:"
+msgstr "Zettlr cũng sử dụng các dự án sau"
+
+#: source/common/modules/markdown-editor/autocomplete/code-blocks.ts:42
+msgid "No highlighting"
+msgstr ""
+
+#: source/common/modules/markdown-editor/renderers/render-images.ts:92
+#, javascript-format
+msgid "Image not found: %s"
+msgstr ""
+
+#: source/common/modules/markdown-editor/linters/spellcheck.ts:148
+msgid "Spelling mistake"
+msgstr ""
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:72
+msgid "Open Link"
+msgstr "Mở Đường Dẫn"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:81
+msgid "Copy Mail Address"
+msgstr "Sao chép địa chỉ thư"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:81
+msgid "Copy Link"
+msgstr "Sao chép Đường dẫn"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:90
+msgid "Copy image to clipboard"
+msgstr "Sao chép ảnh vào bảng tạm clipboard"
+
+#: source/common/modules/markdown-editor/context-menu/link-image-menu.ts:96
+msgid "Open in browser"
+msgstr "Mở trong trình duyệt"
+
+#: source/common/modules/markdown-editor/context-menu/equation-menu.ts:33
+msgid "Copy equation code"
+msgstr "Sao chép mã phương trình"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:133
+msgid "No suggestions"
+msgstr "Không có gợi ý"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:142
+msgid "Add to dictionary"
+msgstr "Thêm vào từ điển"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:159
+msgid "Italic"
+msgstr "Nghiêng"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:169
+msgid "Insert link"
+msgstr "Chèn đường dẫn"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:176
+msgid "Insert numbered list"
+msgstr "Chèn danh sách đánh số"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:182
+msgid "Insert unordered list"
+msgstr "Chèn danh sách không có thứ tự"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:188
+msgid "Insert tasklist"
+msgstr "Chèn danh sách công việc"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:195
+msgid "Blockquote"
+msgstr "Trích dẫn"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:201
+msgid "Insert Table"
+msgstr "Thêm bảng"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:210
+#: source/app/service-providers/menu/menu.darwin.ts:335
+#: source/app/service-providers/menu/menu.win32.ts:336
+msgid "Cut"
+msgstr "Cắt"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:217
+#: source/app/service-providers/menu/menu.darwin.ts:341
+#: source/app/service-providers/menu/menu.win32.ts:342
+msgid "Copy"
+msgstr "Sao chép"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:224
+#: source/app/service-providers/menu/menu.darwin.ts:346
+#: source/app/service-providers/menu/menu.win32.ts:347
+msgid "Copy as HTML"
+msgstr "Sao chép dưới dạng HTML"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:231
+#: source/app/service-providers/menu/menu.darwin.ts:355
+#: source/app/service-providers/menu/menu.win32.ts:356
+msgid "Paste"
+msgstr "Dán"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:238
+#: source/app/service-providers/menu/menu.darwin.ts:360
+#: source/app/service-providers/menu/menu.win32.ts:361
+msgid "Paste without style"
+msgstr "Dán không có định dạng"
+
+#: source/common/modules/markdown-editor/context-menu/default-menu.ts:248
+#: source/app/service-providers/menu/menu.darwin.ts:369
+#: source/app/service-providers/menu/menu.win32.ts:370
+msgid "Select all"
+msgstr "Chọn tất cả"
+
+#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:52
+msgid "Link"
+msgstr "Đường Dẫn"
+
+#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:57
+msgid "Image"
+msgstr "Ảnh"
+
+#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:62
+msgid "Comment"
+msgstr "Ghi chú"
+
+#: source/common/modules/markdown-editor/tooltips/formatting-toolbar.ts:67
+msgid "Code"
+msgstr "Mã"
+
+#: source/common/modules/markdown-editor/tooltips/footnotes.ts:100
+msgid "No footnote text found."
+msgstr ""
+
+#: source/common/modules/markdown-editor/tooltips/footnotes.ts:111
+#: source/app/service-providers/menu/menu.darwin.ts:315
+#: source/app/service-providers/menu/menu.win32.ts:316
+msgid "Edit"
+msgstr "Sửa"
+
+#: source/common/modules/markdown-editor/tooltips/file-preview.ts:58
+#, javascript-format
+msgid "File %s does not exist."
+msgstr ""
+
+#: source/common/modules/markdown-editor/tooltips/file-preview.ts:88
+msgid "Word count"
+msgstr "Số từ"
+
+#: source/common/modules/markdown-editor/tooltips/file-preview.ts:108
+#: source/app/service-providers/menu/menu.darwin.ts:164
+#: source/app/service-providers/menu/menu.win32.ts:138
+msgid "Open…"
+msgstr "Mở..."
+
+#: source/common/util/localise-number.ts:28
+msgid ","
+msgstr "."
+
+#: source/common/util/localise-number.ts:29
+msgid "."
+msgstr ","
+
+#: source/common/util/format-date.ts:33
+msgid "just now"
+msgstr "Vừa nãy"
+
+#: source/app/service-providers/menu/menu.darwin.ts:44
+#: source/app/service-providers/menu/menu.darwin.ts:639
+#: source/app/service-providers/menu/menu.win32.ts:612
+msgid "About Zettlr"
+msgstr "Về Zettlr"
+
+#: source/app/service-providers/menu/menu.darwin.ts:49
+#: source/app/service-providers/menu/menu.win32.ts:220
+#: source/app/service-providers/menu/menu.win32.ts:224
+msgid "Preferences…"
+msgstr "Các tuỳ chọn..."
+
+#: source/app/service-providers/menu/menu.darwin.ts:57
+#: source/app/service-providers/menu/menu.win32.ts:232
+msgid "Assets Manager"
+msgstr "Quản Lý Tuỳ Chỉnh Nâng Cao"
+
+#: source/app/service-providers/menu/menu.darwin.ts:65
+#: source/app/service-providers/menu/menu.win32.ts:240
+msgid "Manage Tags…"
+msgstr "Quản lý thẻ"
+
+#: source/app/service-providers/menu/menu.darwin.ts:75
+msgid "Services"
+msgstr "Các dịch vụ"
+
+#: source/app/service-providers/menu/menu.darwin.ts:84
+msgid "Hide"
+msgstr "Ẩn"
+
+#: source/app/service-providers/menu/menu.darwin.ts:89
+msgid "Hide others"
+msgstr "Ẩn các cái khác"
+
+#: source/app/service-providers/menu/menu.darwin.ts:94
+msgid "Show"
+msgstr "Hiển thị"
+
+#: source/app/service-providers/menu/menu.darwin.ts:102
+#: source/app/service-providers/menu/menu.win32.ts:306
+#: source/app/service-providers/tray/index.ts:165
+msgid "Quit"
+msgstr "Thoát"
+
+#: source/app/service-providers/menu/menu.darwin.ts:111
+#: source/app/service-providers/menu/menu.win32.ts:85
+msgid "File"
+msgstr "Tập Tin"
+
+#: source/app/service-providers/menu/menu.darwin.ts:173
+#: source/app/service-providers/menu/menu.win32.ts:147
+msgid "Open Workspace …"
+msgstr "Mở Vùng Làm Việc ..."
+
+#: source/app/service-providers/menu/menu.darwin.ts:182
+#: source/app/service-providers/menu/menu.win32.ts:42
+#: source/app/service-providers/menu/menu.win32.ts:54
+msgid "Recent documents"
+msgstr "Các văn bản gần đây"
+
+#: source/app/service-providers/menu/menu.darwin.ts:186
+#: source/app/service-providers/menu/menu.win32.ts:46
+#: source/app/service-providers/menu/menu.win32.ts:58
+msgid "Empty"
+msgstr "Trống"
+
+#: source/app/service-providers/menu/menu.darwin.ts:206
+#: source/app/service-providers/menu/menu.win32.ts:171
+msgid "Previous file"
+msgstr "Tập tin trước"
+
+#: source/app/service-providers/menu/menu.darwin.ts:217
+#: source/app/service-providers/menu/menu.win32.ts:182
+msgid "Next file"
+msgstr "Tập tin tiếp theo"
+
+#: source/app/service-providers/menu/menu.darwin.ts:231
+#: source/app/service-providers/menu/menu.win32.ts:196
+msgid "Import files…"
+msgstr "Nhập thêm tập tin..."
+
+#: source/app/service-providers/menu/menu.darwin.ts:239
+#: source/app/service-providers/menu/menu.win32.ts:204
+msgid "Export…"
+msgstr "Xuất..."
+
+#: source/app/service-providers/menu/menu.darwin.ts:247
+#: source/app/service-providers/menu/menu.win32.ts:212
+msgid "Print…"
+msgstr "In..."
+
+#: source/app/service-providers/menu/menu.darwin.ts:258
+#: source/app/service-providers/menu/menu.win32.ts:252
+msgid "Import translation…"
+msgstr "Nhập thêm bản dịch..."
+
+#: source/app/service-providers/menu/menu.darwin.ts:266
+#: source/app/service-providers/menu/menu.win32.ts:260
+msgid "Import dictionary…"
+msgstr "Nhập thêm từ điển..."
+
+#: source/app/service-providers/menu/menu.darwin.ts:320
+#: source/app/service-providers/menu/menu.win32.ts:321
+msgid "Undo"
+msgstr "Hồi lại"
+
+#: source/app/service-providers/menu/menu.darwin.ts:326
+#: source/app/service-providers/menu/menu.win32.ts:327
+msgid "Redo"
+msgstr "Hồi lại"
+
+#: source/app/service-providers/menu/menu.darwin.ts:377
+#: source/app/service-providers/menu/menu.win32.ts:378
+msgid "Find in file"
+msgstr "Tìm trong tập tin"
+
+#: source/app/service-providers/menu/menu.darwin.ts:385
+#: source/app/service-providers/menu/menu.win32.ts:386
+msgid "Find in directory"
+msgstr "Tìm trong thư mục"
+
+#: source/app/service-providers/menu/menu.darwin.ts:393
+#: source/app/service-providers/menu/menu.win32.ts:394
+msgid "Filter files"
+msgstr "Lọc tập tin"
+
+#: source/app/service-providers/menu/menu.darwin.ts:404
+#: source/app/service-providers/menu/menu.win32.ts:405
+msgid "Generate new ID"
+msgstr "Tạo ID mới"
+
+#: source/app/service-providers/menu/menu.darwin.ts:423
+msgid "Speech"
+msgstr "Phát âm"
+
+#: source/app/service-providers/menu/menu.darwin.ts:427
+msgid "Start speaking"
+msgstr "Bắt đầu nói"
+
+#: source/app/service-providers/menu/menu.darwin.ts:432
+msgid "Stop speaking"
+msgstr "Ngừng nói"
+
+#: source/app/service-providers/menu/menu.darwin.ts:442
+#: source/app/service-providers/menu/menu.win32.ts:424
+msgid "View"
+msgstr "Cách Nhìn"
+
+#: source/app/service-providers/menu/menu.darwin.ts:456
+#: source/app/service-providers/menu/menu.win32.ts:438
+msgid "Additional Information"
+msgstr "Các Thông tin Thêm"
+
+#: source/app/service-providers/menu/menu.darwin.ts:466
+#: source/app/service-providers/menu/menu.win32.ts:448
+msgid "Distraction free mode"
+msgstr "Chế độ không bị làm phiền"
+
+#: source/app/service-providers/menu/menu.darwin.ts:474
+#: source/app/service-providers/menu/menu.win32.ts:456
+msgid "Typewriter Mode"
+msgstr "Chế độ Đánh Máy"
+
+#: source/app/service-providers/menu/menu.darwin.ts:485
+#: source/app/service-providers/menu/menu.win32.ts:467
+msgid "Toggle file manager"
+msgstr "Bật/tắt trình quản lý tập tin"
+
+#: source/app/service-providers/menu/menu.darwin.ts:493
+#: source/app/service-providers/menu/menu.win32.ts:475
+msgid "Toggle Sidebar"
+msgstr "Bật/tắt cột bên"
+
+#: source/app/service-providers/menu/menu.darwin.ts:507
+#: source/app/service-providers/menu/menu.win32.ts:486
+msgid "Reset zoom"
+msgstr "Đặt lại chế độ phóng to"
+
+#: source/app/service-providers/menu/menu.darwin.ts:516
+#: source/app/service-providers/menu/menu.win32.ts:495
+msgid "Zoom in"
+msgstr "Phóng to"
+
+#: source/app/service-providers/menu/menu.darwin.ts:523
+#: source/app/service-providers/menu/menu.win32.ts:502
+msgid "Zoom out"
+msgstr "Thu nhỏ"
+
+#: source/app/service-providers/menu/menu.darwin.ts:533
+#: source/app/service-providers/menu/menu.win32.ts:512
+msgid "Toggle fullscreen"
+msgstr "Bật/tắt toàn màn hình"
+
+#: source/app/service-providers/menu/menu.darwin.ts:541
+#: source/app/service-providers/menu/menu.win32.ts:521
+msgid "Develop"
+msgstr "Phát triển"
+
+#: source/app/service-providers/menu/menu.darwin.ts:545
+#: source/app/service-providers/menu/menu.win32.ts:525
+msgid "Reload"
+msgstr "Tải lại"
+
+#: source/app/service-providers/menu/menu.darwin.ts:553
+#: source/app/service-providers/menu/menu.win32.ts:533
+msgid "Toggle developer tools"
+msgstr "Bật/tắt các ứng dụng cho phát triển"
+
+#: source/app/service-providers/menu/menu.darwin.ts:561
+#: source/app/service-providers/menu/menu.win32.ts:541
+msgid "Open Logs"
+msgstr "Mở Logs"
+
+#: source/app/service-providers/menu/menu.darwin.ts:572
+#: source/app/service-providers/menu/menu.win32.ts:552
+msgid "Window"
+msgstr "Cửa Sổ"
+
+#: source/app/service-providers/menu/menu.darwin.ts:577
+#: source/app/service-providers/menu/menu.win32.ts:557
+msgid "Minimize"
+msgstr "Thu nhỏ"
+
+#: source/app/service-providers/menu/menu.darwin.ts:585
+#: source/app/service-providers/menu/menu.win32.ts:563
+msgid "Close"
+msgstr "Đóng"
+
+#: source/app/service-providers/menu/menu.darwin.ts:591
+msgid "Bring All to Front"
+msgstr "Đưa Tất cả lên Trước"
+
+#: source/app/service-providers/menu/menu.darwin.ts:607
+#: source/app/service-providers/menu/menu.win32.ts:580
+msgid "Previous Tab"
+msgstr "Tab trước"
+
+#: source/app/service-providers/menu/menu.darwin.ts:615
+#: source/app/service-providers/menu/menu.win32.ts:588
+msgid "Next Tab"
+msgstr "Tab tiếp theo"
+
+#: source/app/service-providers/menu/menu.darwin.ts:634
+#: source/app/service-providers/menu/menu.win32.ts:607
+msgid "Help"
+msgstr "Trợ Giúp"
+
+#: source/app/service-providers/menu/menu.darwin.ts:646
+#: source/app/service-providers/menu/menu.win32.ts:619
+msgid "Support Zettlr"
+msgstr "Hỗ trợ Zetllr"
+
+#: source/app/service-providers/menu/menu.darwin.ts:656
+#: source/app/service-providers/menu/menu.win32.ts:629
+msgid "Go to website"
+msgstr "Đi tới trang web"
+
+#: source/app/service-providers/menu/menu.darwin.ts:666
+#: source/app/service-providers/menu/menu.win32.ts:639
+msgid "Get LaTeX"
+msgstr "Tải LaTeX"
+
+#: source/app/service-providers/menu/menu.darwin.ts:676
+#: source/app/service-providers/menu/menu.win32.ts:649
+msgid "Open user manual"
+msgstr "Mở hướng dẫn sử dụng"
+
+#: source/app/service-providers/menu/menu.darwin.ts:687
+#: source/app/service-providers/menu/menu.win32.ts:660
+msgid "Open Tutorial"
+msgstr "Mở Hướng Dẫn"
+
+#. TODO: Move this to a command
+#. The user wants to open another file or directory.
+#: source/app/service-providers/windows/index.ts:213
+#: source/app/service-providers/commands/root-open.ts:73
+msgid "Open project folder"
+msgstr "Mở thư mục dự án"
+
+#: source/app/service-providers/windows/dialog/should-replace-file.ts:31
+msgid "Replace file"
+msgstr "Thay thể tập tin"
+
+#: source/app/service-providers/windows/dialog/should-replace-file.ts:32
+#, javascript-format
+msgid ""
+"File %s has been modified remotely. Replace the loaded version with the "
+"newer one from disk?"
+msgstr ""
+"Tập tin %s đã được thay đổi từ bên ngoài. Thay thế phiên bản được hiển thị "
+"hiện tại với phiên bản mới hơn từ đĩa cứng?"
+
+#: source/app/service-providers/windows/dialog/should-replace-file.ts:37
+#: source/app/service-providers/windows/dialog/prompt.ts:32
+#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:33
+#: source/app/service-providers/windows/dialog/confirm-remove.ts:30
+msgid "Ok"
+msgstr "Đồng ý"
+
+#. Prepare the list of file filters
+#. The "All Files" filter should be at the top
+#: source/app/service-providers/windows/dialog/ask-file.ts:40
+#: source/app/service-providers/commands/import.ts:41
+msgid "All Files"
+msgstr "Tất cả các tập tin"
+
+#: source/app/service-providers/windows/dialog/ask-file.ts:47
+msgid "Open file"
+msgstr "Mở tập tin"
+
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:32
+#: source/app/service-providers/commands/file-rename.ts:96
+#: source/app/service-providers/commands/rename-tag.ts:47
+msgid "Yes"
+msgstr ""
+
+#. 0: Save all changes
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:33
+#: source/app/service-providers/commands/file-rename.ts:97
+msgid "No"
+msgstr ""
+
+#: source/app/service-providers/windows/dialog/ask-save-changes.ts:39
+#, fuzzy
+msgid "There are unsaved changes. Do you want to save them first?"
+msgstr ""
+"Có những thay đổi chưa lưu lại trên tập tin. Bạn có muốn bỏ qua hay sẽ lưu"
+
+#: source/app/service-providers/windows/dialog/save-dialog.ts:52
+msgid "Save file"
+msgstr "Lưu tập tin"
+
+#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:29
+msgid "Overwrite existing file"
+msgstr "Ghi đè lên tập tin đang có"
+
+#: source/app/service-providers/windows/dialog/should-overwrite-file.ts:30
+#, javascript-format
+msgid "The file %s already exists in this directory. Overwrite?"
+msgstr "Tập tin %s tồn tại trong thư mục này. Ghi đè?"
+
+#: source/app/service-providers/windows/dialog/confirm-remove.ts:33
+msgid "Really delete?"
+msgstr "Thực sự xoá?"
+
+#: source/app/service-providers/windows/dialog/confirm-remove.ts:34
+#, javascript-format
+msgid "Do you really want to remove %s?"
+msgstr "Bạn có thực sự muốn xoá %s?"
+
+#: source/app/service-providers/citeproc/index.ts:231
+#: source/app/service-providers/citeproc/index.ts:427
+msgid "The citation database could not be loaded"
+msgstr "Cơ sở dữ liệu trích dẫn không thể mở được"
+
+#: source/app/service-providers/citeproc/index.ts:415
+msgid "Changes to the library file detected. Reloading …"
+msgstr "Thay đổi trong tập tin thư viện được phát hiện. Đang tải lại ..."
+
+#: source/app/service-providers/commands/export.ts:79
+msgid "Choose export destination"
+msgstr "Chọn điểm xuất"
+
+#: source/app/service-providers/commands/export.ts:110
+#, javascript-format
+msgid "Exporting to %s"
+msgstr "Xuất ra %s"
+
+#: source/app/service-providers/commands/export.ts:122
+msgid "Export failed"
+msgstr "Xuất thất bại"
+
+#: source/app/service-providers/commands/export.ts:123
+#, javascript-format
+msgid "An error occurred on export: %s"
+msgstr "Lỗi xuất hiện khi xuất: %s"
+
+#: source/app/service-providers/commands/import-lang-file.ts:59
+#, javascript-format
+msgid "Language file imported: %s"
+msgstr "Tập tin ngôn ngữ đã tích hợp: %s"
+
+#: source/app/service-providers/commands/import-lang-file.ts:61
+#: source/app/service-providers/commands/import-lang-file.ts:64
+#, javascript-format
+msgid "Could not import language file %s!"
+msgstr "Không thể tích hợp tập tin ngôn ngữ %s!"
+
+#: source/app/service-providers/commands/file-rename.ts:93
+#: source/app/service-providers/commands/rename-tag.ts:44
+msgid "Confirm"
+msgstr ""
+
+#: source/app/service-providers/commands/file-rename.ts:94
+#, javascript-format
+msgid "Update %s internal links to file %s?"
+msgstr ""
+
+#: source/app/service-providers/commands/save-image-from-clipboard.ts:37
+msgid "The requested file was not found."
+msgstr "Không thể tìm thấy tập tin được yêu cầu."
+
+#: source/app/service-providers/commands/save-image-from-clipboard.ts:54
+msgid "The provided name did not contain any allowed letters."
+msgstr "Tên định dùng không chứa bất kì kí tự nào được cho phép."
+
+#: source/app/service-providers/commands/save-image-from-clipboard.ts:75
+#: source/app/service-providers/commands/set-open-directory.ts:41
+msgid "The requested directory was not found."
+msgstr "Không thể tìm thấy thư mục được yêu cầu"
+
+#: source/app/service-providers/commands/save-image-from-clipboard.ts:86
+msgid "Could not save image"
+msgstr "Không thể lưu hình ảnh"
+
+#. Better error message
+#: source/app/service-providers/commands/open-attachment.ts:92
+#, javascript-format
+msgid "The reference with key %s does not appear to have attachments."
+msgstr "Trích dẫn với khoá %s dường như không có đính kèm."
+
+#: source/app/service-providers/commands/open-attachment.ts:97
+msgid "Could not open attachment. Is Zotero running?"
+msgstr "Không thể mở tập tin đính kèm. Zotero có đang được mở?"
+
+#: source/app/service-providers/commands/exporter/pdf-exporter.ts:37
+#: source/app/service-providers/commands/exporter/default-exporter.ts:32
+#: source/app/service-providers/commands/importer/index.ts:46
+msgid ""
+"Pandoc has not been found on this system. Please install Pandoc prior to "
+"exporting or importing files."
+msgstr ""
+"Không thể tìm thấy Pandoc trên hệ thống. Vui lòng cài đặt Pandoc trước khi "
+"xuất hay nhập các tập tin"
+
+#: source/app/service-providers/commands/request-move.ts:62
+msgid "Cannot move directory"
+msgstr "Không thể di chuyển thư mục"
+
+#: source/app/service-providers/commands/request-move.ts:63
+msgid "You cannot move a directory into one of its subdirectories."
+msgstr "Bạn không thể di chuyển một thư mục vào trong chính nó."
+
+#: source/app/service-providers/commands/request-move.ts:72
+msgid "Cannot move directory or file"
+msgstr "Không thể di chuyển thư mục hay tập tin"
+
+#: source/app/service-providers/commands/request-move.ts:73
+#, javascript-format
+msgid "The file/directory %s already exists in target."
+msgstr "Tập tin/thư mục %s tồn tại trong thư mục đích."
+
+#: source/app/service-providers/commands/import.ts:35
+msgid "You have to select a directory to import to."
+msgstr "Bạn cần chọn thư mục để bắt đầu tích hợp."
+
+#. Now import.
+#: source/app/service-providers/commands/import.ts:58
+msgid "Importing. Please wait …"
+msgstr "Đang tích hợp. Vui lòng đợi …"
+
+#. This callback gets called whenever there is an error while running pandoc.
+#: source/app/service-providers/commands/import.ts:63
+#, javascript-format
+msgid "Couldn't import %s."
+msgstr "Không thể tích hợp %s."
+
+#. And this on each success!
+#: source/app/service-providers/commands/import.ts:66
+#, javascript-format
+msgid "%s imported successfully."
+msgstr "%s được tích hợp thành công."
+
+#. Some files failed to import.
+#: source/app/service-providers/commands/import.ts:71
+#: source/app/service-providers/commands/import.ts:77
+#, javascript-format
+msgid ""
+"The following %s files could not be imported, because their filetype is "
+"unknown: %s"
+msgstr ""
+"%s tập tin không thể được tích hợp vào hệ thống, bởi kiểu tập tin là không "
+"rõ: %s"
+
+#: source/app/service-providers/commands/file-new.ts:161
+#: source/app/service-providers/commands/file-duplicate.ts:43
+#: source/app/service-providers/commands/file-duplicate.ts:59
+msgid "Could not create file"
+msgstr "Không thể tạo tập tin"
+
+#: source/app/service-providers/commands/dir-new.ts:36
+#: source/app/service-providers/commands/dir-new.ts:37
+#: source/app/service-providers/commands/dir-new.ts:48
+#: source/app/service-providers/commands/dir-new.ts:49
+#: source/app/service-providers/commands/dir-new.ts:59
+msgid "Could not create directory"
+msgstr "Không thể tạo thư mục"
+
+#. We need to generate our own filename. First, attempt to just use 'copy of'
+#: source/app/service-providers/commands/file-duplicate.ts:71
+#, javascript-format
+msgid "Copy of %s"
+msgstr ""
+
+#: source/app/service-providers/commands/importer/import-textbundle.ts:63
+#: source/app/service-providers/commands/importer/import-textbundle.ts:69
+#, javascript-format
+msgid "Malformed Textbundle: %s"
+msgstr "Textbundle sai định dạng: %s"
+
+#: source/app/service-providers/commands/root-open.ts:83
+msgid "Cannot open directory"
+msgstr "Không thể mở thực mục"
+
+#: source/app/service-providers/commands/root-open.ts:84
+#, javascript-format
+msgid "Directory &quot;%s&quot; cannot be opened by Zettlr."
+msgstr "Zettlr không thể mở thư mục &quot;%s&quot;"
+
+#: source/app/service-providers/commands/root-open.ts:136
+#, javascript-format
+msgid "Opening new root %s …"
+msgstr "Đang mở thư mục gốc %s ..."
+
+#: source/app/service-providers/commands/root-open.ts:147
+#, javascript-format
+msgid "%s has been loaded."
+msgstr "%s đã được mở."
+
+#: source/app/service-providers/commands/root-open.ts:159
+#, javascript-format
+msgid "Could not open workspace %s."
+msgstr ""
+
+#: source/app/service-providers/commands/set-open-directory.ts:40
+msgid "Directory not found"
+msgstr "Không tìm thấy thư mục"
+
+#: source/app/service-providers/commands/dir-project-export.ts:121
+msgid "Project successfully exported. Click to show."
+msgstr ""
+
+#: source/app/service-providers/commands/dir-project-export.ts:121
+#, fuzzy
+msgid "Export"
+msgstr "Xuất..."
+
+#: source/app/service-providers/commands/rename-tag.ts:45
+#, javascript-format
+msgid "Replace tag \"%s\" with \"%s\" across %s files?"
+msgstr ""
+
+#: source/app/service-providers/config/config-validation.ts:280
+#, javascript-format
+msgid "Option %s has to be of type %s."
+msgstr "Tuỳ chọn %s phải là một trong các loại: %s."
+
+#: source/app/service-providers/config/config-validation.ts:283
+#, javascript-format
+msgid "Option %s must be one of: %s."
+msgstr "Tuỳ chọn %s phải nằm trong vùng giá trị: %s."
+
+#: source/app/service-providers/config/config-validation.ts:286
+#, javascript-format
+msgid "Option %s must be between %s and %s (characters long)."
+msgstr "Tuỳ chọn %s phải nằm giữa %s và %s (độ dài kí tự)."
+
+#: source/app/service-providers/config/config-validation.ts:289
+#, javascript-format
+msgid "Option %s may not exceed %s (characters)."
+msgstr "Tuỳ chọn %s không được vượt quá %s (kí tự)."
+
+#: source/app/service-providers/config/config-validation.ts:292
+#, javascript-format
+msgid "Option %s must be at least %s (characters long)."
+msgstr "Tuỳ chọn %s phải tối thiểu là %s (độ dài kí tự)."
+
+#: source/app/service-providers/config/config-validation.ts:295
+#, javascript-format
+msgid "Option %s is required."
+msgstr "Tuỳ chọn %s là bắt buộc"
+
+#: source/app/service-providers/tray/index.ts:159
+msgid "Show Zettlr"
+msgstr "Hiển thị Zettlr"
+
+#: source/app/service-providers/tray/index.ts:172
+msgid "Zettlr"
+msgstr "Zettlr"
+
+#: source/app/service-providers/updates/index.ts:176
+#, javascript-format
+msgid "Could not check for updates: Server Error (Status code: %s)"
+msgstr "Không thể kiểm tra cập nhật: Lỗi Máy Chủ (Mã lỗi: %s)"
+
+#: source/app/service-providers/updates/index.ts:178
+#, javascript-format
+msgid "Could not check for updates: Client Error (Status code: %s)"
+msgstr "Không thể kiểm tra cập nhật: Lỗi ở máy khách (Mã lỗi: %s)"
+
+#: source/app/service-providers/updates/index.ts:180
+#, javascript-format
+msgid ""
+"Could not check for updates: The server tried to redirect (Status code: %s)"
+msgstr "Không thể kiểm tra cập nhật: Máy chủ cố gắng chuyển hướng (Mã lỗi: %s)"
+
+#. getaddrinfo has reported that the host has not been found.
+#. This normally only happens if the networking interface is
+#. offline.
+#: source/app/service-providers/updates/index.ts:185
+msgid "Could not check for updates: Could not establish connection"
+msgstr "Không thể kiểm tra cập nhật: Không thể thiết lập kết nối"
+
+#. Something else has occurred. GotError objects have a name property.
+#: source/app/service-providers/updates/index.ts:188
+#, javascript-format
+msgid "Could not check for updates. %s: %s"
+msgstr "Không thể kiểm tra cập nhật: %s: %s"
+
+#: source/app/service-providers/updates/index.ts:204
+msgid "Could not check for updates: Server hasn't sent any data"
+msgstr "Không thể kiểm tra cập nhật: Máy chủ không gửi bất kì dữ liệu nào"
+
+#: source/app/service-providers/updates/index.ts:463
+#, javascript-format
+msgid "An update to version %s is available!"
+msgstr "Một cập nhật cho phiên bản %s đang khả dụng!"
 
 #~ msgid "Link start"
 #~ msgstr "Bắt đầu đường dẫn"
